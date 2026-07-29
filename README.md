@@ -46,10 +46,13 @@ página solo entre capítulos y subsecciones, para que el resultado se lea
 como un manual impreso y no como páginas web sueltas pegadas. Genera
 `site/manual.pdf`.
 
-En Debian/Ubuntu, WeasyPrint necesita estas bibliotecas del sistema:
+En Debian/Ubuntu, WeasyPrint necesita estas bibliotecas del sistema y, si
+`pip` no encuentra una rueda precompilada de `lxml` para tu Python, hacen
+falta además las cabeceras de desarrollo de `libxml2`/`libxslt` para
+compilarlo:
 
 ```bash
-sudo apt install libpango-1.0-0 libpangoft2-1.0-0 libharfbuzz-subset0
+sudo apt install libpango-1.0-0 libpangoft2-1.0-0 libharfbuzz-subset0 libxml2-dev libxslt1-dev
 ```
 
 El flujo de GitHub Actions instala estas dependencias y genera el PDF en
