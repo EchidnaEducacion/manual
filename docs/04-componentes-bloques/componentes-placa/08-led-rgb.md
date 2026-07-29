@@ -2,7 +2,7 @@
 
 ## COMPONENTE:
 
-![LED RGB Componente](../../assets/images/LED_RGB_Componente.png "LED RGB Componente")
+![LED RGB Componente](../../assets/images/LED_RGB_Componente.png "LED RGB Componente"){ width="200" }
 
 El **LED RGB** es un único componente que **integra** **tres** **diodos** emisores de luz (LEDes) independientes **Rojo, Verde y Azul **dentro de la misma cápsula.
 
@@ -18,13 +18,13 @@ El acrónimo significa Light Emitting Diode (Diodo Emisor de Luz) y Red Green Bl
 
 Para controlar la luminosidad y el color del LED RGB tenemos el siguiente **bloque**:
 
-![Bloque LED RGB](../../assets/images/Bloque_LED_RGB.png "Bloque LED RGB")
+![Bloque LED RGB](../../assets/images/Bloque_LED_RGB.png "Bloque LED RGB"){ width="311" }
 
 En bloque podemos ajustar el valor de cada LED entre 0 y 255.
 
 **Por ejemplo:** si queremos reproducir el naranja Echidna debemos establecer los siguientes valores:
 
-![Bloque LED RGB Naranja](../../assets/images/Bloque_LEDRGB_NaranajaEchidna.png "Bloque LED RGB Naranja")
+![Bloque LED RGB Naranja](../../assets/images/Bloque_LEDRGB_NaranajaEchidna.png "Bloque LED RGB Naranja"){ width="348" }
 
 ## EJEMPLO: Indicador de Temperatura RGB
 
@@ -32,7 +32,7 @@ Este **ejemplo** utiliza el **sensor de temperatura** como dato de entrada para 
 
 El programa evalúa continuamente la temperatura ambiente y asigna un color específico según el umbral que se cumpla.
 
-![Ejemplo temperatura RGB](../../assets/images/Ejemplo_temp-RGB.png "Ejemplo temperatura RGB")
+![Ejemplo temperatura RGB](../../assets/images/Ejemplo_temp-RGB.png "Ejemplo temperatura RGB"){ width="626" }
 
 **Lógica de programación:**
 
@@ -60,6 +60,6 @@ SI NO
 
 Este programa utiliza tres bucles anidados de repetición para recorrer sistemáticamente la totalidad de las combinaciones de color. Al variar la intensidad de cada canal (Rojo, Verde y Azul) en sus 256 niveles posibles, el sistema es capaz de generar los más de 16.7 millones de colores únicos que componen el espectro RGB.
 
-![Ejemplo RGB anidados](../../assets/images/Ejemplo_RGB_anidados.png "Ejemplo RGB anidados")
+![Ejemplo RGB anidados](../../assets/images/Ejemplo_RGB_anidados.png "Ejemplo RGB anidados"){ width="711" }
 
 256×256×256≈16.7 millones de colores

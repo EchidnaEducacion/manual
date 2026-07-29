@@ -2,7 +2,7 @@
 
 ## COMPONENTE:
 
-![microfono componente](../../assets/images/microfono_componente.png "microfono componente")
+![microfono componente](../../assets/images/microfono_componente.png "microfono componente"){ width="200" }
 
 Es un transductor acústico-eléctrico. Utiliza el efecto piezoeléctrico para convertir las vibraciones de sonido en una señal eléctrica.
 
@@ -14,7 +14,7 @@ Es un transductor acústico-eléctrico. Utiliza el efecto piezoeléctrico para c
 
 Para leer el valor del sensor podemos usar el siguiente **bloque**:
 
-![Bloque microfono](../../assets/images/bloque_microfono.png "Bloque microfono")
+![Bloque microfono](../../assets/images/bloque_microfono.png "Bloque microfono"){ width="243" }
 
 Puedes activar la casilla de verificación para ver el valor registrado.
 
@@ -30,7 +30,7 @@ Este ejemplo programa la placa para actuar como un semáforo de ruido o vúmetro
 
 **Nivel Alto:** si el valor es superior a 50, se encienden los tres LEDs (alerta).
 
-![Ejemplo vumetro](../../assets/images/Ejemplo_vumetro.png "Ejemplo vumetro")
+![Ejemplo vumetro](../../assets/images/Ejemplo_vumetro.png "Ejemplo vumetro"){ width="359" }
 
 Es probable que, al ejecutar este código, se observe que el funcionamiento es inestable y los LEDs parpadean constantemente. Esto ocurre debido a la variabilidad de la señal de sonido.
 
@@ -42,7 +42,7 @@ Como hemos visto, la señal de sonido, se caracteriza por tener mucha variabilid
 
 Una técnica efectiva para reducir esta variabilidad es el cálculo de la **media móvil** (o promedio). Esto implica tomar un número fijo de mediciones sucesivas y promediarlas.
 
-![Ejemplo vumetro media](../../assets/images/Ejemplo_Vumetro-media.png "Ejemplo vumetro media")
+![Ejemplo vumetro media](../../assets/images/Ejemplo_Vumetro-media.png "Ejemplo vumetro media"){ width="822" }
 
 **Cálculo de la media:** para implementar el cálculo de la media
 

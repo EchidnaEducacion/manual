@@ -18,7 +18,7 @@ Entradas MkMk: A0, A1, A2, A3, A6, A7, D2, D3.
 
 Echidna dispone de un bloque de programación específico para las entradas MkMk que nos devuelve un **true** o un **false** en función de si detecta que el **circuito** se ha **cerrado** o es un circuito **abierto**.
 
-![Bloque leer MkMk](../../assets/images/Bloque_leer_MkMk.png "Bloque leer MkMk")
+![Bloque leer MkMk](../../assets/images/Bloque_leer_MkMk.png "Bloque leer MkMk"){ width="299" }
 
 En el bloque podemos seleccionar la entrada MkMk que queramos utilizar.
 
@@ -36,7 +36,7 @@ En este ejemplo vamos a ver cómo programar una nota de piano, que suena cuando 
 
 En este caso sonará la nota 60 del piano durante 0,25 s cada vez que se activa la entrada MkMk A0.
 
-![Ejemplo MkMk piano](../../assets/images/Ejemplo_MkMk_piano.png "Ejemplo MkMk piano")
+![Ejemplo MkMk piano](../../assets/images/Ejemplo_MkMk_piano.png "Ejemplo MkMk piano"){ width="456" }
 
 ## EJEMPLO: Ajustar la sensibilidad
 
@@ -44,6 +44,6 @@ Para ajustar el umbral de activación de las entradas analógicas del módulo Mk
 
 En este caso el piano suena cuando el valor de la lectura es mayor de 150. 
 
-![Ejemplo MkMk piano sensibilidad](../../assets/images/ejemplo_MkMk_Anal_A0.png "Ejemplo MkMk piano sensibilidad")
+![Ejemplo MkMk piano sensibilidad](../../assets/images/ejemplo_MkMk_Anal_A0.png "Ejemplo MkMk piano sensibilidad"){ width="697" }
 
 Las entradas analógicas (A0, A1, A2, A3, A6, y A7) permiten definir un límite conductivo específico. Sin embargo, las entradas D2 y D3 son digitales. Por ello, solo detectan dos estados y no es posible realizar un ajuste del límite conductivo o umbral de activación.

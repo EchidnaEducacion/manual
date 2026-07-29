@@ -4,7 +4,7 @@ En este segundo ejemplo con **LearningML** veremos los pasos para crear un **mod
 
 Vamos a crear un modelo que nos clasifique los envases y papeles en las categorías amarillo y azul. En EchidnaBlocks vamos a mostrar la clasificación mediante un LED RGB y vamos a abrir el contenedor con un servomotor.
 
-![Modelo IA imagenes](../assets/images/Modelo_IA_imagenes.png "Modelo IA imagenes")
+![Modelo IA imagenes](../assets/images/Modelo_IA_imagenes.png "Modelo IA imagenes"){ width="1000" }
 
 ## Abrir LearningML
 
@@ -14,7 +14,7 @@ Una vez hemos abierto EchidnaML abrimos la aplicación: Modelos de Machine Learn
 
 Es el momento de elegir con qué tipo de datos vamos a trabajar, en este caso trabajaremos con datos de imágenes.
 
-![Tipo datos imágenes](../assets/images/imagenes.png "Tipo datos imágenes")
+![Tipo datos imágenes](../assets/images/imagenes.png "Tipo datos imágenes"){ width="798" }
 
 ## 1- Entrenar: Crear las clases y añadir los ejemplos
 
@@ -22,13 +22,13 @@ Una vez hemos elegido el tipo de datos creamos las clases y le proporcionamos da
 
 Creamos dos clases: **azul** y **amarillo**, que nos permitirá reconocer residuos que se reciclan en el contenedor amarillo y residuos que se reciclan en el contenedor azul, para controlar dos servomotores que abran el contenedor adecuado.
 
-![clase imagen azul](../assets/images/imagen_clase_azul.png "clase imagen azul")
+![clase imagen azul](../assets/images/imagen_clase_azul.png "clase imagen azul"){ width="400" }
 
-![Clase imagen amarillo](../assets/images/imagen_clase_amarillo.png "Clase imagen amarillo")
+![Clase imagen amarillo](../assets/images/imagen_clase_amarillo.png "Clase imagen amarillo"){ width="400" }
 
 ## 2- Aprender
 
-![Aprender imagenes](../assets/images/Aprender_imagenes.png "Aprender imagenes")
+![Aprender imagenes](../assets/images/Aprender_imagenes.png "Aprender imagenes"){ width="200" }
 
 Pulsamos el botón **2. Aprender a reconocer imágenes**, para que el algoritmo de machine learning analice las imágenes y construya un modelo de Inteligencia Artificial capaz de reconocer imágenes similares pero distintas a las que hemos usado durante el entrenamiento.
 
@@ -40,7 +40,7 @@ Cuando el algoritmo finaliza ya tenemos disponible el modelo de Machine Learning
 
 Añadimos imágenes nuevas, no usadas en el entrenamiento y hacemos pruebas para comprobar si el modelo clasifica correctamente y con qué porcentaje de confianza lo hace.
 
-![Prueba modelo imagenes](../assets/images/prueba_modelo_imagenes.png "Prueba modelo imagenes")
+![Prueba modelo imagenes](../assets/images/prueba_modelo_imagenes.png "Prueba modelo imagenes"){ width="300" }
 
 En el ejemplo que mostramos, comprobamos que clasifica la imagen con más de un 91% de probabilidad en la categoría amarillo, lo cual refleja un alto grado de confianza en la respuesta dada.
 
@@ -54,7 +54,7 @@ Una vez que las pruebas de entrenamiento hayan sido satisfactorias, podemos acce
 
 Este ejemplo implementa un sistema automatizado que utiliza un modelo de machine learning para **clasificar** una **imagen** capturada por la **cámara** y, en función del resultado, **activa** los **actuadores** del robot (servos y LED RGB).
 
-![Ejemplo modelo imagenes](../assets/images/Ejemplo_modelo_imagenes.png "Ejemplo modelo imagenes")
+![Ejemplo modelo imagenes](../assets/images/Ejemplo_modelo_imagenes.png "Ejemplo modelo imagenes"){ width="913" }
 
 **Configuración Inicial:**
 

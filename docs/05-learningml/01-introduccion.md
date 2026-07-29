@@ -10,7 +10,7 @@ EchidnaML incluye esta herramienta, que puede usarse por sí misma o en combinac
 
 Para crear un modelo de machine learning tenemos que seguir los siguientes pasos.
 
-1.  ![Fases LearningML](../assets/images/Fases_LML.png "Fases LearningML")**Entrenar**: creamos las clases e introducimos los ejemplos.
+1.  ![Fases LearningML](../assets/images/Fases_LML.png "Fases LearningML"){ width="1000" }**Entrenar**: creamos las clases e introducimos los ejemplos.
 2.  **Aprender**: creamos el modelo.
 3.  **Probar**: comprobamos que el modelo clasifica correctamente.
     1.  Si no clasifica correctamente volvemos a la fase entrenar.
@@ -20,9 +20,9 @@ Para crear un modelo de machine learning tenemos que seguir los siguientes pasos
 
 Para acceder a LearningML lo podemos hacer a través del icono situado en la pantalla de EchidnaBlocks.
 
-#### ![Acceder a LearningML](../assets/images/EchidnaBlocks-_partes.png "Acceder a LearningML")Entorno de LearningML
+#### ![Acceder a LearningML](../assets/images/EchidnaBlocks-_partes.png "Acceder a LearningML"){ width="401" }Entorno de LearningML
 
-![Entorno de LearningML](../assets/images/Entorno_LearningML.png "Entorno de LearningML")
+![Entorno de LearningML](../assets/images/Entorno_LearningML.png "Entorno de LearningML"){ width="1000" }
 
 Al acceder a la pantalla de LearningML podemos:
 

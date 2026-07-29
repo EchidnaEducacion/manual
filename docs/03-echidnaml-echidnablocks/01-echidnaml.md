@@ -7,7 +7,7 @@ Este entorno integra dos potentes herramientas que trabajan de forma conjunta:
 - **EchidnaBlocks**: Una versión personalizada de Scratch que añade bloques específicos para el control del hardware (sensores y actuadores) y la interacción con modelos de IA.
 - **LearningML**: Un módulo especializado en aprendizaje automático (machine learning) que permite crear, entrenar y desplegar modelos de IA sin salir de la aplicación.
 
-![EchidnaML](../assets/images/EchidnaML.png "EchidnaML")
+![EchidnaML](../assets/images/EchidnaML.png "EchidnaML"){ width="949" }
 
 **Ventajas del Sistema Integrado:**
 

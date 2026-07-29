@@ -2,7 +2,7 @@
 
 ## COMPONENTE:
 
-![Servo continuo componente](../../assets/images/Servo_continuo_componente.png "Servo continuo componente")
+![Servo continuo componente](../../assets/images/Servo_continuo_componente.png "Servo continuo componente"){ width="200" }
 
 Son **motores** de corriente continua con una reductora y electrónica de control que permiten **controlar** el **sentido** de **giro** del motor. Estos motores además permiten **ajustar** una pequeña variación en su **velocidad**.
 
@@ -20,7 +20,7 @@ En caso de que vayas a conectar varios servomotores usa alimentación externa y 
 
 Para **controlar** el **servomotor** de **rotación** **continua** podemos usar el siguiente **bloque**:
 
-![bloque servo continuo](../../assets/images/bloque_servo-continuo.png "bloque servo continuo")
+![bloque servo continuo](../../assets/images/bloque_servo-continuo.png "bloque servo continuo"){ width="462" }
 
 En el **bloque** podemos **seleccionar** el **pin** al que conectamos nuestro servo, el **sentido de giro** y la **velocidad**.
 
@@ -36,7 +36,7 @@ Este **ejemplo** ilustra cómo **controlar** el **sentido de giro** de un servom
 
 Si pulsamos el **botón** **SR** el motor gira en sentido **horario**. Si pulsamos el botón **SL** el motor gira en sentido **antihorario**. Si **no** **presionamos** ninguno de los dos pulsadores, el motor se **para**.
 
-![Ejemplo servocontinuo pulsadores](../../assets/images/Ejemplo_servocontinuo-pulsadores.png "Ejemplo servocontinuo pulsadores")
+![Ejemplo servocontinuo pulsadores](../../assets/images/Ejemplo_servocontinuo-pulsadores.png "Ejemplo servocontinuo pulsadores"){ width="854" }
 
 **Hilo de control:**
 

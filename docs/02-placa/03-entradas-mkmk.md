@@ -4,7 +4,7 @@ Las **entradas** tipo **Makey Makey** (MkMk) se **habilitan** al desplazar el **
 
 Las entradas **MkMk** son capaces de **detectar** **conductividad** eléctrica a través de una amplia variedad de materiales. La detección de la señal se produce cuando el circuito se cierra al tocar, de forma simultánea, el elemento conductor conectado a la entrada y el conector GND (o MkMk) de la placa.
 
-![Entradas MkMk](../assets/images/EntradasMkMk.jpg "Entradas MkMk")
+![Entradas MkMk](../assets/images/EntradasMkMk.jpg "Entradas MkMk"){ width="707" }
 
 La placa dispone de **8 entradas MkMk**: A0, A1, A2, A3, A6, A7, D2, D3.
 

@@ -2,7 +2,7 @@
 
 ## COMPONENTE:
 
-![joystick componente](../../assets/images/joystick_componente.png "joystick componente")
+![joystick componente](../../assets/images/joystick_componente.png "joystick componente"){ width="200" }
 
 Es un **dispositivo** de **entrada** con una palanca que se mueve en varias direcciones. Al inclinar la palanca, el joystick envía señales que indican hacia dónde y cuánto se ha desplazado respecto a dos ejes: horizontal (X) y vertical (Y).
 
@@ -14,7 +14,7 @@ Consta internamente de dos potenciómetros, uno para el eje X (movimiento horizo
 
 Para leer el valor del joystick podemos usar el siguiente bloque:
 
-![Bloque joystick](../../assets/images/bloque_joystick.png "Bloque joystick")
+![Bloque joystick](../../assets/images/bloque_joystick.png "Bloque joystick"){ width="266" }
 
 En el bloque podemos seleccionar eje x, o eje y
 
@@ -26,7 +26,7 @@ En el bloque podemos seleccionar eje x, o eje y
 
 **Gráfica de valores del joystick:**
 
-**![grafica valores joystick](../../assets/images/valores_joystick.png "grafica valores joystick")**
+**![grafica valores joystick](../../assets/images/valores_joystick.png "grafica valores joystick"){ width="600" }**
 
 ## EJEMPLO: Pintamos
 
@@ -34,7 +34,7 @@ Este ejemplo utiliza el Joystick (control de dos ejes) para controlar el movimie
 
 **Cargar la herramienta lápiz:** Lo primero que tenemos que hacer es cargar la herramienta lápiz.
 
-![Ejemplo Joystick configuracion inicial pintamos](../../assets/images/Ejemplo_joystick_configuracion_inicial.png "Ejemplo Joystick configuracion inicial pintamos")
+![Ejemplo Joystick configuracion inicial pintamos](../../assets/images/Ejemplo_joystick_configuracion_inicial.png "Ejemplo Joystick configuracion inicial pintamos"){ width="324" }
 
 **Configuración inicial:** Configuramos la herramienta lápiz para que al inicio
 
@@ -45,7 +45,7 @@ Este ejemplo utiliza el Joystick (control de dos ejes) para controlar el movimie
 
 **Lógica de programación de control del joystick:**
 
-**![Ejemplo pintamos joystick](../../assets/images/Ejemplo_Pintamos.png "Ejemplo pintamos joystick")**
+**![Ejemplo pintamos joystick](../../assets/images/Ejemplo_Pintamos.png "Ejemplo pintamos joystick"){ width="357" }**
 
 SI el joystick se desplaza a la derecha y registra valores mayores de 900 en el eje x:
 

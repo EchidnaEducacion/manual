@@ -7,7 +7,7 @@ En el **menú** **Archivo** encontramos:
 - Guardar en tu ordenador
 - Ejemplos
 
-#### ![Menu Archivo](../assets/images/menuejemplos.png "Menu Archivo")
+#### ![Menu Archivo](../assets/images/menuejemplos.png "Menu Archivo"){ width="1000" }
 
 #### Nuevo
 

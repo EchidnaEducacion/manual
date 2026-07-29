@@ -2,7 +2,7 @@
 
 La **placa** cuenta con los siguientes **componentes**:
 
-![Componentes](../assets/images/Componentes.png "Componentes")
+![Componentes](../assets/images/Componentes.png "Componentes"){ width="1000" }
 
 Para conectar la placa EchidnaBlack2 al ordenador es necesario un cable USB-C. En el apartado “[3.3 Puesta en marcha](../03-echidnaml-echidnablocks/04-puesta-en-marcha.md)” lo veremos con detalle.
 
@@ -10,7 +10,7 @@ Para conectar la placa EchidnaBlack2 al ordenador es necesario un cable USB-C. E
 
 Los componentes de la placa pueden clasificar en cuatro categorías principales según la función que desempeñan dentro del sistema:
 
-**![Esquema microcontrolador](../assets/images/Esquema_microcontrolador.png "Esquema microcontrolador")**
+**![Esquema microcontrolador](../assets/images/Esquema_microcontrolador.png "Esquema microcontrolador"){ width="1001" }**
 
 **Entradas** (Sensores): son los elementos que capturan información del entorno (variables como temperatura, luz, sonido, gravedad, etc.) y la traducen en datos que el sistema puede procesar.
 

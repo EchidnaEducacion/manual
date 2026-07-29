@@ -4,7 +4,7 @@ Comenzar a trabajar con el entorno Echidna es muy sencillo, ya que la placa cuen
 
 En este gráfico podemos ver los **pasos** para **comenzar** a usar **EchidnaML** y **EchidnaBlack**:
 
-![Puesta en marcha](../assets/images/Puesta_en_marcha.png "Puesta en marcha")
+![Puesta en marcha](../assets/images/Puesta_en_marcha.png "Puesta en marcha"){ width="1002" }
 
 **1- Conecta la placa Echidna al ordenador mediante el cable USB C**
 
@@ -22,7 +22,7 @@ Al iniciar el EchidnaML, este se conecta automáticamente con la placa. Si el pr
 
 Al combinar los nuevos bloques específicos de la placa Echidna con los bloques clásicos de Scratch, podemos programar dispositivos físicos de manera sencilla.
 
-![Empezar a programar](../assets/images/4-_Empezar_a_programar.png "Empezar a programar")
+![Empezar a programar](../assets/images/4-_Empezar_a_programar.png "Empezar a programar"){ width="800" }
 
 Como primer ejercicio de iniciación, vamos a crear el "**Hola, Mundo!**" de la robótica: un LED que parpadea de forma intermitente.
 
@@ -35,4 +35,4 @@ Este programa utiliza un bucle continuo para ejecutar la siguiente secuencia ló
 3.  Desactivación: Se apaga el LED Rojo.
 4.  Espera: Se detiene la ejecución del programa durante un segundo antes de volver a empezar el ciclo.
 
-![Hola Mundo](../assets/images/HolaMundo.png "Hola Mundo")
+![Hola Mundo](../assets/images/HolaMundo.png "Hola Mundo"){ width="350" }

@@ -2,7 +2,7 @@
 
 ## COMPONENTE:
 
-![acelerometro componente](../../assets/images/acelerometro_componente.png "acelerometro componente")
+![acelerometro componente](../../assets/images/acelerometro_componente.png "acelerometro componente"){ width="207" }
 
 Es un **sensor** **microelectromecánico** (MEMS) de aceleración que **mide** los **movimientos** en los tres ejes: X, Y y Z.
 
@@ -14,7 +14,7 @@ Es un **sensor** **microelectromecánico** (MEMS) de aceleración que **mide** l
 
 Para leer el valor del acelerómetro podemos usar el siguiente **bloque**:
 
-![bloque acelerómetro](../../assets/images/bloque_acelerometro.png "bloque acelerómetro")  
+![bloque acelerómetro](../../assets/images/bloque_acelerometro.png "bloque acelerómetro"){ width="297" }  
 En el bloque **seleccionamos** eje x, eje y o eje z.
 
 **Valores:**
@@ -30,7 +30,7 @@ Este programa permite que **movamos** el **personaje** en la **pantalla** median
 
 Programamos la placa en dos hilos de ejecución:
 
-![Ejemplo acelerometro](../../assets/images/Ejemplo_acelerometro.png "Ejemplo acelerometro")
+![Ejemplo acelerometro](../../assets/images/Ejemplo_acelerometro.png "Ejemplo acelerometro"){ width="794" }
 
 **Hilo de control de movimiento:**
 

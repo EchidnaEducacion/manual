@@ -2,7 +2,7 @@
 
 ## COMPONENTE:
 
-![Sensor IR componente](../../assets/images/Sensor_IR_componente.png "Sensor IR componente")
+![Sensor IR componente](../../assets/images/Sensor_IR_componente.png "Sensor IR componente"){ width="200" }
 
 Es un **sensor** de **distancia** que proporciona una tensión según la cantidad de infrarrojo que rebota en una superficie.
 
@@ -22,7 +22,7 @@ Es un **sensor** de **distancia** que proporciona una tensión según la cantida
 
 Utilizaremos el bloque genérico, leer entrada analógica, seleccionando la entrada A2:
 
-![Bloque leer A2](../../assets/images/bloque_leerA2.png "Bloque leer A2")
+![Bloque leer A2](../../assets/images/bloque_leerA2.png "Bloque leer A2"){ width="387" }
 
 **Valores**: el rango de valores de la entrada analógica es 0-1023.
 
@@ -36,7 +36,7 @@ El **sensor de distancia IR** conectado en el pin de entrada/salida (I/O A2) **m
 
 El primer paso es medir los valores de distancia y almacenarlos en la variable *lecturaIR*, que utilizaremos para monitorizar y mostrar el valor del sensor.
 
-![Ejemplo lectura IR](../../assets/images/Ejemplo_lecturaIR.png "Ejemplo lectura IR")
+![Ejemplo lectura IR](../../assets/images/Ejemplo_lecturaIR.png "Ejemplo lectura IR"){ width="466" }
 
 Para ello podemos usar este programa que lee continuamente el valor del sensor conectado al pin analógico A2 y se guarda en la variable *lecturaIR*. Cada medida se realiza con un intervalo de 0,2 segundos para estabilizar la lectura.
 
@@ -54,7 +54,7 @@ El siguiente paso será seleccionar tres umbrales diferentes poniendo un obstác
 
 Tenemos dos hilos de ejecución:
 
-![Ejemplo parking IR](../../assets/images/Ejemplo_parkingIR.png "Ejemplo parking IR")
+![Ejemplo parking IR](../../assets/images/Ejemplo_parkingIR.png "Ejemplo parking IR"){ width="273" }
 
 **Hilo 1 de adquisición de datos:**
 

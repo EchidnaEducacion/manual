@@ -4,9 +4,9 @@
 
 Disponemos de dos salidas para reproducir audio, el **zumbador** y el **jack** al que podemos conectar auriculares o altavoces autoamplificados. Al conectar una clavija de audio en el jack se desconecta el zumbador.
 
-![zumbador](../../assets/images/zumbador.png "zumbador")
+![zumbador](../../assets/images/zumbador.png "zumbador"){ width="150" }
 
-![jack audio](../../assets/images/jack_audio.png "jack audio")
+![jack audio](../../assets/images/jack_audio.png "jack audio"){ width="227" }
 
 Además, contamos con un potenciómetro que permite ajustar el volumen del sonido.
 
@@ -14,7 +14,7 @@ Además, contamos con un potenciómetro que permite ajustar el volumen del sonid
 
 Para controlar el **zumbador** podemos usar el siguiente **bloque**:
 
-![bloque zumbador](../../assets/images/bloque_zumbador.png "bloque zumbador")
+![bloque zumbador](../../assets/images/bloque_zumbador.png "bloque zumbador"){ width="393" }
 
 En el cual podemos cambiar su estado a encender o apagar.
 
@@ -22,7 +22,7 @@ En el cual podemos cambiar su estado a encender o apagar.
 
 Este ejemplo muestra cómo **controlar** el **zumbador** (actuador de sonido) utilizando un **pulsador** como **entrada**.
 
-![Ejemplo pulsador zumbador](../../assets/images/Ejemplo_pulsador-zumbador.png "Ejemplo pulsador zumbador")
+![Ejemplo pulsador zumbador](../../assets/images/Ejemplo_pulsador-zumbador.png "Ejemplo pulsador zumbador"){ width="655" }
 
 **Lógica de programación:**
 

@@ -12,7 +12,7 @@ El primer paso será tener instalado en nuestro ordenador el [IDE de Arduino](ht
 
 **4- Seleccionamos la placa Arduino** que estemos usando y el **puerto USB** al que se conecta.
 
-![Arduino placa y puerto](../assets/images/Arduino_placa_y_puerto.png "Arduino placa y puerto")
+![Arduino placa y puerto](../assets/images/Arduino_placa_y_puerto.png "Arduino placa y puerto"){ width="400" }
 
 **Placa Arduino:** si tu placa es EchidnaBlack o EchidnaBlack2, debes escoger Arduino **Nano**.
 

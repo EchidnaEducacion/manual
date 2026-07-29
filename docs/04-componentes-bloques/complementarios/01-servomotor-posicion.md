@@ -2,7 +2,7 @@
 
 ## COMPONENTE:
 
-![Servomotor componente](../../assets/images/servo_componente.png "sercomotor componente")
+![Servomotor componente](../../assets/images/servo_componente.png "sercomotor componente"){ width="200" }
 
 Son **motores** de corriente continua con una reductora y electrónica de control que permiten **posicionarlo** en un **ángulo** entre **0** y **180º**.
 
@@ -20,7 +20,7 @@ En caso de que vayas a conectar varios servomotores usa alimentación externa y 
 
 Para **controlar** el **servomotor** de **posición** podemos usar el siguiente **bloque**:
 
-![Bloque servomotor posicion](../../assets/images/servo-bloque.png "Bloque servomotor posicion")
+![Bloque servomotor posicion](../../assets/images/servo-bloque.png "Bloque servomotor posicion"){ width="287" }
 
 En el **bloque** podemos seleccionar el **pin** al que conectamos nuestro servomotor y el **ángulo** de **giro**.
 
@@ -32,7 +32,7 @@ En el **bloque** podemos seleccionar el **pin** al que conectamos nuestro servom
 
 Este ejemplo muestra cómo **controlar** la **posición** **angular** de un **servomotor** de posición utilizando el **eje x** del **joystick** como entrada. La variable *ángulo* almacena la posición deseada y es la que determina la posición del motor.
 
-![Ejemplo control servomotor posicion joystick](../../assets/images/Ejemplo_servo-joystick.png "Ejemplo control servomotor posicion joystick")
+![Ejemplo control servomotor posicion joystick](../../assets/images/Ejemplo_servo-joystick.png "Ejemplo control servomotor posicion joystick"){ width="600" }
 
 **Lógica de programación:**
 

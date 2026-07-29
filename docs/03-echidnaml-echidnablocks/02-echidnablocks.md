@@ -4,17 +4,17 @@
 
 #### Entorno de programación
 
-![EchdinaBlocks esquema pantalla](../assets/images/EchidnaBlocks-_partes.png "EchdinaBlocks esquema pantalla")
+![EchdinaBlocks esquema pantalla](../assets/images/EchidnaBlocks-_partes.png "EchdinaBlocks esquema pantalla"){ width="1001" }
 
 #### **Comunicación placa-programa**
 
 **EchidnaBlocks** se **comunica** con el **microcontrolador** a través del **puerto** **serie**, mediante el cable USB. La placa envía información sobre el estado de los sensores y el programa que realizamos en EchidnaBlocks lo procesa y devuelve información sobre el estado de los actuadores de la placa.
 
-![StandardFirmata](../assets/images/StandarFirmata-EchidnaBlocks.png "StandardFirmata")
+![StandardFirmata](../assets/images/StandarFirmata-EchidnaBlocks.png "StandardFirmata"){ width="799" }
 
 #### **Bloques de programación de la placa**
 
-![Bloques de programación de echidna](../assets/images/Bloques_Echidna.png "Bloques de programación de echidna")
+![Bloques de programación de echidna](../assets/images/Bloques_Echidna.png "Bloques de programación de echidna"){ width="376" }
 
 **EchidnaBlocks** ha añadido los siguientes **bloques** de **programación** a Scratch que permiten **controlar** el funcionamiento de la **placa**. Estos bloques permiten tanto leer la información de los sensores como enviar señales para controlar los actuadores de forma sencilla.
 
@@ -38,7 +38,7 @@ No te preocupes por lo que hace cada uno de los bloques ahora; lo veremos en el 
 
 #### **Bloques de programación de LearningML**
 
-![Bloques LearningML](../assets/images/Bloques_LearningML2.png "Bloques LearningML")
+![Bloques LearningML](../assets/images/Bloques_LearningML2.png "Bloques LearningML"){ width="244" }
 
 **EchidnaML** integra **LearningML**, una **plataforma** **educativa** diseñada para la enseñanza de los **fundamentos** del **machine learning** (aprendizaje automático). Esto nos permite incorporar Inteligencia Artificial a nuestros proyectos de robótica.
 

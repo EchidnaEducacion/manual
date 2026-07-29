@@ -1,6 +1,6 @@
 # 2.5 Alimentación
 
-#### **![Alimentación](../assets/images/Alimentacion.png "Alimentación")**
+#### **![Alimentación](../assets/images/Alimentacion.png "Alimentación"){ width="1000" }**
 
 #### **Alimentación por USB-C**
 

@@ -2,7 +2,7 @@
 
 ## COMPONENTE:
 
-![Sensor temperatura componente](../../assets/images/Sensor_temperatura_componente.png "Sensor temperatura componente")
+![Sensor temperatura componente](../../assets/images/Sensor_temperatura_componente.png "Sensor temperatura componente"){ width="200" }
 
 El MCP9700T es un sensor que entrega un voltaje analógico proporcional a la temperatura en grados Celsius (°C).
 
@@ -15,7 +15,7 @@ El MCP9700T es un sensor que entrega un voltaje analógico proporcional a la tem
 
 Para leer la temperatura podemos usar el siguiente **bloque**.
 
-![bloque temperatura](../../assets/images/bloque_temperatura.png "bloque temperatura")
+![bloque temperatura](../../assets/images/bloque_temperatura.png "bloque temperatura"){ width="275" }
 
 El bloque utiliza la fórmula de conversión anterior para convertir la tensión de lectura en voltios a ºC.
 
@@ -25,6 +25,6 @@ Puedes activar la casilla de verificación para ver el valor registrado.
 
 En el ejemplo el erizo nos dice qué temperatura hace cuando pulsamos la letra "t" del teclado del ordenador.
 
-![Echidna dice temperatura](../../assets/images/Echidna_dice-temperatura.png "Echidna dice temperatura")
+![Echidna dice temperatura](../../assets/images/Echidna_dice-temperatura.png "Echidna dice temperatura"){ width="400" }
 
-![Ejemplo temperatura](../../assets/images/Ejempo_temperatura.png "Ejemplo temperatura")
+![Ejemplo temperatura](../../assets/images/Ejempo_temperatura.png "Ejemplo temperatura"){ width="895" }

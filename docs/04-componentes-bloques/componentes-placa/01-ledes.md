@@ -2,7 +2,7 @@
 
 ## COMPONENTE:
 
-![LED componente](../../assets/images/Led_componente.png "LED componente")
+![LED componente](../../assets/images/Led_componente.png "LED componente"){ width="150" }
 
 **Diodos LED**: es el acrónimo de Light Emitting Diode (Diodo emisor de luz), y está basado en el fenómeno de electroluminiscencia. Se usan como testigos (indicadores) y como fuente de iluminación.
 
@@ -16,7 +16,7 @@ Los **LEDs Naranja y Rojo** pueden ser controlados únicamente de forma **digita
 
 Para **controlar digitalmente** los LEDs podemos usar el siguiente bloque:
 
-![LED Bloque](../../assets/images/Led_bloque.png "LED Bloque")
+![LED Bloque](../../assets/images/Led_bloque.png "LED Bloque"){ width="198" }
 
 En el que podemos:
 
@@ -26,7 +26,7 @@ En el que podemos:
   
 Para **controlar la intensidad luminosa** del **LED Verde** podemos usar el siguiente bloque:
 
-![LED Verde bloque](../../assets/images/LED_Verde_bloque.png "LED Verde bloque")
+![LED Verde bloque](../../assets/images/LED_Verde_bloque.png "LED Verde bloque"){ width="159" }
 
 En el que podemos regular la intensidad luminosa entre 0 (apagado) y 255 (máxima intensidad luminosa)
 
@@ -34,7 +34,7 @@ En el que podemos regular la intensidad luminosa entre 0 (apagado) y 255 (máxim
 
 Este ejemplo muestra cómo programar un semáforo utilizando los LEDs de la placa. La programación se basa en una secuencia cíclica donde cada LED permanece encendido durante un tiempo específico y luego pasa al siguiente estado de forma automática.
 
-![Semaforo](../../assets/images/Semaforo.png "Semaforo")
+![Semaforo](../../assets/images/Semaforo.png "Semaforo"){ width="365" }
 
 **Estados**:
 
@@ -50,7 +50,7 @@ Este ejemplo muestra cómo **controlar la intensidad luminosa del LED verde** pa
 
 Para lograrlo, el programa utiliza dos bucles secuenciales que modifican progresivamente el valor de intensidad del LED (de 0 a 255):
 
-![Fade](../../assets/images/Fade.png "Fade")
+![Fade](../../assets/images/Fade.png "Fade"){ width="273" }
 
 **Bucle de encendido progresivo:**
 

@@ -2,7 +2,7 @@
 
 ## COMPONENTE:
 
-![Pulsador](../../assets/images/Pulsador.png "Pulsador")
+![Pulsador](../../assets/images/Pulsador.png "Pulsador"){ width="200" }
 
 El **pulsador** es un **componente** **electromecánico** que permite **abrir** o **cerrar** un **circuito** con un solo estado estable. La clave de su funcionamiento es que solo posee un estado estable o de reposo:
 
@@ -14,7 +14,7 @@ En la placa tenemos **2 pulsadores**, **SL** (Switch Left) y **SR** (Switch Righ
 
 Para **leer** el **estado** del **pulsador** podemos usar el siguiente **bloque de programación**:
 
-![Bloque pulsador](../../assets/images/bloque_pulsador.png "Bloque pulsador")
+![Bloque pulsador](../../assets/images/bloque_pulsador.png "Bloque pulsador"){ width="332" }
 
 **Valor**: cuando leemos el estado del pulsador nos **devuelve** **true** (1) si está pulsado y **false** (0) si no está pulsado.
 
@@ -24,7 +24,7 @@ El bloque nos permite seleccionar el pulsador derecho SR o el izquierdo SL.
 
 Este ejemplo utiliza **dos pulsadores** para **controlar** el **encendido** y **apagado** del **LED** **rojo**. El pulsador **derecho** (SR) controla el **encendido** del LED rojo y el pulsador **izquierdo** (SL) el **apagado**.
 
-![Ejemplo encender apagar LED pulsadores](../../assets/images/Ejemplo_encender_apagar_led_pulsadores.png "Ejemplo encender apagar LED pulsadores")
+![Ejemplo encender apagar LED pulsadores](../../assets/images/Ejemplo_encender_apagar_led_pulsadores.png "Ejemplo encender apagar LED pulsadores"){ width="576" }
 
 **Lógica de programación:**
 
@@ -46,7 +46,7 @@ Este ejemplo ilustra cómo **programar** un **pulsador** para que actúe como un
 
 Para que el sistema pueda "**recordar**" si el LED está actualmente encendido o apagado, utilizamos una **variable** de estado denominada ***estadoLED***. De esta forma, la variable estadoLED actúa como la memoria que permite al pulsador alternar entre los dos estados con cada activación.
 
-![Ejemplo pulsador con memoria](../../assets/images/Ejemplo_pulsador_memoria.png "Ejemplo pulsador con memoria")
+![Ejemplo pulsador con memoria](../../assets/images/Ejemplo_pulsador_memoria.png "Ejemplo pulsador con memoria"){ width="547" }
 
 **Lógica de programación:**
 
