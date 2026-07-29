@@ -16,63 +16,25 @@ páginas quedan un nivel más abajo. Así el índice y los marcadores del PDF
 reflejan la estructura real del manual.
 """
 
-import re
-import tomllib
 from pathlib import Path
 from urllib.parse import urljoin
 
 from lxml import html as lxml_html
 from weasyprint import CSS, HTML
 
-ROOT = Path(__file__).resolve().parent.parent
-SITE_DIR = ROOT / "site"
-CONFIG_PATH = ROOT / "zensical.toml"
+from manual_nav import (
+    SITE_DIR,
+    load_nav,
+    md_to_html,
+    ordered_pages,
+    site_url_of,
+    slugify_page,
+)
+
 PRINT_CSS_PATH = Path(__file__).resolve().parent / "print.css"
 OUTPUT_PATH = SITE_DIR / "manual.pdf"
 
 MAX_TOC_DEPTH = 1
-
-
-def walk_nav(nav, depth=0):
-    """Aplana el nav en tuplas (profundidad, ruta .md)."""
-    for entry in nav:
-        for _title, value in entry.items():
-            if isinstance(value, str):
-                yield depth, value
-            else:
-                yield from walk_section(value, depth)
-
-
-def walk_section(items, depth):
-    for i, item in enumerate(items):
-        if isinstance(item, str):
-            is_index = Path(item).name == "index.md"
-            yield (depth if i == 0 and is_index else depth + 1), item
-        else:
-            for _title, value in item.items():
-                if isinstance(value, str):
-                    yield depth + 1, value
-                else:
-                    yield from walk_section(value, depth + 1)
-
-
-def md_to_html(md_path: str) -> Path:
-    relative = Path(md_path)
-    if relative.name == "index.md":
-        return SITE_DIR / relative.parent / "index.html"
-    return SITE_DIR / relative.parent / relative.stem / "index.html"
-
-
-def site_url_of(md_path: str) -> str:
-    """Ruta 'limpia' equivalente a la que usa Zensical para enlazar entre páginas."""
-    relative = Path(md_path)
-    directory = relative.parent if relative.name == "index.md" else relative.parent / relative.stem
-    posix = directory.as_posix()
-    return "" if posix == "." else posix + "/"
-
-
-def slugify_page(md_path: str) -> str:
-    return "pg-" + re.sub(r"[^a-z0-9]+", "-", md_path.lower()).strip("-")
 
 
 def shift_headings(article, shift):
@@ -171,11 +133,9 @@ def main():
     if not SITE_DIR.exists():
         raise SystemExit(f"No existe {SITE_DIR}. Ejecuta antes 'zensical build --clean'.")
 
-    config = tomllib.loads(CONFIG_PATH.read_text(encoding="utf-8"))
-    site_title = config["project"]["site_name"]
-    nav = config["project"]["nav"]
+    nav, site_title = load_nav()
 
-    pages = [(depth, path) for depth, path in walk_nav(nav) if path != "index.md"]
+    pages = ordered_pages(nav)
     url_to_id = {site_url_of(path): slugify_page(path) for _, path in pages}
 
     body_parts = []

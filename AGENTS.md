@@ -52,6 +52,20 @@ dirigida a docentes y alumnado de secundaria que usan la placa EchidnaBlack.
   `alt`:
   `![Descripción](../../assets/images/Nombre_archivo.png "Descripción")`.
   Si añades una imagen nueva, colócala directamente en esa carpeta.
+- **Tamaño de imagen explícito**: cuando una imagen necesita un ancho fijo
+  (en vez del automático del tema), se añade con `attr_list`:
+  `![Alt](../ruta.png "Alt"){ width="320" }` (sin `:` inicial; así ya
+  funciona en este proyecto). El usuario decide estos anchos con el flujo de
+  `scripts/build_image_worksheet.py` / `apply_image_sizes.py` (ver
+  README.md); no inventes ni cambies estos valores por tu cuenta salvo que
+  te lo pida explícitamente.
+- Para poner una imagen junto a otra imagen o junto a un párrafo corto de
+  texto (en vez de apiladas a todo el ancho), envuélvelas en
+  `<div class="img-row" markdown="1">`/`<div class="img-text-row" markdown="1">`
+  (clases ya definidas en `extra.css` y `print.css`). Cada imagen o párrafo
+  debe quedar en su propio párrafo (línea en blanco entre ellos): si dos
+  imágenes comparten un mismo `<p>`, el flex de `.img-row` no las pone en
+  fila (aprendido a base de probarlo).
 - **Índices de sección** (`index.md` de cada carpeta numerada): listan los
   subapartados con enlaces relativos y numeración, sin más.
 - **Tablas complejas** (con colspan, anchos o formato heredado de
@@ -66,7 +80,10 @@ dirigida a docentes y alumnado de secundaria que usan la placa EchidnaBlack.
 - `docs/`: contenido Markdown, organizado en carpetas numeradas por
   capítulo (`01-introduccion/`, `02-placa/`, etc.).
 - `docs/assets/images/`: imágenes originales del manual.
-- `docs/assets/stylesheets/extra.css`: ajustes visuales sobrios del tema.
+- `docs/assets/stylesheets/extra.css`: ajustes visuales sobrios del tema
+  (incluye `.img-row`/`.img-text-row`, ver más arriba).
+- `scripts/manual_nav.py`: recorrido común del `nav` (profundidad, orden de
+  lectura, rutas), usado por todos los scripts de `scripts/`.
 - `scripts/build_pdf.py` + `scripts/print.css`: generan `site/manual.pdf`
   uniendo el contenido de todas las páginas ya construidas (en el orden y la
   jerarquía del `nav`) en un único documento y maquetándolo con WeasyPrint
@@ -81,6 +98,25 @@ dirigida a docentes y alumnado de secundaria que usan la placa EchidnaBlack.
   sitio.
 - `.gitlab-ci.yml`: publicación en GitLab Pages (no genera el PDF).
 - `requirements.txt`: fija las versiones de `zensical`, `weasyprint` y `lxml`.
+- `scripts/image_inventory.py`: localiza todas las imágenes usadas en
+  `docs/*.md` (Markdown y `<img>` HTML), en orden de lectura del manual.
+- `scripts/build_image_worksheet.py`: genera
+  `image-worksheet/tamanos-imagenes.docx` (una imagen por fila, con una
+  leyenda `IMGxxx` con su tamaño nativo y actual) y
+  `image-worksheet/manifest.json`. El usuario redimensiona a mano en Word/
+  LibreOffice y exporta a PDF.
+- `scripts/apply_image_sizes.py`: dado ese PDF ya editado, mide el ancho
+  real de cada imagen (empareja por la leyenda `IMGxxx`, vía PyMuPDF) y
+  actualiza el `{ width="N" }` en `docs/*.md`, pero solo de las imágenes
+  cuyo tamaño cambió de verdad respecto al que tenían al generar el
+  documento (margen del 3 %, para no reaccionar a redondeos). Admite
+  `--dry-run`.
+- `scripts/requirements-worksheet.txt`: dependencias de ese flujo
+  (`python-docx`, `pymupdf`, `pillow`) — no las mezcles con
+  `requirements.txt`, que es el que usa la pipeline de publicación y no
+  las necesita.
+- `image-worksheet/`: directorio de trabajo de ese flujo, no versionado
+  (está en `.gitignore`). No es contenido del manual.
 
 ## Cómo comprobar los cambios
 
