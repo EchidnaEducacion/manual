@@ -10,7 +10,7 @@ Una conexión MkMk es un conector que permite detectar gran variedad de objetos 
 
 Para detectar elementos debemos conectar un cable al común y otro a una de las entradas.
 
-![MkMk conexion](../../assets/images/mkmk_conexion.png "MkMk conexión")
+![MkMk conexion](../../assets/images/mkmk_conexion.png "MkMk conexión"){ width="460" }
 
 Entradas MkMk: A0, A1, A2, A3, A6, A7, D2, D3.
 

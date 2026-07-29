@@ -78,6 +78,42 @@ th, td { padding: .3rem .5rem; text-align: left; }
 
 figure, table, img { break-inside: avoid-page; }
 
+/* Pares imagen+imagen o imagen+texto (conexiones, detalles con lupa):
+   más pequeñas y en fila en vez de a todo el ancho de página. */
+.img-row,
+.img-text-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: .8rem 0;
+  break-inside: avoid-page;
+}
+
+.img-row p,
+.img-text-row p {
+  margin: 0;
+  flex: 0 0 auto;
+}
+
+.img-row img,
+.img-text-row img {
+  width: auto;
+  max-width: 100%;
+  margin: 0;
+}
+
+.img-row p,
+.img-text-row p:first-child {
+  max-width: 45%;
+}
+
+.img-text-row p:last-child {
+  flex: 1 1 45%;
+  text-align: left;
+}
+
 a { color: #1b1b1b; text-decoration: underline; }
 
 /* Portada */

@@ -24,3 +24,36 @@
   display: table;
   width: 100%;
 }
+
+/* Pares imagen+imagen o imagen+texto, para fotos de tamaño de referencia
+   (conexiones, detalles con lupa) que no necesitan ocupar todo el ancho. */
+.md-typeset .img-row,
+.md-typeset .img-text-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 1.25rem 0;
+}
+
+.md-typeset .img-row {
+  justify-content: center;
+}
+
+.md-typeset .img-row img,
+.md-typeset .img-text-row img {
+  margin: 0 auto;
+  flex: 0 0 auto;
+}
+
+.md-typeset .img-text-row p {
+  margin: 0;
+  flex: 1 1 260px;
+}
+
+@media (max-width: 600px) {
+  .md-typeset .img-row,
+  .md-typeset .img-text-row {
+    flex-direction: column;
+  }
+}

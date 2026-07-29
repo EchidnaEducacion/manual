@@ -2,9 +2,11 @@
 
 La placa EchidnaBlack2 dispone de dos modos de funcionamiento, el **Modo Sensores** y el **Modo MkMk**. Mediante un conmutador podemos seleccionar el modo en el que queremos trabajar.
 
-![Selector modo funcionamiento](../assets/images/Lupa_Selector_modo.png "Selector modo funcionamiento")
+<div class="img-row" markdown="1">
+![Selector modo funcionamiento](../assets/images/Lupa_Selector_modo.png "Selector modo funcionamiento"){ width="320" }
 
-![Testigo MkMk](../assets/images/Lupa_testigo_MkMk.png "Testigo MkMk")
+![Testigo MkMk](../assets/images/Lupa_testigo_MkMk.png "Testigo MkMk"){ width="320" }
+</div>
 
 **¡ATENCIÓN!** Un testigo luminoso rojo nos indica cuando estamos en modo MkMk.
 

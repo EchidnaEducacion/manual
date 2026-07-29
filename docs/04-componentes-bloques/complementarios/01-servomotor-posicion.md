@@ -8,9 +8,11 @@ Son **motores** de corriente continua con una reductora y electrónica de contro
 
 Para conectarlo usamos los **pines I/O** de entrada-salida**: D4, D7, D8, A2**.
 
-Presta atención al conectar los cables: Vcc, GND y señal, que están indicados por los colores rojo, negro y amarillo.
+<div class="img-text-row" markdown="1">
+![Conexion Servomotor](../../assets/images/Conexion_Servo_posicion.png "Conexion Servomotor"){ width="320" }
 
-![Conexion Servomotor](../../assets/images/Conexion_Servo_posicion.png "Conexion Servomotor")
+Presta atención al conectar los cables: Vcc, GND y señal, que están indicados por los colores rojo, negro y amarillo.
+</div>
 
 En caso de que vayas a conectar varios servomotores usa alimentación externa y coloca el selector de alimentación en la posición Vin. Ver apartado 2.4. Pines de entrada- salida.
 

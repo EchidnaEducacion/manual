@@ -8,7 +8,7 @@
 
 En la **placa** tenemos 3 diodos LED Verde, Naranja y Rojo.
 
-![Lupa Ledes](../../assets/images/Lupa_Ledes.png "Lupa Ledes")
+![Lupa Ledes](../../assets/images/Lupa_Ledes.png "Lupa Ledes"){ width="340" }
 
 Los **LEDs Naranja y Rojo** pueden ser controlados únicamente de forma **digital** (estados de encendido/apagado). Por otro lado, el **LED Verde** puede ser controlado **digitalmente** y, además, permite el control de su intensidad luminosa (modulación analógica o **PWM**).
 
