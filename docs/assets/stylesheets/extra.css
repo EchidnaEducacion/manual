@@ -1,0 +1,26 @@
+/* Presentación sobria para un manual técnico y educativo. */
+:root {
+  --md-text-font: "Inter", "Noto Sans", sans-serif;
+}
+
+.md-typeset {
+  font-size: 0.82rem;
+  line-height: 1.65;
+}
+
+.md-typeset img {
+  display: block;
+  height: auto;
+  margin: 1.25rem auto;
+  max-width: min(100%, 62rem);
+}
+
+.md-typeset h2 {
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  padding-bottom: 0.25rem;
+}
+
+.md-typeset table:not([class]) {
+  display: table;
+  width: 100%;
+}

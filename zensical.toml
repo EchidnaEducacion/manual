@@ -1,0 +1,77 @@
+[project]
+site_name = "Manual EchidnaBlack y EchidnaML"
+site_description = "Manual de la placa EchidnaBlack2 y del entorno EchidnaML"
+site_author = "Echidna Educación"
+copyright = "Contenido bajo licencia CC BY-SA 4.0"
+docs_dir = "docs"
+site_dir = "site"
+extra_css = ["assets/stylesheets/extra.css"]
+nav = [
+  {"Inicio" = "index.md"},
+  {"1. Introducción" = "01-introduccion/index.md"},
+  {"2. La placa EchidnaBlack" = [
+    "02-placa/index.md",
+    "02-placa/01-componentes.md",
+    "02-placa/02-modos-funcionamiento.md",
+    "02-placa/03-entradas-mkmk.md",
+    "02-placa/04-pines-entrada-salida.md",
+    "02-placa/05-alimentacion.md"
+  ]},
+  {"3. EchidnaML: EchidnaBlocks" = [
+    "03-echidnaml-echidnablocks/index.md",
+    "03-echidnaml-echidnablocks/01-echidnaml.md",
+    "03-echidnaml-echidnablocks/02-echidnablocks.md",
+    "03-echidnaml-echidnablocks/03-menu-archivo.md",
+    "03-echidnaml-echidnablocks/04-puesta-en-marcha.md"
+  ]},
+  {"4. Componentes y bloques" = [
+    "04-componentes-bloques/index.md",
+    {"Componentes de la placa" = [
+      "04-componentes-bloques/componentes-placa/index.md",
+      "04-componentes-bloques/componentes-placa/01-ledes.md",
+      "04-componentes-bloques/componentes-placa/02-pulsadores.md",
+      "04-componentes-bloques/componentes-placa/03-zumbador.md",
+      "04-componentes-bloques/componentes-placa/04-sensor-luz.md",
+      "04-componentes-bloques/componentes-placa/05-joystick.md",
+      "04-componentes-bloques/componentes-placa/06-acelerometro.md",
+      "04-componentes-bloques/componentes-placa/07-temperatura.md",
+      "04-componentes-bloques/componentes-placa/08-led-rgb.md",
+      "04-componentes-bloques/componentes-placa/09-microfono.md",
+      "04-componentes-bloques/componentes-placa/10-entrada-mkmk.md"
+    ]},
+    {"Componentes complementarios" = [
+      "04-componentes-bloques/complementarios/index.md",
+      "04-componentes-bloques/complementarios/01-servomotor-posicion.md",
+      "04-componentes-bloques/complementarios/02-servomotor-continuo.md",
+      "04-componentes-bloques/complementarios/03-sensor-distancia.md",
+      "04-componentes-bloques/complementarios/04-sensor-humedad.md"
+    ]}
+  ]},
+  {"5. LearningML" = [
+    "05-learningml/index.md",
+    "05-learningml/01-introduccion.md",
+    "05-learningml/02-modelo-texto.md",
+    "05-learningml/03-modelo-imagenes.md",
+    "05-learningml/04-modelo-numeros.md",
+    "05-learningml/05-bloques-learningml.md",
+    "05-learningml/06-exportar-importar.md"
+  ]},
+  {"6. Programa del microcontrolador" = [
+    "06-firmata/index.md",
+    "06-firmata/01-que-es-firmata.md",
+    "06-firmata/02-instalar-standardfirmata.md"
+  ]},
+  {"7. Preguntas frecuentes" = "07-preguntas-frecuentes.md"},
+  {"8. Características técnicas" = "08-caracteristicas-tecnicas.md"},
+  {"9. Referencias" = "09-referencias.md"},
+  {"10. Licencia" = "10-licencia.md"}
+]
+
+[project.theme]
+language = "es"
+variant = "modern"
+logo = "assets/images/portada.png"
+features = ["navigation.sections", "navigation.path", "navigation.top", "toc.follow"]
+
+[project.markdown_extensions.attr_list]
+[project.markdown_extensions.md_in_html]
