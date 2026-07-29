@@ -1,6 +1,6 @@
 # 4.1.4 Sensor de Luz (LDR): Interruptor crepuscular
 
-## ⚙️ COMPONENTE:
+## COMPONENTE:
 
 ![Sensor luz LDR](../../assets/images/SensorLuz-LDR.png "Sensor luz LDR")
 
@@ -8,7 +8,7 @@
 
 En la placa Echidnablack2 podemos encontrar la LDR en la esquina superior derecha.
 
-## 🖥️ BLOQUE DE PROGRAMACIÓN:
+## BLOQUE DE PROGRAMACIÓN:
 
 Para **leer** el valor del **sensor** podemos usar el siguiente **bloque**:
 
@@ -21,7 +21,7 @@ Puedes activar la casilla de verificación para ver el valor registrado.
 - 0 ausencia de luz
 - 1023 mucha luz
 
-## 🛠️ EJEMPLO: Interruptor crepuscular
+## EJEMPLO: Interruptor crepuscular
 
 Este ejemplo muestra como **controlar** automaticamente el **encendido** de un **LED** en función de la **intensidad** de la **luz** ambiental detectada por la LDR.
 

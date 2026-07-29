@@ -6,7 +6,7 @@ La placa EchidnaBlack2 dispone de dos modos de funcionamiento, el **Modo Sensore
 
 ![Testigo MkMk](../assets/images/Lupa_testigo_MkMk.png "Testigo MkMk")
 
-⚠️ **¡ATENCIÓN!** Un testigo luminoso rojo nos indica cuando estamos en modo MkMk.
+**¡ATENCIÓN!** Un testigo luminoso rojo nos indica cuando estamos en modo MkMk.
 
 #### **Modo Sensores**
 

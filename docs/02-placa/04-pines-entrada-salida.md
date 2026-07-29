@@ -19,7 +19,7 @@ Cerca de estos pines de entrada/salida se encuentra un selector de alimentación
 
 En la posición de salida 5V, la corriente proviene del regulador de tensión interno de la placa, proporcionando un voltaje estable para componentes que no requieran mucha potencia.
 
-**⚠️ Limitación de Corriente:** Esta salida está destinada únicamente a la alimentación de componentes que no requieran mucha potencia. No se recomienda su uso si los componentes externos superan un consumo total de 300 mA, ya que hacerlo podría sobrecargar el regulador interno de la placa, con el riesgo de dañarlo.
+**Limitación de Corriente:** Esta salida está destinada únicamente a la alimentación de componentes que no requieran mucha potencia. No se recomienda su uso si los componentes externos superan un consumo total de 300 mA, ya que hacerlo podría sobrecargar el regulador interno de la placa, con el riesgo de dañarlo.
 
 **Posición Vin**
 

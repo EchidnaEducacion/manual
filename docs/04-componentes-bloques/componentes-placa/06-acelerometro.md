@@ -1,6 +1,6 @@
 # 4.1.6 Acelerómetro: Movemos el echidna
 
-## ⚙️ COMPONENTE:
+## COMPONENTE:
 
 ![acelerometro componente](../../assets/images/acelerometro_componente.png "acelerometro componente")
 
@@ -10,7 +10,7 @@ Es un **sensor** **microelectromecánico** (MEMS) de aceleración que **mide** l
 
 **Permite detectar cambios bruscos o dinámicos de movimiento en el eje Z.: c**ualquier movimiento vertical repentino provoca una variación rápida en la aceleración medida a lo largo de este eje.
 
-## 🖥️ BLOQUE DE PROGRAMACIÓN:
+## BLOQUE DE PROGRAMACIÓN:
 
 Para leer el valor del acelerómetro podemos usar el siguiente **bloque**:
 
@@ -24,7 +24,7 @@ En el bloque **seleccionamos** eje x, eje y o eje z.
 - En el eje y proporciona valor de 0 a -1 al elevar la parte trasera y de 0 a 1 al elevar la parte delantera.
 - En el eje z se pueden registrar valores de menores de -2 al subirla placa rápidamente y de más de 2 al bajarla rápidamente.
 
-## 🛠️ EJEMPLO: Movemos el echidna
+## EJEMPLO: Movemos el echidna
 
 Este programa permite que **movamos** el **personaje** en la **pantalla** mediante la **inclinación** de la **placa**.
 

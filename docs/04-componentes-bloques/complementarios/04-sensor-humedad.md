@@ -1,6 +1,6 @@
 # 4.2.4 Sensor de humedad del suelo: Monitorización de riego
 
-## ⚙️ COMPONENTE:
+## COMPONENTE:
 
 El **sensor** de **humedad** del suelo permite **medir** la **cantidad** de **agua** en la **tierra**.
 
@@ -10,7 +10,7 @@ Tiene dos componentes principales: los electrodos, que se introducen en la tierr
 
 ![Conexion sensor humedad](../../assets/images/Conexion_Sensor_humedad.png "Conexion sensor humedad")
 
-## 🖥️ BLOQUE DE PROGRAMACIÓN:
+## BLOQUE DE PROGRAMACIÓN:
 
 Utilizaremos el **bloque** **genérico**, **leer entrada analógica**, seleccionando la entrada **A2**.
 
@@ -18,7 +18,7 @@ Utilizaremos el **bloque** **genérico**, **leer entrada analógica**, seleccion
 
 **Valores**: el rango de valores de la entrada analógica es 0-1023.
 
-## 🛠️ EJEMPLO: Monitorización de riego
+## EJEMPLO: Monitorización de riego
 
 En el **ejemplo** vemos cómo hacer un sistema que nos **indique** cuando hay que **regar** una **planta**.
 

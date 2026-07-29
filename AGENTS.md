@@ -37,13 +37,16 @@ dirigida a docentes y alumnado de secundaria que usan la placa EchidnaBlack.
   en **negrita** la primera vez que aparecen en una sección.
 - **Encabezados**: `#` para el título numerado de la página (coincide con el
   nombre en `nav`); `##`/`####` para subapartados.
-- **Marcadores de sección con emoji** en las páginas de componentes
-  (`docs/04-componentes-bloques/`): `## ⚙️ COMPONENTE:`,
-  `## 🖥️ BLOQUE DE PROGRAMACIÓN:`, `## 🛠️ EJEMPLO: <nombre>`. Mantén este
-  patrón al añadir un componente o bloque nuevo.
-- **Avisos**: se destacan con `⚠️ **Advertencia: ...**` o `⚠️ ¡ATENCIÓN!`
-  seguidos de una frase directa sobre el riesgo (p. ej. quemar un componente,
-  perder un proyecto no guardado).
+- **Marcadores de sección** en las páginas de componentes
+  (`docs/04-componentes-bloques/`): `## COMPONENTE:`,
+  `## BLOQUE DE PROGRAMACIÓN:`, `## EJEMPLO: <nombre>`. Mantén este patrón
+  al añadir un componente o bloque nuevo.
+- **Avisos**: se destacan con `**Advertencia: ...**` o `¡ATENCIÓN!` seguidos
+  de una frase directa sobre el riesgo (p. ej. quemar un componente, perder
+  un proyecto no guardado).
+- **Sin emojis**: no se usan en ningún sitio del manual (se quitaron los que
+  había en marcadores de sección y avisos porque WeasyPrint no los renderiza
+  bien en el PDF). No los reintroduzcas.
 - **Imágenes**: viven en `docs/assets/images/` (sin subcarpetas por
   apartado) y se referencian con ruta relativa y el `title` repitiendo el
   `alt`:
@@ -55,8 +58,6 @@ dirigida a docentes y alumnado de secundaria que usan la placa EchidnaBlack.
   eXeLearning): se dejan en HTML embebido tal cual, gracias a las
   extensiones `attr_list` y `md_in_html` activadas en `zensical.toml`. No
   las reescribas a Markdown salvo que se pida simplificarlas.
-- Evita añadir emojis o marcadores nuevos que no sigan un patrón ya
-  existente en el manual.
 
 ## Estructura del repositorio
 

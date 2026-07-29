@@ -1,6 +1,6 @@
 # 4.2.3 Sensor de distancia de infrarrojos: Sistema de asistencia al estacionamiento
 
-## ⚙️ COMPONENTE:
+## COMPONENTE:
 
 ![Sensor IR componente](../../assets/images/Sensor_IR_componente.png "Sensor IR componente")
 
@@ -16,7 +16,7 @@ Es un **sensor** de **distancia** que proporciona una tensión según la cantida
 
 ![Conexion Sensor IR distancia](../../assets/images/Conexion_Sensor_IR_distancia.png "Conexion Sensor IR distancia")
 
-## 🖥️ BLOQUE DE PROGRAMACIÓN:
+## BLOQUE DE PROGRAMACIÓN:
 
 Utilizaremos el bloque genérico, leer entrada analógica, seleccionando la entrada A2:
 
@@ -24,7 +24,7 @@ Utilizaremos el bloque genérico, leer entrada analógica, seleccionando la entr
 
 **Valores**: el rango de valores de la entrada analógica es 0-1023.
 
-## 🛠️ EJEMPLO: Sistema de asistencia al estacionamiento
+## EJEMPLO: Sistema de asistencia al estacionamiento
 
 Este **ejemplo** simula un **sistema** de **ayuda** al **estacionamiento**.
 

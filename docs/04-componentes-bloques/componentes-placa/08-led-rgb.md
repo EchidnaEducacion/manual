@@ -1,6 +1,6 @@
 # 4.1.8 LED RGB: Mezclamos colores
 
-## ⚙️ COMPONENTE:
+## COMPONENTE:
 
 ![LED RGB Componente](../../assets/images/LED_RGB_Componente.png "LED RGB Componente")
 
@@ -14,7 +14,7 @@ El acrónimo significa Light Emitting Diode (Diodo Emisor de Luz) y Red Green Bl
 
 **Capacidad Cromática:** dado que cada canal ofrece 256 niveles de intensidad, la combinación de los tres colores (Rojo, Verde y Azul) permite generar un total de 256 x 256 x 256 = 16.777.216, más de 16 millones de colores diferentes.
 
-## 🖥️ BLOQUE DE PROGRAMACIÓN:
+## BLOQUE DE PROGRAMACIÓN:
 
 Para controlar la luminosidad y el color del LED RGB tenemos el siguiente **bloque**:
 
@@ -26,7 +26,7 @@ En bloque podemos ajustar el valor de cada LED entre 0 y 255.
 
 ![Bloque LED RGB Naranja](../../assets/images/Bloque_LEDRGB_NaranajaEchidna.png "Bloque LED RGB Naranja")
 
-## 🛠️ EJEMPLO: Indicador de Temperatura RGB
+## EJEMPLO: Indicador de Temperatura RGB
 
 Este **ejemplo** utiliza el **sensor de temperatura** como dato de entrada para **controlar** el **color** del **LED RGB** (actuador). El **objetivo** es que el LED cambie de color automáticamente para indicar visualmente si la temperatura ambiente es baja (Azul), media (Verde) o alta (Rojo), funcionando como un termómetro visual.
 
@@ -56,7 +56,7 @@ SI NO
 
       --\> El LED RGB se ilumina en color rojo.
 
-## 🛠️ EJEMPLO: Recorremos los 16.7 millones de colores
+## EJEMPLO: Recorremos los 16.7 millones de colores
 
 Este programa utiliza tres bucles anidados de repetición para recorrer sistemáticamente la totalidad de las combinaciones de color. Al variar la intensidad de cada canal (Rojo, Verde y Azul) en sus 256 niveles posibles, el sistema es capaz de generar los más de 16.7 millones de colores únicos que componen el espectro RGB.
 

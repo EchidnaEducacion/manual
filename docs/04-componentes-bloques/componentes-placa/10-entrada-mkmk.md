@@ -1,8 +1,8 @@
 # 4.1.10 Entrada MKMk: Piano
 
-## ⚙️ COMPONENTE:
+## COMPONENTE:
 
-⚠️ ¡RECUERDA! Para que funcione el modo MkMk debemos poner el selector del modo de funcionamiento hacia la derecha, y se nos encenderá el LED testigo en la parte inferior.
+¡RECUERDA! Para que funcione el modo MkMk debemos poner el selector del modo de funcionamiento hacia la derecha, y se nos encenderá el LED testigo en la parte inferior.
 
 Echidna dispone de 8 conexiones MkMk.
 
@@ -14,7 +14,7 @@ Para detectar elementos debemos conectar un cable al común y otro a una de las 
 
 Entradas MkMk: A0, A1, A2, A3, A6, A7, D2, D3.
 
-## 🖥️ BLOQUE DE PROGRAMACIÓN:
+## BLOQUE DE PROGRAMACIÓN:
 
 Echidna dispone de un bloque de programación específico para las entradas MkMk que nos devuelve un **true** o un **false** en función de si detecta que el **circuito** se ha **cerrado** o es un circuito **abierto**.
 
@@ -30,7 +30,7 @@ En el bloque podemos seleccionar la entrada MkMk que queramos utilizar.
 
 Si queremos cambiar el valor del umbral podemos usar el bloque leer entrada analógica tal como se muestra en el segundo ejemplo: Ajustar sensibilidad.
 
-## 🛠️ EJEMPLO: Piano
+## EJEMPLO: Piano
 
 En este ejemplo vamos a ver cómo programar una nota de piano, que suena cuando tocamos la entrada MkMk A0.
 
@@ -38,7 +38,7 @@ En este caso sonará la nota 60 del piano durante 0,25 s cada vez que se activa 
 
 ![Ejemplo MkMk piano](../../assets/images/Ejemplo_MkMk_piano.png "Ejemplo MkMk piano")
 
-## 🛠️ EJEMPLO: Ajustar la sensibilidad
+## EJEMPLO: Ajustar la sensibilidad
 
 Para ajustar el umbral de activación de las entradas analógicas del módulo MkMk, podemos utilizar el bloque "leer entrada analógica Ax".
 

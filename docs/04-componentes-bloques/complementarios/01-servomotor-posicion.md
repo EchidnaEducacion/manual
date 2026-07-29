@@ -1,6 +1,6 @@
 # 4.2.1 Servomotor de posición: Control posición servo con joystick
 
-## ⚙️ COMPONENTE:
+## COMPONENTE:
 
 ![Servomotor componente](../../assets/images/servo_componente.png "sercomotor componente")
 
@@ -8,13 +8,13 @@ Son **motores** de corriente continua con una reductora y electrónica de contro
 
 Para conectarlo usamos los **pines I/O** de entrada-salida**: D4, D7, D8, A2**.
 
-⚠️ Presta atención al conectar los cables: Vcc, GND y señal, que están indicados por los colores rojo, negro y amarillo.
+Presta atención al conectar los cables: Vcc, GND y señal, que están indicados por los colores rojo, negro y amarillo.
 
 ![Conexion Servomotor](../../assets/images/Conexion_Servo_posicion.png "Conexion Servomotor")
 
 En caso de que vayas a conectar varios servomotores usa alimentación externa y coloca el selector de alimentación en la posición Vin. Ver apartado 2.4. Pines de entrada- salida.
 
-## 🖥️ BLOQUE DE PROGRAMACIÓN:
+## BLOQUE DE PROGRAMACIÓN:
 
 Para **controlar** el **servomotor** de **posición** podemos usar el siguiente **bloque**:
 
@@ -26,7 +26,7 @@ En el **bloque** podemos seleccionar el **pin** al que conectamos nuestro servom
 
 **Ángulo** de giro: **0-180**º.
 
-## 🛠️ EJEMPLO: Control de posición de servo con joystick
+## EJEMPLO: Control de posición de servo con joystick
 
 Este ejemplo muestra cómo **controlar** la **posición** **angular** de un **servomotor** de posición utilizando el **eje x** del **joystick** como entrada. La variable *ángulo* almacena la posición deseada y es la que determina la posición del motor.
 

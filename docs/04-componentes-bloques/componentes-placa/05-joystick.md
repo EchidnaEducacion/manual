@@ -1,6 +1,6 @@
 # 4.1.5 Joystick: Pintamos
 
-## ⚙️ COMPONENTE:
+## COMPONENTE:
 
 ![joystick componente](../../assets/images/joystick_componente.png "joystick componente")
 
@@ -10,7 +10,7 @@ Consta internamente de dos potenciómetros, uno para el eje X (movimiento horizo
 
 **Pulsador adicional:** este modelo incorpora además un pulsador (botón) que se activa al presionar el stick hacia abajo. En Echidnablack2, el pulsador del Joystick está conectado directamente con el pulsador "SR".
 
-## 🖥️ BLOQUE DE PROGRAMACIÓN:
+## BLOQUE DE PROGRAMACIÓN:
 
 Para leer el valor del joystick podemos usar el siguiente bloque:
 
@@ -28,7 +28,7 @@ En el bloque podemos seleccionar eje x, o eje y
 
 **![grafica valores joystick](../../assets/images/valores_joystick.png "grafica valores joystick")**
 
-## 🛠️ EJEMPLO: Pintamos
+## EJEMPLO: Pintamos
 
 Este ejemplo utiliza el Joystick (control de dos ejes) para controlar el movimiento de un puntero o lápiz virtual en la pantalla del entorno de programación.
 

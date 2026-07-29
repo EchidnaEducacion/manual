@@ -1,6 +1,6 @@
 # 4.1.1 Ledes: Semáforo e intensidad luminosa
 
-## ⚙️ COMPONENTE:
+## COMPONENTE:
 
 ![LED componente](../../assets/images/Led_componente.png "LED componente")
 
@@ -12,7 +12,7 @@ En la **placa** tenemos 3 diodos LED Verde, Naranja y Rojo.
 
 Los **LEDs Naranja y Rojo** pueden ser controlados únicamente de forma **digital** (estados de encendido/apagado). Por otro lado, el **LED Verde** puede ser controlado **digitalmente** y, además, permite el control de su intensidad luminosa (modulación analógica o **PWM**).
 
-## 🖥️ BLOQUE DE PROGRAMACIÓN:
+## BLOQUE DE PROGRAMACIÓN:
 
 Para **controlar digitalmente** los LEDs podemos usar el siguiente bloque:
 
@@ -30,7 +30,7 @@ Para **controlar la intensidad luminosa** del **LED Verde** podemos usar el sigu
 
 En el que podemos regular la intensidad luminosa entre 0 (apagado) y 255 (máxima intensidad luminosa)
 
-## 🛠️ EJEMPLO: Semáforo
+## EJEMPLO: Semáforo
 
 Este ejemplo muestra cómo programar un semáforo utilizando los LEDs de la placa. La programación se basa en una secuencia cíclica donde cada LED permanece encendido durante un tiempo específico y luego pasa al siguiente estado de forma automática.
 
@@ -44,7 +44,7 @@ Este ejemplo muestra cómo programar un semáforo utilizando los LEDs de la plac
 
 Luego, el ciclo vuelve a comenzar con la luz verde y se repite de forma indefinida.
 
-## 🛠️ EJEMPLO: Control intensidad luminosa LED verde
+## EJEMPLO: Control intensidad luminosa LED verde
 
 Este ejemplo muestra cómo **controlar la intensidad luminosa del LED verde** para crear un **efecto** de "**fundido**" (fade) gradual, simulando un ciclo suave de encendido y apagado.
 

@@ -1,6 +1,6 @@
 # 4.1.3 Zumbador: Pulsador-sonido
 
-## ⚙️ COMPONENTE:
+## COMPONENTE:
 
 Disponemos de dos salidas para reproducir audio, el **zumbador** y el **jack** al que podemos conectar auriculares o altavoces autoamplificados. Al conectar una clavija de audio en el jack se desconecta el zumbador.
 
@@ -10,7 +10,7 @@ Disponemos de dos salidas para reproducir audio, el **zumbador** y el **jack** a
 
 Además, contamos con un potenciómetro que permite ajustar el volumen del sonido.
 
-## 🖥️ BLOQUE DE PROGRAMACIÓN:
+## BLOQUE DE PROGRAMACIÓN:
 
 Para controlar el **zumbador** podemos usar el siguiente **bloque**:
 
@@ -18,7 +18,7 @@ Para controlar el **zumbador** podemos usar el siguiente **bloque**:
 
 En el cual podemos cambiar su estado a encender o apagar.
 
-## 🛠️ EJEMPLO: Timbre
+## EJEMPLO: Timbre
 
 Este ejemplo muestra cómo **controlar** el **zumbador** (actuador de sonido) utilizando un **pulsador** como **entrada**.
 

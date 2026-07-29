@@ -9,7 +9,7 @@ Este entorno integra dos potentes herramientas que trabajan de forma conjunta:
 
 ![EchidnaML](../assets/images/EchidnaML.png "EchidnaML")
 
-🌟 **Ventajas del Sistema Integrado:**
+**Ventajas del Sistema Integrado:**
 
 - **Plug and play**: reconoce la placa y permite empezar a trabajar con ella directamente
 - **Todo en uno:** No es necesario cambiar de programa para pasar de la programación robótica a la creación de modelos de IA.

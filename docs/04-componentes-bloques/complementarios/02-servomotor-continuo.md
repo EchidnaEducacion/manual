@@ -1,6 +1,6 @@
 # 4.2.2 Servomotor de rotación continua: Control de sentido de giro con pulsadores
 
-## ⚙️ COMPONENTE:
+## COMPONENTE:
 
 ![Servo continuo componente](../../assets/images/Servo_continuo_componente.png "Servo continuo componente")
 
@@ -8,13 +8,13 @@ Son **motores** de corriente continua con una reductora y electrónica de contro
 
 Para conectarlo usamos los **pines I/O** de **entrada-salida** (D4, D7, D8, A2).
 
-⚠️ Presta atención al conectar los cables: Vcc, GND y señal, que están indicados por los colores rojo, negro y amarillo.
+Presta atención al conectar los cables: Vcc, GND y señal, que están indicados por los colores rojo, negro y amarillo.
 
 ![Conexion Servomotor](../../assets/images/Conexion_Servo_posicion.png "Conexion Servomotor")
 
 En caso de que vayas a conectar varios servomotores usa alimentación externa y coloca el selector de alimentación en la posición Vin. Ver apartado 2.4.
 
-## 🖥️ BLOQUE DE PROGRAMACIÓN:
+## BLOQUE DE PROGRAMACIÓN:
 
 Para **controlar** el **servomotor** de **rotación** **continua** podemos usar el siguiente **bloque**:
 
@@ -28,7 +28,7 @@ En el **bloque** podemos **seleccionar** el **pin** al que conectamos nuestro se
 
 **Velocidad**: 0-100%
 
-## 🛠️ EJEMPLO: Control de sentido de giro de servomotor continuo con pulsadores
+## EJEMPLO: Control de sentido de giro de servomotor continuo con pulsadores
 
 Este **ejemplo** ilustra cómo **controlar** el **sentido de giro** de un servomotor continuo (360 grados) utilizando **dos pulsadores** como entradas.
 

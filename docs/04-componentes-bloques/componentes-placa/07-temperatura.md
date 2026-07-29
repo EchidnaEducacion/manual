@@ -1,6 +1,6 @@
 # 4.1.7 Sensor de temperatura: El erizo dice la temperatura
 
-## ⚙️ COMPONENTE:
+## COMPONENTE:
 
 ![Sensor temperatura componente](../../assets/images/Sensor_temperatura_componente.png "Sensor temperatura componente")
 
@@ -11,7 +11,7 @@ El MCP9700T es un sensor que entrega un voltaje analógico proporcional a la tem
 
 **Fórmula de Conversión:** la temperatura en grados Celsius se calcula como: T(°C)=(V −0.5)×100.
 
-## 🖥️ BLOQUE DE PROGRAMACIÓN:
+## BLOQUE DE PROGRAMACIÓN:
 
 Para leer la temperatura podemos usar el siguiente **bloque**.
 
@@ -21,7 +21,7 @@ El bloque utiliza la fórmula de conversión anterior para convertir la tensión
 
 Puedes activar la casilla de verificación para ver el valor registrado.
 
-## 🛠️ EJEMPLO: El erizo dice la temperatura
+## EJEMPLO: El erizo dice la temperatura
 
 En el ejemplo el erizo nos dice qué temperatura hace cuando pulsamos la letra "t" del teclado del ordenador.
 

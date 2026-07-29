@@ -101,7 +101,7 @@ Si ya has abierto el programa EchidnaML y quieres conectar la placa posteriormen
 1.  Conecte la placa al ordenador mediante el cable USB.
 2.  Para iniciar la detección, debe hacer clic en el icono USB (o el icono de conexión) dentro de la interfaz.
 
-⚠️ **Advertencia: Guardar el Trabajo**
+**Advertencia: Guardar el Trabajo**
 
 Debe tener en cuenta que el proceso de detección y conexión reinicia el entorno de trabajo, provocando la pérdida de cualquier proyecto no guardado. Por esta razón, guarda siempre tu proyecto en el ordenador antes de iniciar el proceso de detección para evitar la pérdida de trabajo y poder recuperarlo.
 
@@ -191,12 +191,12 @@ Este jumper te permite elegir qué tensión quieres enviar a los pines de entrad
 
 En el caso de querer alimentar las I/O desde los 5 Volts procedentes del regulador integrado, el selector tiene que estar colocado como indica la imagen de la izquierda. Aconsejado para sensores externos que necesiten una tensión estabilizada.
 
-⚠️ ¡No utilizar la alimentación 5 Volts cuando los dispositivos conectados consuman más de 500 mA!. De lo contrario sobrepasaríamos la capacidad del regulador.
+¡No utilizar la alimentación 5 Volts cuando los dispositivos conectados consuman más de 500 mA!. De lo contrario sobrepasaríamos la capacidad del regulador.
 
 **Selector alimentación Vin (Alimentación externa):**
 
 Aconsejado para alimentar servos u otros dispositivos conectados a I/O que necesiten una tensión mayor de 5 Volts.
 
-⚠️ ¡ATENCIÓN!
+¡ATENCIÓN!
 
 Si tu alimentador externo tiene una tensión superior a la que soportan tus componentes conectados a I/O (que a menudo son 5 Volts), ¡puedes quemarlos inmediatamente!

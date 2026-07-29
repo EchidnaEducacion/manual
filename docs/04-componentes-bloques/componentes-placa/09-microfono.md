@@ -1,6 +1,6 @@
 # 4.1.9 Micrófono: Vúmetro
 
-## ⚙️ COMPONENTE:
+## COMPONENTE:
 
 ![microfono componente](../../assets/images/microfono_componente.png "microfono componente")
 
@@ -10,7 +10,7 @@ Es un transductor acústico-eléctrico. Utiliza el efecto piezoeléctrico para c
 
 **Variabilidad de la señal:** la señal eléctrica refleja directamente el sonido recibido, por lo que presenta una gran variabilidad. Se trata de una señal analógica compleja y que cambia constantemente, por lo que para poder trabajar adecuadamente con ella, se requiere un procesamiento posterior para su análisis (por ejemplo hallando la media aritmética), o, como alternativa, puede limitarse a detectar únicamente la intensidad del sonido.
 
-## 🖥️ BLOQUE DE PROGRAMACIÓN:
+## BLOQUE DE PROGRAMACIÓN:
 
 Para leer el valor del sensor podemos usar el siguiente **bloque**:
 
@@ -20,7 +20,7 @@ Puedes activar la casilla de verificación para ver el valor registrado.
 
 **Valores**: el micrófono proporciona valores bajos en presencia de poco sonido o silencio, y valores más altos cuando capta sonidos intensos. Con una variabilidad entre 0 (no hay sonido) y 1023 (sonido de alta intensidad).
 
-## 🛠️ EJEMPLO: Vúmetro
+## EJEMPLO: Vúmetro
 
 Este ejemplo programa la placa para actuar como un semáforo de ruido o vúmetro, que indica visualmente la intensidad del sonido ambiente. El sistema opera según tres umbrales de sonido:
 
@@ -36,7 +36,7 @@ Es probable que, al ejecutar este código, se observe que el funcionamiento es i
 
 Para solucionar esto mostramos el siguiente ejemplo.
 
-## 🛠️ EJEMPLO: Vúmetro con media
+## EJEMPLO: Vúmetro con media
 
 Como hemos visto, la señal de sonido, se caracteriza por tener mucha variabilidad. Por ello, resulta conveniente aplicar un **tratamiento** o **filtrado** a la **señal**.
 

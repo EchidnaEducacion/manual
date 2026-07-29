@@ -1,6 +1,6 @@
 # 4.1.2 Pulsadores: Encender/Apagar Led
 
-## ⚙️ COMPONENTE:
+## COMPONENTE:
 
 ![Pulsador](../../assets/images/Pulsador.png "Pulsador")
 
@@ -10,7 +10,7 @@ El **pulsador** es un **componente** **electromecánico** que permite **abrir** 
 
 En la placa tenemos **2 pulsadores**, **SL** (Switch Left) y **SR** (Switch Right), situados en la parte derecha.
 
-## 🖥️ BLOQUE DE PROGRAMACIÓN:
+## BLOQUE DE PROGRAMACIÓN:
 
 Para **leer** el **estado** del **pulsador** podemos usar el siguiente **bloque de programación**:
 
@@ -20,7 +20,7 @@ Para **leer** el **estado** del **pulsador** podemos usar el siguiente **bloque 
 
 El bloque nos permite seleccionar el pulsador derecho SR o el izquierdo SL.
 
-## 🛠️ EJEMPLO: Control encendido LED con dos pulsadores
+## EJEMPLO: Control encendido LED con dos pulsadores
 
 Este ejemplo utiliza **dos pulsadores** para **controlar** el **encendido** y **apagado** del **LED** **rojo**. El pulsador **derecho** (SR) controla el **encendido** del LED rojo y el pulsador **izquierdo** (SL) el **apagado**.
 
@@ -40,7 +40,7 @@ SI NO (es decir, si SR no está presionado el programa comprueba la segunda cond
 
       --\> Apaga el LED Rojo.
 
-## 🛠️ EJEMPLO: Pulsador con memoria
+## EJEMPLO: Pulsador con memoria
 
 Este ejemplo ilustra cómo **programar** un **pulsador** para que actúe como un **interruptor**. Es decir, la primera pulsación enciende un LED y la siguiente pulsación lo apaga.
 
