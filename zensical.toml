@@ -71,7 +71,7 @@ nav = [
 language = "es"
 variant = "modern"
 logo = "assets/images/portada.png"
-features = ["navigation.sections", "navigation.path", "navigation.top", "toc.follow"]
+features = ["navigation.sections", "navigation.indexes", "navigation.path", "navigation.top", "toc.follow"]
 
 [project.markdown_extensions.attr_list]
 [project.markdown_extensions.md_in_html]

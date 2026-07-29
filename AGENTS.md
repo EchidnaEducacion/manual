@@ -21,6 +21,12 @@ dirigida a docentes y alumnado de secundaria que usan la placa EchidnaBlack.
 - Respeta la numeración de los apartados (`# 4.1.1 Título`), que debe
   coincidir con la jerarquía definida en `nav` dentro de `zensical.toml`. Si
   añades, eliminas o reordenas una página, actualiza `nav` a la vez.
+- Si una sección tiene `index.md`, debe ser el primer elemento de su lista en
+  `nav` (así lo espera la característica `navigation.indexes`, activada en
+  `zensical.toml`, que evita que el título de la sección aparezca duplicado
+  en la barra lateral). `scripts/build_pdf.py` también asume esta convención:
+  usa el `<h1>` de ese `index.md` como título del capítulo o subsección en el
+  PDF.
 - No alteres el contenido técnico o pedagógico del manual original (medidas,
   pines, valores de tensión, pasos de instalación) salvo que el usuario pida
   explícitamente corregir un error o actualizar una versión.
@@ -60,16 +66,20 @@ dirigida a docentes y alumnado de secundaria que usan la placa EchidnaBlack.
   capítulo (`01-introduccion/`, `02-placa/`, etc.).
 - `docs/assets/images/`: imágenes originales del manual.
 - `docs/assets/stylesheets/extra.css`: ajustes visuales sobrios del tema.
-- `scripts/build_pdf.py`: genera `site/manual.pdf` imprimiendo con Chromium
-  (Playwright) cada página ya construida, en el orden del `nav`, y uniendo
-  los PDF resultantes con `pypdf`. Requiere que `site/` ya exista
-  (`zensical build --clean` previo).
+- `scripts/build_pdf.py` + `scripts/print.css`: generan `site/manual.pdf`
+  uniendo el contenido de todas las páginas ya construidas (en el orden y la
+  jerarquía del `nav`) en un único documento y maquetándolo con WeasyPrint
+  (portada, índice con página real, cabeceras de capítulo, saltos de página
+  solo entre capítulos/subsecciones). Requiere que `site/` ya exista
+  (`zensical build --clean` previo). No reescribas esto para volver a
+  "imprimir página por página": esa fue la primera versión y dejaba muchas
+  páginas casi en blanco por el salto forzado entre cada fichero .md.
 - `.github/workflows/docs.yml`: publicación en GitHub Pages al hacer push a
-  `main`; también instala Chromium y ejecuta `scripts/build_pdf.py` para que
-  el PDF quede publicado junto al sitio.
+  `main`; también instala las dependencias de sistema de WeasyPrint y
+  ejecuta `scripts/build_pdf.py` para que el PDF quede publicado junto al
+  sitio.
 - `.gitlab-ci.yml`: publicación en GitLab Pages (no genera el PDF).
-- `requirements.txt`: fija las versiones de `zensical`, `playwright` y
-  `pypdf`.
+- `requirements.txt`: fija las versiones de `zensical`, `weasyprint` y `lxml`.
 
 ## Cómo comprobar los cambios
 

@@ -34,13 +34,25 @@ servidor web estático.
 ## Generar el PDF
 
 ```bash
-playwright install --with-deps chromium
 python scripts/build_pdf.py
 ```
 
-Requiere haber ejecutado antes `zensical build --clean`. El script imprime
-cada página del sitio construido (en el orden del `nav` de `zensical.toml`)
-y las une en `site/manual.pdf`. El flujo de GitHub Actions lo genera en
+Requiere haber ejecutado antes `zensical build --clean`. El script une el
+contenido de todas las páginas (en el orden y la jerarquía del `nav` de
+`zensical.toml`) en un único documento y lo maqueta con
+[WeasyPrint](https://weasyprint.org/) usando `scripts/print.css`: portada,
+índice con numeración de página real, cabeceras de capítulo y saltos de
+página solo entre capítulos y subsecciones, para que el resultado se lea
+como un manual impreso y no como páginas web sueltas pegadas. Genera
+`site/manual.pdf`.
+
+En Debian/Ubuntu, WeasyPrint necesita estas bibliotecas del sistema:
+
+```bash
+sudo apt install libpango-1.0-0 libpangoft2-1.0-0 libharfbuzz-subset0
+```
+
+El flujo de GitHub Actions instala estas dependencias y genera el PDF en
 cada publicación, por lo que queda disponible en `<sitio>/manual.pdf`.
 
 ## Publicar en GitHub Pages
@@ -63,7 +75,8 @@ actualizar la rama predeterminada y publicará el directorio `site/`.
 - `docs/`: páginas Markdown y recursos.
 - `docs/assets/images/`: imágenes originales del manual.
 - `docs/assets/stylesheets/extra.css`: ajustes visuales sobrios.
-- `scripts/build_pdf.py`: genera `site/manual.pdf` a partir del sitio construido.
+- `scripts/build_pdf.py`: genera `site/manual.pdf` uniendo todas las páginas del sitio construido.
+- `scripts/print.css`: maquetación de impresión (portada, índice, cabeceras, saltos de página) para WeasyPrint.
 - `.github/workflows/docs.yml`: publicación en GitHub Pages y generación del PDF.
 - `.gitlab-ci.yml`: publicación en GitLab Pages.
 
