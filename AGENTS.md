@@ -60,10 +60,16 @@ dirigida a docentes y alumnado de secundaria que usan la placa EchidnaBlack.
   capítulo (`01-introduccion/`, `02-placa/`, etc.).
 - `docs/assets/images/`: imágenes originales del manual.
 - `docs/assets/stylesheets/extra.css`: ajustes visuales sobrios del tema.
+- `scripts/build_pdf.py`: genera `site/manual.pdf` imprimiendo con Chromium
+  (Playwright) cada página ya construida, en el orden del `nav`, y uniendo
+  los PDF resultantes con `pypdf`. Requiere que `site/` ya exista
+  (`zensical build --clean` previo).
 - `.github/workflows/docs.yml`: publicación en GitHub Pages al hacer push a
-  `main`.
-- `.gitlab-ci.yml`: publicación en GitLab Pages.
-- `requirements.txt`: fija la versión de `zensical`.
+  `main`; también instala Chromium y ejecuta `scripts/build_pdf.py` para que
+  el PDF quede publicado junto al sitio.
+- `.gitlab-ci.yml`: publicación en GitLab Pages (no genera el PDF).
+- `requirements.txt`: fija las versiones de `zensical`, `playwright` y
+  `pypdf`.
 
 ## Cómo comprobar los cambios
 

@@ -21,6 +21,8 @@ jobs:
           python-version: "3.x"
       - run: pip install -r requirements.txt
       - run: zensical build --clean
+      - run: playwright install --with-deps chromium
+      - run: python scripts/build_pdf.py
       - uses: actions/upload-pages-artifact@v5
         with:
           path: site

@@ -31,6 +31,18 @@ zensical build --clean
 El sitio resultante se guarda en `site/`. Puede publicarse con cualquier
 servidor web estático.
 
+## Generar el PDF
+
+```bash
+playwright install --with-deps chromium
+python scripts/build_pdf.py
+```
+
+Requiere haber ejecutado antes `zensical build --clean`. El script imprime
+cada página del sitio construido (en el orden del `nav` de `zensical.toml`)
+y las une en `site/manual.pdf`. El flujo de GitHub Actions lo genera en
+cada publicación, por lo que queda disponible en `<sitio>/manual.pdf`.
+
 ## Publicar en GitHub Pages
 
 1. Suba este proyecto a un repositorio de GitHub.
@@ -51,7 +63,8 @@ actualizar la rama predeterminada y publicará el directorio `site/`.
 - `docs/`: páginas Markdown y recursos.
 - `docs/assets/images/`: imágenes originales del manual.
 - `docs/assets/stylesheets/extra.css`: ajustes visuales sobrios.
-- `.github/workflows/docs.yml`: publicación en GitHub Pages.
+- `scripts/build_pdf.py`: genera `site/manual.pdf` a partir del sitio construido.
+- `.github/workflows/docs.yml`: publicación en GitHub Pages y generación del PDF.
 - `.gitlab-ci.yml`: publicación en GitLab Pages.
 
 ## Actualización del contenido
