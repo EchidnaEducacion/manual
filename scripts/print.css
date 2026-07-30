@@ -1,6 +1,33 @@
 /* Maquetación de site/manual.pdf. Pensada para WeasyPrint (CSS Paged Media),
    no para el tema web: aquí se controla papel, saltos de página, cabeceras y
-   pies de página corriendo, y la numeración del índice. */
+   pies de página corriendo, y la numeración del índice.
+
+   Tipografía y color siguen la identidad de echidna.es (ver extra.css, que
+   aplica lo mismo a la web): Exo para titulares, Open Sans para el texto,
+   naranja de marca como acento. Solo tema claro: el PDF no tiene alternancia
+   de tema. Las tarjetas de la portada web (docs/index.md) no llegan aquí:
+   build_pdf.py no incluye index.md entre las páginas del PDF. */
+
+@font-face {
+  font-family: "Exo";
+  font-weight: 700;
+  font-style: normal;
+  src: url(../docs/assets/fonts/Exo-Bold.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 100 900;
+  font-style: normal;
+  src: url(../docs/assets/fonts/OpenSans.woff2) format("woff2-variations");
+}
+
+:root {
+  --echidna-orange: #e66a00;
+  --echidna-orange-light: #ff8f3d;
+  --echidna-orange-dark: #b85400;
+  --echidna-peach: #fff3ea;
+}
 
 @page {
   size: A4;
@@ -72,7 +99,7 @@
 }
 
 html {
-  font-family: "Inter", "Noto Sans", sans-serif;
+  font-family: "Open Sans", "Noto Sans", sans-serif;
   font-size: 10.5pt;
   color: #1b1b1b;
   line-height: 1.5;
@@ -83,14 +110,27 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Inter", "Noto Sans", sans-serif;
+  font-family: "Exo", "Open Sans", sans-serif;
   line-height: 1.25;
   break-after: avoid-page;
 }
 
 h1 { font-size: 20pt; margin: 0 0 .6rem; }
-h2 { font-size: 16pt; margin: 1.4rem 0 .5rem; }
-h3 { font-size: 13pt; margin: 1.2rem 0 .4rem; }
+
+h2 {
+  font-size: 16pt;
+  margin: 1.4rem 0 .5rem;
+  padding-bottom: .2rem;
+  border-bottom: 1.5pt solid var(--echidna-orange-light);
+}
+
+h3 {
+  font-size: 13pt;
+  margin: 1.2rem 0 .4rem;
+  padding-bottom: .15rem;
+  border-bottom: 1pt solid var(--echidna-orange-light);
+}
+
 h4 { font-size: 11.5pt; margin: 1rem 0 .35rem; }
 
 p, ul, ol { margin: 0 0 .6rem; orphans: 3; widows: 3; }
@@ -113,9 +153,10 @@ table {
 
 table, th, td { border: 1px solid #ccc; }
 th, td { padding: .3rem .5rem; text-align: left; }
+thead th { background: var(--echidna-peach); }
 
 pre {
-  background: #f2f0ec;
+  background: var(--echidna-peach);
   border-radius: 4px;
   margin: .6rem 0 .9rem;
   padding: .6rem .8rem;
@@ -167,7 +208,7 @@ figure, table, img { break-inside: avoid-page; }
   text-align: left;
 }
 
-a { color: #1b1b1b; text-decoration: underline; }
+a { color: var(--echidna-orange-dark); text-decoration: underline; }
 
 /* Portada */
 #cover {
@@ -189,7 +230,8 @@ a { color: #1b1b1b; text-decoration: underline; }
 
 #cover p {
   font-size: 12pt;
-  color: #555;
+  font-weight: 600;
+  color: var(--echidna-orange-dark);
 }
 
 @page cover {
