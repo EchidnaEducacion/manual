@@ -21,6 +21,7 @@ from urllib.parse import urljoin
 
 from lxml import html as lxml_html
 from weasyprint import CSS, HTML
+from weasyprint.text.fonts import FontConfiguration
 
 from manual_nav import (
     SITE_DIR,
@@ -160,8 +161,14 @@ def main():
     )
 
     base_url = SITE_DIR.as_uri() + "/"
+    # font_config debe pasarse tanto al parsear el CSS (donde se registran
+    # las reglas @font-face) como a write_pdf (donde se usan al maquetar);
+    # si solo se pasa a uno de los dos, WeasyPrint ignora @font-face en
+    # silencio y cae a su fuente por defecto (DejaVu Sans).
+    font_config = FontConfiguration()
+    print_css = CSS(filename=str(PRINT_CSS_PATH), font_config=font_config)
     HTML(string=document_html, base_url=base_url).write_pdf(
-        OUTPUT_PATH, stylesheets=[CSS(filename=str(PRINT_CSS_PATH))]
+        OUTPUT_PATH, stylesheets=[print_css], font_config=font_config
     )
     print(f"PDF generado en {OUTPUT_PATH} ({len(pages)} páginas de contenido)")
 
