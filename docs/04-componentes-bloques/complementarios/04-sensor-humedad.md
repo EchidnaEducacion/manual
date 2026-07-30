@@ -6,7 +6,7 @@ El **sensor** de **humedad** del suelo permite **medir** la **cantidad** de **ag
 
 Tiene dos componentes principales: los electrodos, que se introducen en la tierra, y un circuito electrónico que convierte la humedad detectada en una señal eléctrica. Cuando el suelo contiene más agua, la conductividad entre los electrodos aumenta y, por tanto, el sensor devuelve un voltaje mayor; cuando el suelo está seco, la conductividad disminuye y el voltaje es menor.
 
-![Sensor humedad](../../assets/images/Sensor_humedad_componente.png "Sensor humedad"){ width="798" }
+![Sensor humedad](../../assets/images/Sensor_humedad_componente.png "Sensor humedad"){ width="172" }
 
 <div class="img-text-row" markdown="1">
 ![Conexion sensor humedad](../../assets/images/Conexion_Sensor_humedad.png "Conexion sensor humedad"){ width="280" }
