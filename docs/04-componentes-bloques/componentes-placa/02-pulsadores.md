@@ -2,9 +2,11 @@
 
 ## COMPONENTE:
 
+<div class="img-text-row" markdown="1">
 ![Pulsador](../../assets/images/Pulsador.png "Pulsador"){ width="200" }
 
 El **pulsador** es un **componente** **electromecánico** que permite **abrir** o **cerrar** un **circuito** con un solo estado estable. La clave de su funcionamiento es que solo posee un estado estable o de reposo:
+</div>
 
 **Estado Estable** **Abierto** (Normalmente Abierto / NO): por defecto, el circuito está abierto (interrumpido) y solo se cierra mientras se mantiene presionado. Al soltarse, regresa inmediatamente a su estado abierto.
 
