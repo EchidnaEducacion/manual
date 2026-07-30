@@ -2,9 +2,11 @@
 
 ## COMPONENTE:
 
+<div class="img-text-row" markdown="1">
 ![LED componente](../../assets/images/Led_componente.png "LED componente"){ width="150" }
 
 **Diodos LED**: es el acrónimo de Light Emitting Diode (Diodo emisor de luz), y está basado en el fenómeno de electroluminiscencia. Se usan como testigos (indicadores) y como fuente de iluminación.
+</div>
 
 En la **placa** tenemos 3 diodos LED Verde, Naranja y Rojo.
 
