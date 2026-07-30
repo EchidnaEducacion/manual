@@ -2,9 +2,11 @@
 
 ## COMPONENTE:
 
+<div class="img-text-row" markdown="1">
 ![Servo continuo componente](../../assets/images/Servo_continuo_componente.png "Servo continuo componente"){ width="200" }
 
 Son **motores** de corriente continua con una reductora y electrónica de control que permiten **controlar** el **sentido** de **giro** del motor. Estos motores además permiten **ajustar** una pequeña variación en su **velocidad**.
+</div>
 
 Para conectarlo usamos los **pines I/O** de **entrada-salida** (D4, D7, D8, A2).
 

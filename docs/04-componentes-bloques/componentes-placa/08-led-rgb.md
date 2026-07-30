@@ -2,9 +2,11 @@
 
 ## COMPONENTE:
 
+<div class="img-text-row" markdown="1">
 ![LED RGB Componente](../../assets/images/LED_RGB_Componente.png "LED RGB Componente"){ width="200" }
 
 El **LED RGB** es un único componente que **integra** **tres** **diodos** emisores de luz (LEDes) independientes **Rojo, Verde y Azul **dentro de la misma cápsula.
+</div>
 
 El acrónimo significa Light Emitting Diode (Diodo Emisor de Luz) y Red Green Blue (Rojo, Verde, Azul).
 

@@ -2,9 +2,11 @@
 
 ## COMPONENTE:
 
+<div class="img-text-row" markdown="1">
 ![Sensor temperatura componente](../../assets/images/Sensor_temperatura_componente.png "Sensor temperatura componente"){ width="200" }
 
 El MCP9700T es un sensor que entrega un voltaje analógico proporcional a la temperatura en grados Celsius (°C).
+</div>
 
 - **Sensibilidad**: cada 10 mV equivalen a 1°C.
 - **Offset**: posee un voltaje de 500 mV (0.5V) a 0°C.

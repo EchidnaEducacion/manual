@@ -2,9 +2,11 @@
 
 ## COMPONENTE:
 
+<div class="img-text-row" markdown="1">
 ![acelerometro componente](../../assets/images/acelerometro_componente.png "acelerometro componente"){ width="207" }
 
 Es un **sensor** **microelectromecánico** (MEMS) de aceleración que **mide** los **movimientos** en los tres ejes: X, Y y Z.
+</div>
 
 **Mide la inclinación en los ejes X e Y: e**sto es posible porque la aceleración de la gravedad (1g) genera un cambio de capacitancia proporcional al ángulo de inclinación del sensor
 

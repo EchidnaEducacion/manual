@@ -2,9 +2,11 @@
 
 ## COMPONENTE:
 
+<div class="img-text-row" markdown="1">
 ![Sensor IR componente](../../assets/images/Sensor_IR_componente.png "Sensor IR componente"){ width="200" }
 
 Es un **sensor** de **distancia** que proporciona una tensión según la cantidad de infrarrojo que rebota en una superficie.
+</div>
 
 **Salida Inversamente Proporcional y No Lineal:** el **valor** de salida es **inversamente** **proporcional** a la **distancia** al objeto. Es decir, el valor aumenta cuanto más se acerca el objeto. Además, la relación entre el valor de salida y la distancia no es lineal, por lo que requiere calibración o el uso de tablas para obtener una distancia precisa.
 

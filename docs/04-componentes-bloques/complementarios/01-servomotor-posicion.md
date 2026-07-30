@@ -2,9 +2,11 @@
 
 ## COMPONENTE:
 
+<div class="img-text-row" markdown="1">
 ![Servomotor componente](../../assets/images/servo_componente.png "sercomotor componente"){ width="200" }
 
 Son **motores** de corriente continua con una reductora y electrónica de control que permiten **posicionarlo** en un **ángulo** entre **0** y **180º**.
+</div>
 
 Para conectarlo usamos los **pines I/O** de entrada-salida**: D4, D7, D8, A2**.
 

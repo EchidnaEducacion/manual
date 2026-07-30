@@ -2,9 +2,11 @@
 
 ## COMPONENTE:
 
+<div class="img-text-row" markdown="1">
 ![microfono componente](../../assets/images/microfono_componente.png "microfono componente"){ width="200" }
 
 Es un transductor acústico-eléctrico. Utiliza el efecto piezoeléctrico para convertir las vibraciones de sonido en una señal eléctrica.
+</div>
 
 **Principio de funcionamiento**: al recibir una onda sonora, el material piezoeléctrico genera una señal eléctrica que reproduce las mismas características (frecuencia y amplitud) del sonido captado.
 
