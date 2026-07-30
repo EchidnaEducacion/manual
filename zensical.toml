@@ -61,7 +61,7 @@ nav = [
     "06-firmata/01-que-es-firmata.md",
     "06-firmata/02-instalar-standardfirmata.md"
   ]},
-  {"7. Características técnicas" = "07-caracteristicas-tecnicas.md"},
+  {"7. Características técnicas de la placa" = "07-caracteristicas-tecnicas.md"},
   {"8. Instalación de EchidnaML" = [
     "08-instalacion-echidnaml/index.md",
     "08-instalacion-echidnaml/01-linux.md",

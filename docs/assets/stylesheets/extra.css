@@ -25,6 +25,14 @@
   width: 100%;
 }
 
+/* El tema solo pone en negrita los apartados de nivel superior que tienen
+   subapartados (navigation.sections). Los apartados de una sola página
+   (p. ej. "1. Introducción" o "9. Preguntas frecuentes") deben verse igual
+   de destacados en el índice lateral. */
+.md-nav--primary[data-md-level="0"] > .md-nav__list > .md-nav__item:not(:first-child) > .md-nav__link {
+  font-weight: 700;
+}
+
 /* Pares imagen+imagen o imagen+texto, para fotos de tamaño de referencia
    (conexiones, detalles con lupa) que no necesitan ocupar todo el ancho. */
 .md-typeset .img-row,

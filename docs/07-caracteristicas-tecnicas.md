@@ -1,8 +1,4 @@
-# 7. CARACTERÍSTICAS TÉCNICAS
-
-En este apartado se recogen las características técnicas de la placa EchidnaBlack2.
-
-## 7.1 Características técnicas de la placa
+# 7. CARACTERÍSTICAS TÉCNICAS DE LA PLACA
 
 **Microcontrolador**: AtMega 328P, 16MHz. Compatible con Arduino Nano.
 
