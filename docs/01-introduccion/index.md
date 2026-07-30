@@ -4,9 +4,11 @@
 
 El **sistema** se compone de una **placa** con diversos componentes integrados y un **entorno de programación** diseñado a medida para aprovechar todas sus posibilidades. Además, este conjunto se complementa con **materiales educativos** creados por docentes para facilitar el uso de la placa robótica y el software en el aula.
 
-![EchidnaBlack](../assets/images/EchidnaBlack_2_perspectiva.jpg "EchidnaBlack"){ width="662" }
+<div class="img-row" markdown="1">
+![EchidnaBlack](../assets/images/EchidnaBlack_2_perspectiva.jpg "EchidnaBlack"){ width="330" }
 
-![EchidnaML](../assets/images/pegataechidnaml.png "EchidnaML"){ width="453" }
+![EchidnaML](../assets/images/pegataechidnaml.png "EchidnaML"){ width="230" }
+</div>
 
 Esta **guía** ofrece una **introducción** al trabajo con la placa **EchidnaBlack2** y su entorno de programación **EchidnaML**. No se requieren conocimientos de programación previos; sin embargo, se recomienda tener experiencia con el entorno visual de Scratch, ya que facilita la comprensión de la programación por bloques y el conocimiento del entorno.
 
