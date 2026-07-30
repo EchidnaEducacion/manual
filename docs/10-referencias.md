@@ -4,7 +4,7 @@ En esta apartado, encontrará **enlaces** y **recursos adicionales** para quiene
 
 **Echidna**: <https://echidna.es/>
 
-- [EchidnaBlack2](https://echidna.es/hardware/echidnablack/): características del Hardware.
+- [EchidnaBlack2](https://echidna.es/hardware/echidnablack2/): características del Hardware.
 - [Descargar](https://echidna.es/a-programar/echidnaml/) el programa EchidnaML
 - [Empieza a trabajar con EchidnaML y EchidnaBlocks](https://echidna.es/a-programar/echidnaml/empezar-con-echidnaml-y-echidnascratch/): vídeos explicativos
 - [Manual en versión eXelearning y PDF](https://echidna.es/manual/)
