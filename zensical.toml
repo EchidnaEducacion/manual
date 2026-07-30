@@ -26,7 +26,7 @@ nav = [
   ]},
   {"4. Componentes y bloques" = [
     "04-componentes-bloques/index.md",
-    {"Componentes de la placa" = [
+    {"4.1 Componentes de la placa" = [
       "04-componentes-bloques/componentes-placa/index.md",
       "04-componentes-bloques/componentes-placa/01-ledes.md",
       "04-componentes-bloques/componentes-placa/02-pulsadores.md",
@@ -39,7 +39,7 @@ nav = [
       "04-componentes-bloques/componentes-placa/09-microfono.md",
       "04-componentes-bloques/componentes-placa/10-entrada-mkmk.md"
     ]},
-    {"Componentes complementarios" = [
+    {"4.2 Componentes complementarios" = [
       "04-componentes-bloques/complementarios/index.md",
       "04-componentes-bloques/complementarios/01-servomotor-posicion.md",
       "04-componentes-bloques/complementarios/02-servomotor-continuo.md",
