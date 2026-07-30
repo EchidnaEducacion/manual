@@ -61,10 +61,10 @@ En este ejemplo, cuando **presionamos** el botón **SL**, el programa **clasific
 
 **Lógica de programación:**
 
-SI la clasifica como “derecha” 
+```
+SI la clasifica como "derecha":
+    --> El personaje se desplaza a la derecha.
 
-   --\> El personaje se desplaza a la derecha.
-
-SI la clasifica como “izquierda”: 
-
-   --\> El personaje se desplaza a la izquierda.
+SI la clasifica como "izquierda":
+    --> El personaje se desplaza a la izquierda.
+```

@@ -34,24 +34,23 @@ Programamos la placa en dos hilos de ejecución:
 
 **Hilo de control de movimiento:**
 
+```
 SI la placa se inclina a la izquierda y registra valores menores de -0,5 en el eje x:
-
-   --\> El personaje se desplaza hacia la izquierda.
+    --> El personaje se desplaza hacia la izquierda.
 
 SI la placa se inclina a la derecha y registra valores mayores de 0,5 en el eje x:
-
-   --\> El personaje se desplaza hacia la derecha. 
+    --> El personaje se desplaza hacia la derecha.
 
 SI la placa se inclina hacia atrás y registra valores menores de -0,5 en el eje y:
-
-   --\> El personaje se desplaza hacia abajo. 
+    --> El personaje se desplaza hacia abajo.
 
 SI se inclina hacia delante y registra valores mayores de 0,5 en el eje y:
-
-   --\> El personaje se desplaza hacia arriba.
+    --> El personaje se desplaza hacia arriba.
+```
 
 **Hilo de control de salto:**
 
-Si se eleva bruscamente la placa y el eje z registra valores mayores de 1,5:
-
-   --\> El personaje efectúa un salto.
+```
+SI se eleva bruscamente la placa y el eje z registra valores mayores de 1,5:
+    --> El personaje efectúa un salto.
+```

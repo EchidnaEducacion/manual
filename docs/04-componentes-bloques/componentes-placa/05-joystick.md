@@ -2,9 +2,11 @@
 
 ## COMPONENTE:
 
+<div class="img-text-row" markdown="1">
 ![joystick componente](../../assets/images/joystick_componente.png "joystick componente"){ width="200" }
 
 Es un **dispositivo** de **entrada** con una palanca que se mueve en varias direcciones. Al inclinar la palanca, el joystick envía señales que indican hacia dónde y cuánto se ha desplazado respecto a dos ejes: horizontal (X) y vertical (Y).
+</div>
 
 Consta internamente de dos potenciómetros, uno para el eje X (movimiento horizontal) y otro para el eje Y (movimiento vertical), que convierten la posición del stick en valores de resistencia.
 
@@ -47,18 +49,16 @@ Este ejemplo utiliza el Joystick (control de dos ejes) para controlar el movimie
 
 **![Ejemplo pintamos joystick](../../assets/images/Ejemplo_Pintamos.png "Ejemplo pintamos joystick"){ width="357" }**
 
+```
 SI el joystick se desplaza a la derecha y registra valores mayores de 900 en el eje x:
-
-   --\> El puntero se desplaza hacia la derecha.
+    --> El puntero se desplaza hacia la derecha.
 
 SI el joystick se desplaza a la izquierda y registra valores menores de 100 en el eje x:
-
-   --\> El puntero se desplaza hacia la izquierda.
+    --> El puntero se desplaza hacia la izquierda.
 
 SI el joystick se desplaza hacia arriba y registra valores mayores de 900 en el eje y:
-
-   --\> El puntero se desplaza hacia arriba. 
+    --> El puntero se desplaza hacia arriba.
 
 SI el joystick se desplaza hacia abajo y registra valores menores de 100 en el eje y:
-
-   --\> El puntero se desplaza hacia abajo.
+    --> El puntero se desplaza hacia abajo.
+```

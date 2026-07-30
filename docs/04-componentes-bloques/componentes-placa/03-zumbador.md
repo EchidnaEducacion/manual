@@ -26,12 +26,12 @@ Este ejemplo muestra cómo **controlar** el **zumbador** (actuador de sonido) ut
 
 **Lógica de programación:**
 
+```
 SI el pulsador es presionado (o activado):
+    --> El zumbador suena.
 
-   ---\> El zumbador suena.
-
-SI el pulsador es liberado (o soltado): 
-
-   ---\> El zumbador deja de sonar
+SI el pulsador es liberado (o soltado):
+    --> El zumbador deja de sonar.
+```
 
 De esta forma, el zumbador solo se activa mientras el pulsador se mantiene presionado.

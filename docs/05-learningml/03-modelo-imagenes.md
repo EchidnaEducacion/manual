@@ -72,16 +72,14 @@ Al inicio del programa, el sistema se prepara para recibir la clasificación:
 
 Al presionar la tecla Espacio, el programa clasifica el fotograma de vídeo capturado y ejecuta la acción robótica correspondiente:
 
-SI clasifica en clase “azul”: 
+```
+SI clasifica en clase "azul":
+    --> El servo D7 se mueve a 0° (abre el cubo azul).
+    --> El LED se ilumina en color azul (RGB 0, 0, 255).
 
-   --\> El servo D7 se mueve a 0° (abre el cubo azul).
-
-   ---\> El LED se ilumina en color azul (RGB 0, 0, 255).
-
-SI clasifica en clase “amarilla”:
-
-   ---\> El servo D8 se mueve a 0° (abre el cubo amarillo).
-
-   ---\> El LED se ilumina en color amarillo (RGB 255, 255, 0)
+SI clasifica en clase "amarilla":
+    --> El servo D8 se mueve a 0° (abre el cubo amarillo).
+    --> El LED se ilumina en color amarillo (RGB 255, 255, 0).
+```
 
 Al finalizar, el personaje vuelve a decir: “Presiona espacio y te digo a qué cubo va”, indicando que está listo para una nueva clasificación.

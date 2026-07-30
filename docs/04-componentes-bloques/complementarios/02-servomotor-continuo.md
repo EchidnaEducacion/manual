@@ -49,24 +49,27 @@ Creamos las **variables**:
 
 **Giro Horario:**
 
+```
 SI el pulsador SR (Derecho) está presionado:
-
-   --\> La variable sentido= horario (indica que el giro será en sentido horario).
-
-   --\> La variable velocidad=100.
+    --> La variable sentido = horario (indica que el giro será en sentido horario).
+    --> La variable velocidad = 100.
+```
 
 **Giro Antihorario:**
 
+```
 SI NO:
-
-   SI el pulsador SR (Derecho) está presionado:  
-   --\> La variable sentido= antihorario (indica que el giro será en sentido anti-horario).  
-   --\> La variable velocidad=100.
+    SI el pulsador SR (Derecho) está presionado:
+        --> La variable sentido = antihorario (indica que el giro será en sentido anti-horario).
+        --> La variable velocidad = 100.
+```
 
 **Detención:**
 
-   SI NO (es decir, si ninguno de los dos pulsadores está presionado):  
-      --\> La variable velocidad=0.
+```
+SI NO (es decir, si ninguno de los dos pulsadores está presionado):
+    --> La variable velocidad = 0.
+```
 
 **Hilo de actuación:**
 

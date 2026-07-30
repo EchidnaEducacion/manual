@@ -51,19 +51,16 @@ Para que el sistema pueda "**recordar**" si el LED está actualmente encendido o
 
 **Lógica de programación:**
 
-SI se pulsa el botón, el programa consulta el valor actual de la variable *estadoLED*:
+```
+SI se pulsa el botón, el programa consulta el valor actual de la variable estadoLED:
+    SI estadoLED indica APAGADO (valor 0), el programa:
+        --> Enciende el LED.
+        --> Cambia el valor de estadoLED a 1 (encendido).
 
-   SI *estadoLED* indica APAGADO (valor 0), el programa:
-
-      --\> Enciende el LED.
-
-      --\> Cambia el valor de *estadoLED* a 1 (encendido).
-
-   SI NO (si *estadoLED* indica ENCENDIDO valor 1):
-
-      --\> Apaga el LED.
-
-      --\> Cambia el valor de *estadoLED* a valor 0 (apagado).
+    SI NO (si estadoLED indica ENCENDIDO valor 1):
+        --> Apaga el LED.
+        --> Cambia el valor de estadoLED a valor 0 (apagado).
+```
 
 Para asegurar que el cambio de estado (encendido → apagado, o viceversa) ocurra una única vez por cada pulsación, es crucial evitar que el programa registre múltiples activaciones mientras el botón se mantiene presionado.
 
