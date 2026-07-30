@@ -12,5 +12,3 @@
 Información general sobre este recurso educativo
 
 Este contenido fue creado con [eXeLearning](http://exelearning.net/), el editor libre y de fuente abierta diseñado para crear recursos educativos.
-
-[Descargar el fichero .elp](https://rea.echidna.es/manual/Manual_EchidnaBlack_y_EchidnaML.elp)
