@@ -1,8 +1,10 @@
 # 2.4 Pines de entrada- salida
 
-![Pines entrada-salida](../assets/images/Pines_I-O.jpg "Pines entrada-salida"){ width="236" }
+<div class="img-text-row" markdown="1">
+![Pines entrada-salida](../assets/images/Pines_I-O.jpg "Pines entrada-salida"){ width="200" }
 
 Los **pines** de **entrada/salida** (I/O) son **conexiones** que nos permiten conectar dispositivos adicionales a la placa, actuando como entradas (sensores) o salidas (actuadores).
+</div>
 
 - Cuando funcionan como **entrada** reciben información de sensores externos.
 - Cuando funcionan como **salida**, envían señales desde la placa para controlar actuadores externos.
