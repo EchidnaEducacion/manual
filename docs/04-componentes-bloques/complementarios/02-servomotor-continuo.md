@@ -59,7 +59,7 @@ SI el pulsador SR (Derecho) está presionado:
 
 ```
 SI NO:
-    SI el pulsador SR (Derecho) está presionado:
+    SI el pulsador SL (Izquierdo) está presionado:
         --> La variable sentido = antihorario (indica que el giro será en sentido anti-horario).
         --> La variable velocidad = 100.
 ```
