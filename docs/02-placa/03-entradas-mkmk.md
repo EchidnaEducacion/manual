@@ -2,7 +2,7 @@
 
 Las **entradas** tipo **Makey Makey** (MkMk) se **habilitan** al desplazar el **conmutador** de modos de funcionamiento hacia la derecha. Un **LED rojo** se ilumina para avisar al usuario cuando el modo MkMk está **activo**.
 
-Las entradas **MkMk** son capaces de **detectar** **conductividad** eléctrica a través de una amplia variedad de materiales. La detección de la señal se produce cuando el circuito se cierra al tocar, de forma simultánea, el elemento conductor conectado a la entrada y el conector GND (o MkMk) de la placa.
+Las entradas **MkMk** son capaces de **detectar** **conductividad** eléctrica a través de una amplia variedad de materiales. La detección de la señal se produce cuando el circuito se cierra al tocar, de forma simultánea, el elemento conductor conectado a la entrada y el conector MkMk (o la superficie del símbolo Echidna) de la placa.
 
 ![Entradas MkMk](../assets/images/EntradasMkMk.jpg "Entradas MkMk"){ width="707" }
 
