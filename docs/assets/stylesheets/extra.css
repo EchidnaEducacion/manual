@@ -1,6 +1,33 @@
-/* Presentación sobria para un manual técnico y educativo. */
+/* Identidad visual de Echidna Educación aplicada al tema de Zensical.
+   Paleta y tipografía tomadas de https://echidna.es/ para que el manual se
+   sienta parte del mismo proyecto en vez de un sitio de documentación
+   genérico. */
+
+@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,400;0,600;0,700;1,400&display=swap");
+
 :root {
-  --md-text-font: "Inter", "Noto Sans", sans-serif;
+  --md-text-font: "Open Sans";
+  --md-echidna-orange: #e66a00;
+  --md-echidna-orange--light: #ff8f3d;
+  --md-echidna-orange--dark: #b85400;
+  --md-echidna-peach: #fff3ea;
+  --md-echidna-blue: #0091eb;
+
+  /* Ajusta el naranja "deep orange" de serie al naranja exacto de marca. */
+  --md-primary-fg-color: var(--md-echidna-orange);
+  --md-primary-fg-color--light: var(--md-echidna-orange--light);
+  --md-primary-fg-color--dark: var(--md-echidna-orange--dark);
+}
+
+/* Tipografía de titulares: Exo (la misma familia que usa echidna.es),
+   Open Sans se mantiene para el texto general vía theme.font. */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4,
+.md-nav__title,
+.md-header__topic {
+  font-family: "Exo", var(--md-text-font);
 }
 
 .md-typeset {
@@ -8,21 +35,38 @@
   line-height: 1.65;
 }
 
+.md-typeset h1 {
+  font-weight: 700;
+}
+
+.md-typeset h2 {
+  border-bottom: 2px solid var(--md-echidna-orange--light);
+  padding-bottom: 0.25rem;
+}
+
 .md-typeset img {
   display: block;
   height: auto;
   margin: 1.25rem auto;
   max-width: min(100%, 62rem);
-}
-
-.md-typeset h2 {
-  border-bottom: 1px solid var(--md-default-fg-color--lightest);
-  padding-bottom: 0.25rem;
+  border-radius: 6px;
 }
 
 .md-typeset table:not([class]) {
   display: table;
   width: 100%;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: var(--md-echidna-peach);
+}
+
+.md-typeset code {
+  border-radius: 4px;
+}
+
+.md-typeset pre > code {
+  border-radius: 8px;
 }
 
 /* El tema solo pone en negrita los apartados de nivel superior que tienen
@@ -64,4 +108,76 @@
   .md-typeset .img-text-row {
     flex-direction: column;
   }
+}
+
+/* Título accesible de la portada: el propio dibujo de portada.png ya
+   incluye el título como parte de la ilustración, así que el <h1> real
+   (necesario para accesibilidad y SEO) se mantiene en el documento pero
+   oculto visualmente para no repetirlo en pantalla. */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Tarjetas de acceso rápido de la portada. */
+.md-typeset .home-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.md-typeset .home-card {
+  /* Fondo claro fijo a propósito: la tarjeta debe leerse igual en modo
+     claro y oscuro, así que su texto también se fija (no hereda de
+     --md-default-fg-color, que cambia según el esquema). */
+  background: var(--md-echidna-peach);
+  color: #1a1a1a;
+  border-radius: 12px;
+  border-top: 4px solid var(--md-echidna-orange);
+  padding: 1.1rem 1.3rem 1.3rem;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.md-typeset .home-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.md-typeset .home-card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+  color: #1a1a1a;
+}
+
+.md-typeset .home-card p {
+  margin: 0 0 0.6rem;
+  color: #4a4a4a;
+}
+
+.md-typeset .home-card a {
+  font-weight: 600;
+  color: var(--md-echidna-orange--dark);
+}
+
+/* Botón de descarga del PDF, más visible que un enlace suelto. */
+.md-typeset .md-button {
+  border-radius: 8px;
+}
+
+.md-typeset .md-button--primary {
+  background-color: var(--md-echidna-orange);
+  border-color: var(--md-echidna-orange);
+}
+
+.md-typeset .md-button--primary:hover {
+  background-color: var(--md-echidna-orange--dark);
+  border-color: var(--md-echidna-orange--dark);
 }

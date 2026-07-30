@@ -76,8 +76,40 @@ nav = [
 [project.theme]
 language = "es"
 variant = "modern"
-logo = "assets/images/portada.png"
-features = ["navigation.sections", "navigation.indexes", "navigation.path", "navigation.top", "toc.follow"]
+logo = "assets/images/favicon.png"
+favicon = "assets/images/favicon.png"
+features = [
+  "navigation.sections",
+  "navigation.indexes",
+  "navigation.path",
+  "navigation.top",
+  "navigation.footer",
+  "toc.follow",
+  "content.code.copy"
+]
+
+[project.theme.font]
+text = "Open Sans"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+primary = "deep orange"
+accent = "light blue"
+
+[project.theme.palette.toggle]
+icon = "material/weather-night"
+name = "Cambiar a modo oscuro"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+primary = "deep orange"
+accent = "light blue"
+
+[project.theme.palette.toggle]
+icon = "material/weather-sunny"
+name = "Cambiar a modo claro"
 
 [project.markdown_extensions.attr_list]
 [project.markdown_extensions.md_in_html]
