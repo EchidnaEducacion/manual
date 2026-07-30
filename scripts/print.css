@@ -6,7 +6,28 @@
   size: A4;
   margin: 30mm 20mm 22mm 20mm;
 
-  @bottom-center {
+  @top-left {
+    content: string(doc-title);
+    font-size: 8pt;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    color: #999;
+  }
+  @top-right {
+    /* El ancho + image-resolution fijan el tamaño real (15mm x 7.82mm);
+       "height" no afecta a ese tamaño, solo desplaza la caja para alinear
+       verticalmente el logo con el texto de "doc-title" en @top-left. */
+    content: url(../docs/assets/images/Logo_Echidna_I.png);
+    width: 15mm;
+    height: 29mm;
+    image-resolution: 3838dpi;
+  }
+  @bottom-left {
+    content: string(chapter-title);
+    font-size: 9pt;
+    color: #777;
+  }
+  @bottom-right {
     content: counter(page);
     font-size: 9pt;
     color: #777;
@@ -15,18 +36,35 @@
 
 @page :first {
   margin: 0;
-  @bottom-center { content: none; }
+  @top-left { content: none; }
+  @top-right { content: none; }
+  @bottom-left { content: none; }
+  @bottom-right { content: none; }
 }
 
 @page chapter {
-  @top-center {
-    content: string(chapter-title);
+  @top-left {
+    content: string(doc-title);
     font-size: 8pt;
     letter-spacing: .04em;
     text-transform: uppercase;
     color: #999;
   }
-  @bottom-center {
+  @top-right {
+    /* El ancho + image-resolution fijan el tamaño real (15mm x 7.82mm);
+       "height" no afecta a ese tamaño, solo desplaza la caja para alinear
+       verticalmente el logo con el texto de "doc-title" en @top-left. */
+    content: url(../docs/assets/images/Logo_Echidna_I.png);
+    width: 15mm;
+    height: 29mm;
+    image-resolution: 3838dpi;
+  }
+  @bottom-left {
+    content: string(chapter-title);
+    font-size: 9pt;
+    color: #777;
+  }
+  @bottom-right {
     content: counter(page);
     font-size: 9pt;
     color: #777;
@@ -146,6 +184,7 @@ a { color: #1b1b1b; text-decoration: underline; }
 #cover h1 {
   font-size: 26pt;
   margin-bottom: .4rem;
+  string-set: doc-title content();
 }
 
 #cover p {
@@ -192,7 +231,6 @@ section.depth-1 {
   page: chapter;
 }
 
-section.depth-0 > h1,
-section.depth-1 > h2 {
+section.depth-0 > h1 {
   string-set: chapter-title content();
 }
