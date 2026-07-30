@@ -2,7 +2,7 @@
 
 En este apartado respondemos algunas preguntas que se dan con cierta frecuencia y que pueden resultar de ayuda.
 
-## Qué requisitos técnicos necesito
+## 7.1 Qué requisitos técnicos necesito
 
 Para trabajar con EchidnaML se requiere un ordenador de escritorio o portátil con prestaciones básicas. En algunas distribuciones de software libre educativo viene instalada por defecto. Este software no es compatible con Chromebooks, dispositivos móviles ni tablets.
 
@@ -16,7 +16,7 @@ EchidnaML es compatible con los principales sistemas operativos de escritorio:
 
 Se recomienda mantener el sistema operativo actualizado y disponer de permisos de instalación para garantizar el correcto funcionamiento del programa y la comunicación con la placa EchidnaBlack.
 
-## Cómo instalo EchidnaML en mi ordenador
+## 7.2 Cómo instalo EchidnaML en mi ordenador
 
 Para instalar EchidnaML en tu ordenador debes seguir los siguientes pasos en función del SO que tengas.
 
@@ -62,7 +62,7 @@ Método 1: Permitir la instalación manualmente al abrir el archivo
 
 Después de descargar el programa para Windows “EchidnaML.msi”, hacemos doble “clic” sobre él, daremos permiso para instalar y listo.
 
-## El programa no detecta la placa
+## 7.3 El programa no detecta la placa
 
 Si al abrir EchidnaML el programa no detecta la placa se puede deber a:
 
@@ -92,7 +92,7 @@ Dependiendo del SO es necesario dar o no permisos de acceso al puerto serie. Si 
 
 **Windows**: por defecto ya tenemos acceso al puerto serie.
 
-## Puedo conectar la placa una vez abierto programa
+## 7.4 Puedo conectar la placa una vez abierto programa
 
 Lo más recomendable es conectar la placa EchidnaBlack2 al ordenador antes de abrir el entorno de programación EchidnaML. Esto asegura una detección rápida y que no perdamos el trabajo realizado.
 
@@ -105,11 +105,11 @@ Si ya has abierto el programa EchidnaML y quieres conectar la placa posteriormen
 
 Debe tener en cuenta que el proceso de detección y conexión reinicia el entorno de trabajo, provocando la pérdida de cualquier proyecto no guardado. Por esta razón, guarda siempre tu proyecto en el ordenador antes de iniciar el proceso de detección para evitar la pérdida de trabajo y poder recuperarlo.
 
-## El joystick registra valores mínimos muy altos y/o máximos muy bajos
+## 7.5 El joystick registra valores mínimos muy altos y/o máximos muy bajos
 
 En ocasiones el capuchón del joystick viene insertado muy profundamente en el eje, lo que provoca que choque contra la base y no haga todo el recorrido. Prueba a sacarlo un poco hacia arriba.
 
-## Que diferencias hay entre EchidnaBlack y EchidnaBlack2
+## 7.6 Que diferencias hay entre EchidnaBlack y EchidnaBlack2
 
 Si tienes una EchidnaBlack debes saber que casi todo lo que se cuenta en este manual es válido para tu placa.
 
@@ -160,7 +160,7 @@ Eje x, y, z</td>
 </tbody>
 </table>
 
-## Qué tensiones soporta la placa
+## 7.7 Qué tensiones soporta la placa
 
 #### Alimentación por USB-C (Recomendada para la mayoría de usos)
 
