@@ -1,8 +1,8 @@
-# 7. PREGUNTAS FRECUENTES
+# 9. PREGUNTAS FRECUENTES
 
 En este apartado respondemos algunas preguntas que se dan con cierta frecuencia y que pueden resultar de ayuda.
 
-## 7.1 Qué requisitos técnicos necesito
+## 9.1 Qué requisitos técnicos necesito
 
 Para trabajar con EchidnaML se requiere un ordenador de escritorio o portátil con prestaciones básicas. En algunas distribuciones de software libre educativo viene instalada por defecto. Este software no es compatible con Chromebooks, dispositivos móviles ni tablets.
 
@@ -16,59 +16,13 @@ EchidnaML es compatible con los principales sistemas operativos de escritorio:
 
 Se recomienda mantener el sistema operativo actualizado y disponer de permisos de instalación para garantizar el correcto funcionamiento del programa y la comunicación con la placa EchidnaBlack.
 
-## 7.2 Cómo instalo EchidnaML en mi ordenador
-
-Para instalar EchidnaML en tu ordenador debes seguir los siguientes pasos en función del SO que tengas.
-
-#### **GNU Linux:**
-
-Al descargar el programa nos descarga un archivo echidna_1.4.0_amd64.deb (o la versión que corresponda). 
-
-En GNU Linux tienes diversas formas de instalar el SO.
-
-**A- Clicar en el archivo**
-
-Hacer doble clic en el archivo.
-
-**B- Desde el terminal:**
-
-1- Nos debemos mover a la carpeta donde tenemos descargado el archivo
-
-cd Descargas
-
-2- Ejecutar la siguiente instrucción:
-
-sudo dpkg -i echidna_1.4.0_amd64.deb (o la versión que corresponda)
-
-#### macOS:
-
-Al descargar el programa nos descarga un archivo tipo: echidnaML-v1.4.dmg
-
-Debemos dar permiso para que instale un programa externo de una fuente no confiable. Para instalar una aplicación de una fuente no confiable en macOS, tenemos dos opciones:
-
-Método 1: Permitir la instalación manualmente al abrir el archivo
-
-1.  Busca la aplicación que deseas instalar en el Finder.
-2.  Haz clic derecho sobre el archivo y selecciona Abrir.
-3.  Verás un mensaje de advertencia. Haz clic en Abrir para confirmar la instalación. 
-
-**Método 2: Anular los ajustes de seguridad**
-
-1.  Ve a Ajustes del Sistema (o Preferencias del Sistema en versiones anteriores de macOS) y haz clic en Privacidad y Seguridad. 
-2.  Desplázate hacia abajo hasta la sección de seguridad y verás el mensaje sobre la aplicación bloqueada.
-3.  Haz clic en el botón Abrir igualmente.
-
-#### Windows:
-
-Después de descargar el programa para Windows “EchidnaML.msi”, hacemos doble “clic” sobre él, daremos permiso para instalar y listo.
-
-## 7.3 El programa no detecta la placa
+## 9.2 El programa no detecta la placa
 
 Si al abrir EchidnaML el programa no detecta la placa se puede deber a:
 
 **1. EchidnaBlack no tiene instalado el Firmware StandardFirmata:**
 
-Aunque el firmware viene instalado de serie alguien puede haber escrito otro programa. Si es así debemos instalar el programa StandardFirmata tal como se especifica en el apartado 7 de esta guía.
+Aunque el firmware viene instalado de serie alguien puede haber escrito otro programa. Si es así debemos instalar el programa StandardFirmata tal como se especifica en el apartado 6 de esta guía.
 
 **2. Nuestro ordenador no reconoce el puerto USB al que se conecta EchidnaML:**
 
@@ -92,7 +46,7 @@ Dependiendo del SO es necesario dar o no permisos de acceso al puerto serie. Si 
 
 **Windows**: por defecto ya tenemos acceso al puerto serie.
 
-## 7.4 Puedo conectar la placa una vez abierto programa
+## 9.3 Puedo conectar la placa una vez abierto programa
 
 Lo más recomendable es conectar la placa EchidnaBlack2 al ordenador antes de abrir el entorno de programación EchidnaML. Esto asegura una detección rápida y que no perdamos el trabajo realizado.
 
@@ -105,11 +59,11 @@ Si ya has abierto el programa EchidnaML y quieres conectar la placa posteriormen
 
 Debe tener en cuenta que el proceso de detección y conexión reinicia el entorno de trabajo, provocando la pérdida de cualquier proyecto no guardado. Por esta razón, guarda siempre tu proyecto en el ordenador antes de iniciar el proceso de detección para evitar la pérdida de trabajo y poder recuperarlo.
 
-## 7.5 El joystick registra valores mínimos muy altos y/o máximos muy bajos
+## 9.4 El joystick registra valores mínimos muy altos y/o máximos muy bajos
 
 En ocasiones el capuchón del joystick viene insertado muy profundamente en el eje, lo que provoca que choque contra la base y no haga todo el recorrido. Prueba a sacarlo un poco hacia arriba.
 
-## 7.6 Que diferencias hay entre EchidnaBlack y EchidnaBlack2
+## 9.5 Que diferencias hay entre EchidnaBlack y EchidnaBlack2
 
 Si tienes una EchidnaBlack debes saber que casi todo lo que se cuenta en este manual es válido para tu placa.
 
@@ -160,7 +114,7 @@ Eje x, y, z</td>
 </tbody>
 </table>
 
-## 7.7 Qué tensiones soporta la placa
+## 9.6 Qué tensiones soporta la placa
 
 #### Alimentación por USB-C (Recomendada para la mayoría de usos)
 

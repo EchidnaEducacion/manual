@@ -61,10 +61,16 @@ nav = [
     "06-firmata/01-que-es-firmata.md",
     "06-firmata/02-instalar-standardfirmata.md"
   ]},
-  {"7. Preguntas frecuentes" = "07-preguntas-frecuentes.md"},
-  {"8. Características técnicas" = "08-caracteristicas-tecnicas.md"},
-  {"9. Referencias" = "09-referencias.md"},
-  {"10. Licencia" = "10-licencia.md"}
+  {"7. Características técnicas" = "07-caracteristicas-tecnicas.md"},
+  {"8. Instalación de EchidnaML" = [
+    "08-instalacion-echidnaml/index.md",
+    "08-instalacion-echidnaml/01-linux.md",
+    "08-instalacion-echidnaml/02-windows.md",
+    "08-instalacion-echidnaml/03-macos.md"
+  ]},
+  {"9. Preguntas frecuentes" = "09-preguntas-frecuentes.md"},
+  {"10. Referencias" = "10-referencias.md"},
+  {"11. Licencia" = "11-licencia.md"}
 ]
 
 [project.theme]
