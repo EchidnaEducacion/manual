@@ -72,6 +72,13 @@ dirigida a docentes y alumnado de secundaria que usan la placa EchidnaBlack.
   eXeLearning): se dejan en HTML embebido tal cual, gracias a las
   extensiones `attr_list` y `md_in_html` activadas en `zensical.toml`. No
   las reescribas a Markdown salvo que se pida simplificarlas.
+- **Pseudocódigo** ("Lógica de programación" con `SI ... / SI NO ...` y
+  `-->`): siempre en un bloque de código con ``` ``` ``` (extensión
+  `fenced_code`, activada en `zensical.toml`), con 4 espacios por nivel de
+  indentación y sin escapar `>` ni comillas dentro del bloque. No uses
+  indentación suelta para que "parezca" código: por debajo de 4 espacios no
+  se renderiza como bloque en la web, y en el PDF depende de `print.css`
+  (que solo estiliza `pre`/`code` reales).
 
 ## Estructura del repositorio
 
