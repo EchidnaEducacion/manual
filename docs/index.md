@@ -32,4 +32,12 @@ Resuelve las dudas más habituales al instalar o usar el sistema.
 [Ver preguntas frecuentes →](09-preguntas-frecuentes.md)
 </div>
 
+<div class="home-card" markdown="1">
+### Inspírate
+
+Descubre proyectos, actividades y recursos educativos en el blog de Echidna Educación.
+
+[Ir al blog →](https://echidna.es/blog/)
+</div>
+
 </div>
