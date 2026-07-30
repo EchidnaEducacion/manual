@@ -30,17 +30,16 @@ Este ejemplo utiliza **dos pulsadores** para **controlar** el **encendido** y **
 
 **Lógica de programación:**
 
-El programa comprueba continuamente: 
+El programa comprueba continuamente:
 
+```
 SI el pulsador derecho (SR) está presionado:
-
-   --\> Enciende el LED Rojo inmediatamente.
+    --> Enciende el LED Rojo inmediatamente.
 
 SI NO (es decir, si SR no está presionado el programa comprueba la segunda condición):
-
-   SI el pulsador izquierdo (SL) está presionado:
-
-      --\> Apaga el LED Rojo.
+    SI el pulsador izquierdo (SL) está presionado:
+        --> Apaga el LED Rojo.
+```
 
 ## EJEMPLO: Pulsador con memoria
 
