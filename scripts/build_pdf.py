@@ -71,6 +71,12 @@ def render_page(depth, md_path, url_to_id):
     for el in article.xpath(".//*[@src]"):
         el.set("src", urljoin(page_dir_uri, el.get("src")))
 
+    for img in article.xpath(".//img[@width]"):
+        # WeasyPrint, a diferencia de un navegador, ignora el atributo HTML
+        # `width` de <img> y usa el tamaño nativo de la imagen. Lo pasamos a
+        # estilo en línea para que el PDF mida lo mismo que la web.
+        img.set("style", f"width: {img.get('width')}px; height: auto;")
+
     for el in article.xpath(".//*[@id]"):
         el.set("id", f"{page_id}--{el.get('id')}")
 
