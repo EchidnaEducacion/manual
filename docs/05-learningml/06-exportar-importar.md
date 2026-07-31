@@ -4,6 +4,6 @@ La versión de **LearningML** en EchidnaML es un programa de **Escritorio**, por
 
 ![Guardar LearningML](../assets/images/Guardar_LearningML.png "Guardar LearningML"){ width="998" }
 
-Para recuperar el proyecto debes pulsar en Archivo→ Cargar desde tu ordenador y buscar el archivo en la carpeta donde lo almacenaste.
+Para recuperar el proyecto, pulsa en Archivo → Cargar desde tu ordenador y busca el archivo en la carpeta donde lo almacenaste.
 
 Los datos de entrenamiento de los modelos se almacenan en **formato** **json** y son compatibles con los realizados en LearningML escritorio y online. Una vez cargado un archivo json en LearningML será necesario hacer clic en el botón Aprender para poder usar el modelo.

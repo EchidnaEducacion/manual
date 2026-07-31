@@ -1,6 +1,6 @@
 # 6.2 Cómo instalar StandardFirmata
 
-Vamos a ver como instalar StandardFirmata usando el **IDE de Arduino**,, para lo cual debes seguir los siguientes pasos:
+Vamos a ver cómo instalar StandardFirmata usando el **IDE de Arduino**, para lo cual debes seguir los siguientes pasos:
 
 **1- Instalar IDE Arduino:**
 
@@ -34,7 +34,7 @@ En el que el número asignado puede variar en función de los dispositivos que t
 
 Lo hacemos desde el menú Archivo → Ejemplos→ Firmata→ StandardFirmata. 
 
-Atención si no hemos seleccionado la placa en el paso anterior no nos aparece los programas Firmata.
+Atención si no hemos seleccionado la placa en el paso anterior no nos aparecen los programas Firmata.
 
 **6- Cargamos el programa en la placa.** 
 
@@ -42,9 +42,9 @@ Para ello clica en el botón “Subir”, que indica al IDE Arduino que cargue e
 
 Una vez cargado tu Echidna ya está lista para ser programada con EchidnaML. Aunque desconectes la placa y la guardes, el programa StandardFirmata seguirá instalado en la placa. Cuando la vuelvas a conectar a la computadora, se ejecutará dicho programa y será capaz de comunicarse con EchidnaML. Así que la carga del programa StandardFirmata solo la tendrás que hacer una vez.
 
-## ¿Que otros programas puedo usar?
+## ¿Qué otros programas puedo usar?
 
-Hemos explicado como usar el IDE de Arduino, pero también puedes usar otros programas como:
+Hemos explicado cómo usar el IDE de Arduino, pero también puedes usar otros programas como:
 
 - [PlatformIO](https://platformio.org/install)
 - [Eclipse Arduino IDE](https://www.eclipse.org/community/eclipse_newsletter/2017/april/article4.php)

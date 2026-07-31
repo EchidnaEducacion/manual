@@ -67,31 +67,31 @@ Medimos el valor del sensor y lo almacenamos en la variable lecturaIR. Tal como 
 **Zona Segura:**
 
 ```
-SI la distancia es menor de 200:
-    --> El zumbador permanece apagado.
+Si la distancia es menor de 200:
+    ➡ Entonces el zumbador permanece apagado.
 ```
 
 **Zona de Advertencia:**
 
 ```
-SI NO:
-    SI la variable lecturaIR es menor de 400 (200 ≤ distancia < 400):
-        --> Los pitidos se encienden y apagan con pausas de 0,2 segundos.
+Si no:
+    Si la variable lecturaIR es menor de 400 (200 ≤ distancia < 400):
+        ➡ Entonces los pitidos se encienden y apagan con pausas de 0,2 segundos.
 ```
 
 **Zona de Peligro Alto:**
 
 ```
-SI NO,
-    SI la variable lecturaIR es menor de 600 (400 ≤ distancia < 600):
-        --> El zumbador se enciende y apaga cada 0,1 segundos, produciendo un ritmo más rápido.
+Si no:
+    Si la variable lecturaIR es menor de 600 (400 ≤ distancia < 600):
+        ➡ Entonces el zumbador se enciende y apaga cada 0,1 segundos, produciendo un ritmo más rápido.
 ```
 
 **Zona Crítica** (Colisión Inminente):
 
 ```
-SI NO (si ninguna de las condiciones anteriores se cumple, es decir, la variable lecturaIR es mayor o igual a 600):
-    --> El zumbador emite pitidos muy rápidos, encendiéndose y apagándose cada 0,05 segundos.
+Si no (si ninguna de las condiciones anteriores se cumple, es decir, la variable lecturaIR es mayor o igual a 600):
+    ➡ Entonces el zumbador emite pitidos muy rápidos, encendiéndose y apagándose cada 0,05 segundos.
 ```
 
 Todo este proceso se repite mediante un bucle por siempre, ajustando el sonido según lo cerca o lejos que esté el objeto.

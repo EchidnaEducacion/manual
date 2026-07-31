@@ -41,23 +41,23 @@ El programa evalúa continuamente la temperatura ambiente y asigna un color espe
 **Zona Fría** (Alerta Azul):
 
 ```
-SI la temperatura es inferior a 20°C:
-    --> El LED RGB se ilumina en color azul.
+Si la temperatura es inferior a 20°C:
+    ➡ Entonces el LED RGB se ilumina en color azul.
 ```
 
 **Zona Media** (Temperatura Óptima/Verde):
 
 ```
-SI NO
-    SI la temperatura es menor de 30ºC (está entre 20°C y 30°C):
-        --> El LED RGB se ilumina en color verde.
+Si no:
+    Si la temperatura es menor de 30°C (está entre 20°C y 30°C):
+        ➡ Entonces el LED RGB se ilumina en color verde.
 ```
 
 **Zona Caliente** (Alerta Roja):
 
 ```
-SI NO (es decir, si la temperatura supera los 30°C):
-    --> El LED RGB se ilumina en color rojo.
+Si no (es decir, si la temperatura supera los 30°C):
+    ➡ Entonces el LED RGB se ilumina en color rojo.
 ```
 
 ## EJEMPLO: Recorremos los 16.7 millones de colores

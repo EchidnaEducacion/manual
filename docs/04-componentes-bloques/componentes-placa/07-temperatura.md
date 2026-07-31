@@ -19,7 +19,7 @@ Para leer la temperatura podemos usar el siguiente **bloque**.
 
 ![bloque temperatura](../../assets/images/bloque_temperatura.png "bloque temperatura"){ width="275" }
 
-El bloque utiliza la fórmula de conversión anterior para convertir la tensión de lectura en voltios a ºC.
+El bloque utiliza la fórmula de conversión anterior para convertir la tensión de lectura en voltios a °C.
 
 Puedes activar la casilla de verificación para ver el valor registrado.
 

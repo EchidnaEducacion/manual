@@ -1,6 +1,6 @@
 # 5.4 Modelo de números
 
-En este tercer ejemplo con **LearningML** veremos los pasos para crear un **modelo** de **números** y como usarlo con **EchidnaBlocks**.
+En este tercer ejemplo con **LearningML** veremos los pasos para crear un **modelo** de **números** y cómo usarlo con **EchidnaBlocks**.
 
 En este caso vamos a crear un modelo que nos **clasifique** la **inclinación** de la **placa** detectando: **derecha** e **izquierda**. En EchidnaBlocks vamos a desplazar el personaje en la dirección que nos clasifique.
 
@@ -27,7 +27,7 @@ En este caso vamos a crear dos **clases**:
 - **Derecha**
 - **Izquierda**
 
-Los números se deben introducir separándolos con una coma. Cómo hemos elegido un número de columnas igual a 2, debemos introducir un par de números separados por una coma.
+Los números se deben introducir separándolos con una coma. Como hemos elegido un número de columnas igual a 2, debemos introducir un par de números separados por una coma.
 
 ![Clases numeros](../assets/images/Clases_numeros.png "Clases numeros"){ width="680" }
 
@@ -62,9 +62,9 @@ En este ejemplo, cuando **presionamos** el botón **SL**, el programa **clasific
 **Lógica de programación:**
 
 ```
-SI la clasifica como "derecha":
-    --> El personaje se desplaza a la derecha.
+Si la clasifica como "derecha":
+    ➡ Entonces el personaje se desplaza a la derecha.
 
-SI la clasifica como "izquierda":
-    --> El personaje se desplaza a la izquierda.
+Si la clasifica como "izquierda":
+    ➡ Entonces el personaje se desplaza a la izquierda.
 ```

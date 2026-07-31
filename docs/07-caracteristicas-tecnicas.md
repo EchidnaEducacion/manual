@@ -6,7 +6,7 @@
 
 - Joystick X,Y lineal
 - Sensor de luz LDR sensible 400 - 600LUX a 540nm
-- Sensor de temperatura -40°C to +125°C 10mV/ºC
+- Sensor de temperatura -40°C to +125°C 10mV/°C
 - Acelerómetro X-Y-Z ±2g (I2C “0x18h” )
 - Micrófono omnidireccional 100 - 20KHZ.
 - Pulsadores 12mm 1.27 - 2.55N
