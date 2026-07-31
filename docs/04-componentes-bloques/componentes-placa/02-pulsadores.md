@@ -33,12 +33,12 @@ Este ejemplo utiliza **dos pulsadores** para **controlar** el **encendido** y **
 El programa comprueba continuamente:
 
 ```
-Si el pulsador derecho (SR) está presionado:
-    ➡ Entonces enciende el LED Rojo inmediatamente.
+SI el pulsador derecho (SR) está presionado:
+    --> Enciende el LED Rojo inmediatamente.
 
-Si no (es decir, si SR no está presionado el programa comprueba la segunda condición):
-    Si el pulsador izquierdo (SL) está presionado:
-        ➡ Entonces apaga el LED Rojo.
+SI NO (es decir, si SR no está presionado el programa comprueba la segunda condición):
+    SI el pulsador izquierdo (SL) está presionado:
+        --> Apaga el LED Rojo.
 ```
 
 ## EJEMPLO: Pulsador con memoria
@@ -52,14 +52,14 @@ Para que el sistema pueda "**recordar**" si el LED está actualmente encendido o
 **Lógica de programación:**
 
 ```
-Si se pulsa el botón, el programa consulta el valor actual de la variable estadoLED:
-    Si estadoLED indica APAGADO (valor 0), el programa:
-        ➡ Entonces enciende el LED.
-        ➡ Entonces cambia el valor de estadoLED a 1 (encendido).
+SI se pulsa el botón, el programa consulta el valor actual de la variable estadoLED:
+    SI estadoLED indica APAGADO (valor 0), el programa:
+        --> Enciende el LED.
+        --> Cambia el valor de estadoLED a 1 (encendido).
 
-    Si no (si estadoLED indica ENCENDIDO valor 1):
-        ➡ Entonces apaga el LED.
-        ➡ Entonces cambia el valor de estadoLED a valor 0 (apagado).
+    SI NO (si estadoLED indica ENCENDIDO valor 1):
+        --> Apaga el LED.
+        --> Cambia el valor de estadoLED a valor 0 (apagado).
 ```
 
 Para asegurar que el cambio de estado (encendido → apagado, o viceversa) ocurra una única vez por cada pulsación, es crucial evitar que el programa registre múltiples activaciones mientras el botón se mantiene presionado.

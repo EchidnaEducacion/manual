@@ -34,11 +34,11 @@ Este ejemplo muestra como **controlar** automaticamente el **encendido** de un *
 El programa revisa continuamente:
 
 ```
-Si el sensor de luz registra valores menores de 200:
-    ➡ Entonces se enciende el LED verde.
+SI el sensor de luz registra valores menores de 200:
+    --> Se enciende el LED verde.
 
-Si no (si registra valores mayores):
-    ➡ Entonces se apaga el LED.
+SI NO (si registra valores mayores):
+    --> Se apaga el LED.
 ```
 
 El valor 200 actúa como el umbral que define cuándo debe encenderse o apagarse la luz.

@@ -50,15 +50,15 @@ Este ejemplo utiliza el Joystick (control de dos ejes) para controlar el movimie
 **![Ejemplo pintamos joystick](../../assets/images/Ejemplo_Pintamos.png "Ejemplo pintamos joystick"){ width="357" }**
 
 ```
-Si el joystick se desplaza a la derecha y registra valores mayores de 900 en el eje x:
-    ➡ Entonces el puntero se desplaza hacia la derecha.
+SI el joystick se desplaza a la derecha y registra valores mayores de 900 en el eje x:
+    --> El puntero se desplaza hacia la derecha.
 
-Si el joystick se desplaza a la izquierda y registra valores menores de 100 en el eje x:
-    ➡ Entonces el puntero se desplaza hacia la izquierda.
+SI el joystick se desplaza a la izquierda y registra valores menores de 100 en el eje x:
+    --> El puntero se desplaza hacia la izquierda.
 
-Si el joystick se desplaza hacia arriba y registra valores mayores de 900 en el eje y:
-    ➡ Entonces el puntero se desplaza hacia arriba.
+SI el joystick se desplaza hacia arriba y registra valores mayores de 900 en el eje y:
+    --> El puntero se desplaza hacia arriba.
 
-Si el joystick se desplaza hacia abajo y registra valores menores de 100 en el eje y:
-    ➡ Entonces el puntero se desplaza hacia abajo.
+SI el joystick se desplaza hacia abajo y registra valores menores de 100 en el eje y:
+    --> El puntero se desplaza hacia abajo.
 ```

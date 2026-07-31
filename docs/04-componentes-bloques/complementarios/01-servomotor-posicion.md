@@ -41,13 +41,13 @@ Este ejemplo muestra cómo **controlar** la **posición** **angular** de un **se
 El programa ajusta el valor de la variable ángulo mediante dos condiciones:
 
 ```
-Si el valor del joystick x es mayor de 600 y el ángulo menor de 180º:
-    ➡ Entonces sumamos uno al valor de la variable ángulo.
-    ➡ Entonces ajustamos la posición del servo.
+SI el valor del joystick x es mayor de 600 y el ángulo menor de 180º:
+    --> Sumamos uno al valor de la variable ángulo.
+    --> Ajustamos la posición del servo.
 
-Si el valor del joystick x es menor de 600 y el ángulo mayor de 0º:
-    ➡ Entonces restamos uno al valor de la variable ángulo.
-    ➡ Entonces ajustamos la posición del servo.
+SI el valor del joystick x es menor de 600 y el ángulo mayor de 0º:
+    --> Restamos uno al valor de la variable ángulo.
+    --> Ajustamos la posición del servo.
 ```
 
 Introducimos un tiempo de espera de 0,1 s que evita que el servo esté continuamente reposicionándose, lo cual podría llevar a un funcionamiento inestable.

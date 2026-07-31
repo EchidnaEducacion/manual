@@ -79,11 +79,11 @@ Este **ejemplo** muestra cómo **usar** el **modelo** de Machine Learning que he
 **Clasificación**: Si la confianza es suficiente, el sistema determina la clase:
 
 ```
-Si la clase es "Enciende":
-    ➡ Entonces el programa envía la instrucción para encender el LED.
+SI la clase es "Enciende":
+    --> El programa envía la instrucción para encender el LED.
 
-Si la clase es "Apaga":
-    ➡ Entonces el programa envía la instrucción para apagar el LED.
+SI la clase es "Apaga":
+    --> El programa envía la instrucción para apagar el LED.
 ```
 
 Al finalizar, el personaje vuelve a decir: “¿Qué necesitas?”, indicando que está listo para una nueva clasificación.
