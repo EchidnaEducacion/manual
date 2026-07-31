@@ -48,8 +48,8 @@ SI la temperatura es inferior a 20°C:
 **Zona Media** (Temperatura Óptima/Verde):
 
 ```
-SI NO
-    SI la temperatura es menor de 30ºC (está entre 20°C y 30°C):
+SI NO:
+    SI la temperatura es menor de 30°C (está entre 20°C y 30°C):
         --> El LED RGB se ilumina en color verde.
 ```
 

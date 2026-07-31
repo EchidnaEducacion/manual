@@ -44,7 +44,7 @@ Este proceso se denomina **aprendizaje a partir de datos** y constituye el funda
 
 ## 3- Probar
 
-Una vez construido el modelo, debemos realizar **pruebas** para **comprobar** si el modelo **clasifica** **correctamente** y con que % de confianza lo hace.
+Una vez construido el modelo, debemos realizar **pruebas** para **comprobar** si el modelo **clasifica** **correctamente** y con qué % de confianza lo hace.
 
 Para esta fase de verificación, es crucial **utilizar** **textos** que sean **distintos** a los ejemplos que se introdujeron durante el proceso de entrenamiento. Esto garantiza que estamos probando la capacidad de generalización del modelo, y no simplemente su "memoria".
 
@@ -74,7 +74,7 @@ Este **ejemplo** muestra cómo **usar** el **modelo** de Machine Learning que he
 
 **Consulta**: El personaje pregunta qué necesitamos y envía la respuesta que introduce el usuario al modelo de machine learning para su clasificación.
 
-**Verificación de Confianza:** El sistema comprueba el índice de confianza que el modelo asigna a su clasificación. La acción sólo se ejecuta SI este índice es superior al 60%. En caso de que la Confianza sea menor del 60% el programa dice “No te he entendido”.
+**Verificación de Confianza:** El sistema comprueba el índice de confianza que el modelo asigna a su clasificación. La acción sólo se ejecuta si este índice es superior al 60%. En caso de que la Confianza sea menor del 60% el programa dice “No te he entendido”.
 
 **Clasificación**: Si la confianza es suficiente, el sistema determina la clase:
 

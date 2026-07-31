@@ -82,7 +82,7 @@ SI NO:
 **Zona de Peligro Alto:**
 
 ```
-SI NO,
+SI NO:
     SI la variable lecturaIR es menor de 600 (400 ≤ distancia < 600):
         --> El zumbador se enciende y apaga cada 0,1 segundos, produciendo un ritmo más rápido.
 ```

@@ -22,7 +22,7 @@ Para empezar a trabajar con EchidnaML, es necesario [descargar el programa](http
 
 #### **Detección de la placa**
 
-El **programa** **detecta** **automáticamente** la **placa** y la versión de la misma que estamos utilizando EchidnaBlack o EchidnaBlack2. Para ello debemos conectar la placa antes de abrir EchidnaML.
+El **programa** **detecta** **automáticamente** la **placa** y la versión de la misma que estamos utilizando: EchidnaBlack o EchidnaBlack2. Para ello debemos conectar la placa antes de abrir EchidnaML.
 
 **Trabajo sin la placa conectada:**
 

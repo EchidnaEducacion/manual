@@ -1,6 +1,6 @@
 # 5.3 Modelo de imágenes
 
-En este segundo ejemplo con **LearningML** veremos los pasos para crear un **modelo** de **imagenes** y como usarlo con **EchidnaBlocks**.
+En este segundo ejemplo con **LearningML** veremos los pasos para crear un **modelo** de **imagenes** y cómo usarlo con **EchidnaBlocks**.
 
 Vamos a crear un modelo que nos clasifique los envases y papeles en las categorías amarillo y azul. En EchidnaBlocks vamos a mostrar la clasificación mediante un LED RGB y vamos a abrir el contenedor con un servomotor.
 

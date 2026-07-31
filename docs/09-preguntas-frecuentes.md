@@ -145,7 +145,7 @@ Este jumper te permite elegir qué tensión quieres enviar a los pines de entrad
 
 En el caso de querer alimentar las I/O desde los 5 Volts procedentes del regulador integrado, el selector tiene que estar colocado como indica la imagen de la izquierda. Aconsejado para sensores externos que necesiten una tensión estabilizada.
 
-¡No utilizar la alimentación 5 Volts cuando los dispositivos conectados consuman más de 500 mA!. De lo contrario sobrepasaríamos la capacidad del regulador.
+¡No utilices la alimentación 5 Volts cuando los dispositivos conectados consuman más de 500 mA! De lo contrario sobrepasaríamos la capacidad del regulador.
 
 **Selector alimentación Vin (Alimentación externa):**
 

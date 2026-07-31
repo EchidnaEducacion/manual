@@ -24,7 +24,7 @@ En el bloque **seleccionamos** eje x, eje y o eje z.
 - El acelerómetro en reposo proporciona valores en torno a 0 en los ejes x e y, y 1 en el eje z.
 - En el eje x proporciona valor de 0 a -1 al elevar la parte derecha y de 0 a 1 al elevar la parte izquierda.
 - En el eje y proporciona valor de 0 a -1 al elevar la parte trasera y de 0 a 1 al elevar la parte delantera.
-- En el eje z se pueden registrar valores de menores de -2 al subirla placa rápidamente y de más de 2 al bajarla rápidamente.
+- En el eje z se pueden registrar valores de menores de -2 al subir la placa rápidamente y de más de 2 al bajarla rápidamente.
 
 ## EJEMPLO: Movemos el echidna
 
