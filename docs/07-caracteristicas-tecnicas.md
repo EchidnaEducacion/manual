@@ -10,7 +10,7 @@
 - Acelerómetro X-Y-Z ±2g (I2C “0x18h” )
 - Micrófono omnidireccional 100 - 20KHZ.
 - Pulsadores 12mm 1.27 - 2.55N
-- Entradas MKMK Conductivas
+- Entradas MkMk Conductivas
 
 **Actuadores incorporados:**
 

@@ -1,4 +1,4 @@
-# 4.1.10 Entrada MKMk: Piano
+# 4.1.10 Entrada MkMk: Piano
 
 ## COMPONENTE:
 
@@ -26,7 +26,7 @@ En el bloque podemos seleccionar la entrada MkMk que queramos utilizar.
 
 - Con el circuito abierto el sensor da valor **false** (0).
 - Cuando cerramos el circuito, si el valor leido en la entrada analógica es mayor de 350, el valor reportado por el bloque es **true** (1).
-- El **umbral** para cambiar de **false** a **true** está establecido en 350 dentro del rango de lecturas analógicas que puede registrar la entrada MKMK (0–1023).
+- El **umbral** para cambiar de **false** a **true** está establecido en 350 dentro del rango de lecturas analógicas que puede registrar la entrada MkMk (0–1023).
 
 Si queremos cambiar el valor del umbral podemos usar el bloque leer entrada analógica tal como se muestra en el segundo ejemplo: Ajustar sensibilidad.
 
