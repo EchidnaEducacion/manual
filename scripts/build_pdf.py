@@ -113,12 +113,14 @@ def render_page(depth, md_path, url_to_id):
 
 
 def render_cover(site_title):
-    portada = (SITE_DIR / "assets/images/portada.png").resolve().as_uri()
+    portada = (SITE_DIR / "assets/images/Portada_Manual_Echidna.jpg").resolve().as_uri()
+    # El <h1> no se muestra (ver #cover h1 en print.css): solo existe para
+    # fijar el string-set de doc-title que aparece en la cabecera del resto
+    # de páginas del PDF.
     return f"""
 <section id="cover">
   <img src="{portada}" alt="Portada">
   <h1>{site_title}</h1>
-  <p>Echidna Educación</p>
 </section>
 """
 
