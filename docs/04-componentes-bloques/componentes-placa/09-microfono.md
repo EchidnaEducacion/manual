@@ -57,6 +57,6 @@ Una técnica efectiva para reducir esta variabilidad es el cálculo de la **medi
 2\. Cada diez medidas (o el número de muestras predefinido):
 
 1.  Calculamos el valor promedio (mediaSonido) dividiendo la suma entre el número de muestras.
-2.  Inicializamos las variables suma y númeroDatos.
+2.  Inicializamos las variables suma y numeroDatos.
 
 De esta forma, se suaviza la lectura y se obtienen valores más estables y representativos de la intensidad del sonido ambiente.

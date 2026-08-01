@@ -2,7 +2,7 @@
 
 A continuación se **describen** los **componentes** que lleva integrados la **placa**. En cada uno de ellos se explica uno o varios ejemplos de uso, recuerda que los tienes accesibles en EchidnaBlocks.
 
-[4.1.1 Ledes: Semáforo e intensidad luminosa](01-ledes.md)  
+[4.1.1 LEDs: Semáforo e intensidad luminosa](01-ledes.md)  
 [4.1.2 Pulsadores: Encender/Apagar Led](02-pulsadores.md)  
 [4.1.3 Zumbador: Pulsador-sonido](03-zumbador.md)  
 [4.1.4 Sensor de Luz (LDR): Interruptor crepuscular](04-sensor-luz.md)  

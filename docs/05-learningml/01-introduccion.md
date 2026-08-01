@@ -13,7 +13,7 @@ Para crear un modelo de machine learning tenemos que seguir los siguientes pasos
 1.  ![Fases LearningML](../assets/images/Fases_LML.png "Fases LearningML"){ width="1000" }**Entrenar**: creamos las clases e introducimos los ejemplos.
 2.  **Aprender**: creamos el modelo.
 3.  **Probar**: comprobamos que el modelo clasifica correctamente.
-    1.  Si no clasifica correctamente volvemos a la fase entrenar.
+    1.  Si no clasifica correctamente volvemos a la fase **Entrenar**.
 4.  Abrimos **EchidnaBlocks** y usamos los bloques de LearningML para construir nuestra aplicación.
 
 #### Acceder a LearningML
@@ -35,6 +35,6 @@ Al acceder a la pantalla de LearningML podemos:
 7.  Elegir Nombre del archivo.
 8.  Salir del programa.
 
-Una vez seleccionado el tipo de modelo textos, imágenes ó números, iniciamos su construcción. A continuación, encontrará instrucciones para crear modelos de reconocimiento de **textos**, **imágenes** y **números**.
+Una vez seleccionado el tipo de modelo textos, imágenes o números, iniciamos su construcción. A continuación, encontrará instrucciones para crear modelos de reconocimiento de **textos**, **imágenes** y **números**.
 
 Para ampliar la información sobre su uso, puede consultar la web del proyecto [web.learningml.org](https://web.learningml.org/).

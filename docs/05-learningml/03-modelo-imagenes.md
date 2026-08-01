@@ -1,6 +1,6 @@
 # 5.3 Modelo de imágenes
 
-En este segundo ejemplo con **LearningML** veremos los pasos para crear un **modelo** de **imagenes** y cómo usarlo con **EchidnaBlocks**.
+En este segundo ejemplo con **LearningML** veremos los pasos para crear un **modelo** de **imágenes** y cómo usarlo con **EchidnaBlocks**.
 
 Vamos a crear un modelo que nos clasifique los envases y papeles en las categorías amarillo y azul. En EchidnaBlocks vamos a mostrar la clasificación mediante un LED RGB y vamos a abrir el contenedor con un servomotor.
 
@@ -30,9 +30,9 @@ Creamos dos clases: **azul** y **amarillo**, que nos permitirá reconocer residu
 
 ![Aprender imagenes](../assets/images/Aprender_imagenes.png "Aprender imagenes"){ width="200" }
 
-Pulsamos el botón **2. Aprender a reconocer imágenes**, para que el algoritmo de machine learning analice las imágenes y construya un modelo de Inteligencia Artificial capaz de reconocer imágenes similares pero distintas a las que hemos usado durante el entrenamiento.
+Pulsamos el botón **2. Aprender a reconocer imágenes**, para que el algoritmo de machine learning analice las imágenes y construya un modelo de inteligencia artificial capaz de reconocer imágenes similares pero distintas a las que hemos usado durante el entrenamiento.
 
-La construcción del modelo, que se denomina aprendizaje, puede tardar varios segundos. Si las imágenes de ejemplo de la fase de entrenamiento son muchas, este proceso puede tardar bastante. Esto es una característica de los algoritmos de machine learning, requieren mucho tiempo de proceso y bastante memoria.
+La construcción del modelo, que se denomina aprendizaje, puede tardar varios segundos. Si las imágenes de ejemplo de la fase de entrenamiento son muchas, este proceso puede tardar bastante. Esto es una característica de los algoritmos de machine learning, ya que requieren mucho tiempo de proceso y bastante memoria.
 
 ## 3- Probar
 
@@ -64,7 +64,7 @@ Al inicio del programa, el sistema se prepara para recibir la clasificación:
 - Los servos D7 y D8 se colocan en la posición de 90° (posición de cerrado o reposo).
 - El LED RGB se asegura de estar apagado.
 
-**El personaje indica: **
+**El personaje indica**:
 
 "Presiona espacio y te digo a qué cubo va", señalando que el sistema está listo para clasificar.
 

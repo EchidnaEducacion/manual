@@ -1,4 +1,4 @@
-# 4.1.1 Ledes: Semáforo e intensidad luminosa
+# 4.1.1 LEDs: Semáforo e intensidad luminosa
 
 ## COMPONENTE:
 
@@ -8,7 +8,7 @@
 **Diodos LED**: es el acrónimo de Light Emitting Diode (Diodo emisor de luz), y está basado en el fenómeno de electroluminiscencia. Se usan como testigos (indicadores) y como fuente de iluminación.
 </div>
 
-En la **placa** tenemos 3 diodos LED Verde, Naranja y Rojo.
+En la **placa** tenemos 3 diodos LED: Verde, Naranja y Rojo.
 
 ![Lupa Ledes](../../assets/images/Lupa_Ledes.png "Lupa Ledes"){ width="340" }
 
@@ -30,7 +30,7 @@ Para **controlar la intensidad luminosa** del **LED Verde** podemos usar el sigu
 
 ![LED Verde bloque](../../assets/images/LED_Verde_bloque.png "LED Verde bloque"){ width="159" }
 
-En el que podemos regular la intensidad luminosa entre 0 (apagado) y 255 (máxima intensidad luminosa)
+En el que podemos regular la intensidad luminosa entre 0 (apagado) y 255 (máxima intensidad luminosa).
 
 ## EJEMPLO: Semáforo
 
@@ -61,4 +61,4 @@ El bucle controla la intensidad del LED aumentando su valor de forma gradual des
 **Bucle de apagado progresivo:**
 
 La intensidad del LED disminuye de 255 (máxima luminosidad) a 0, creando un efecto de fundido hasta apagarse por completo.  
-Ambos bucles se ejecutan consecutivamente para generar el efecto de fundido suave y cíclico. Volviendo a repetirse al final del ciclo.
+Ambos bucles se ejecutan consecutivamente para generar el efecto de fundido suave y cíclico. El ciclo completo vuelve a repetirse al final.

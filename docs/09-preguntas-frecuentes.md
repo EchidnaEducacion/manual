@@ -10,7 +10,7 @@ Se recomienda disponer, como mínimo, de un ordenador con las siguientes caracte
 
 EchidnaML es compatible con los principales sistemas operativos de escritorio:
 
-- Windows: Windows 10 (64 bits) Windows 11 (64 bits)
+- Windows: Windows 10 (64 bits) y Windows 11 (64 bits)
 - macOS (versiones 14 en adelante)
 - Linux (distribuciones basadas en Debian, 64 bits)
 
@@ -22,7 +22,7 @@ Si al abrir EchidnaML el programa no detecta la placa se puede deber a:
 
 **1. EchidnaBlack no tiene instalado el Firmware StandardFirmata:**
 
-Aunque el firmware viene instalado de serie alguien puede haber escrito otro programa. Si es así debemos instalar el programa StandardFirmata tal como se especifica en el apartado 6 de esta guía.
+Aunque el firmware viene instalado de serie, alguien puede haber escrito otro programa. Si es así debemos instalar el programa StandardFirmata tal como se especifica en el apartado 6 de esta guía.
 
 **2. Nuestro ordenador no reconoce el puerto USB al que se conecta EchidnaML:**
 
@@ -33,20 +33,20 @@ Para que EchidnaBlack se pueda comunicar con nuestro PC es necesario que nuestro
 EchidnaBlack utiliza el chip CH340, por lo que dependiendo del SO necesitarás instalar el controlador “[Driver CH341](https://www.wch-ic.com/downloads/ch341ser_exe.html)”
 
 - GNU Linux: En caso de que seas usuario Linux, no debería ser necesario instalar el driver. [Si necesitas el driver para GNU Linux](https://www.wch-ic.com/download/file?id=177).
-- macOS: [Aquí tienes acceso al driver para MAC](https://www.wch-ic.com/download/file?id=178).
+- macOS: [Aquí tienes acceso al driver para Mac](https://www.wch-ic.com/download/file?id=178).
 - Windows: [Aquí tienes acceso al driver para Windows](https://www.wch-ic.com/download/file?id=65).
 
 **2.2 Permiso de acceso al puerto serie:**
 
 Dependiendo del SO es necesario dar o no permisos de acceso al puerto serie. Si ya has instalado el IDE de Arduino, estos permisos deberían estar ya dados.
 
-**GNU Linux:** Si no tuvieras acceso al puerto serie puede que tengas que darle permiso desde una terminal usando el comando: sudo usermod -a -G dialout «usuario». Luego es necesario salir de la sesión y volver a entrar para que los cambios se hagan efectivos.
+**GNU Linux:** Si no tuvieras acceso al puerto serie puede que tengas que darle permiso desde una terminal usando el comando: sudo usermod -a -G dialout tu_usuario. Luego es necesario salir de la sesión y volver a entrar para que los cambios se hagan efectivos.
 
 **macOS**: por defecto ya tenemos acceso al puerto serie.
 
 **Windows**: por defecto ya tenemos acceso al puerto serie.
 
-## 9.3 Puedo conectar la placa una vez abierto programa
+## 9.3 Puedo conectar la placa una vez abierto el programa
 
 Lo más recomendable es conectar la placa EchidnaBlack2 al ordenador antes de abrir el entorno de programación EchidnaML. Esto asegura una detección rápida y que no perdamos el trabajo realizado.
 
@@ -63,7 +63,7 @@ Debes tener en cuenta que el proceso de detección y conexión reinicia el entor
 
 En ocasiones el capuchón del joystick viene insertado muy profundamente en el eje, lo que provoca que choque contra la base y no haga todo el recorrido. Prueba a sacarlo un poco hacia arriba.
 
-## 9.5 Que diferencias hay entre EchidnaBlack y EchidnaBlack2
+## 9.5 ¿Qué diferencias hay entre EchidnaBlack y EchidnaBlack2?
 
 Si tienes una EchidnaBlack debes saber que casi todo lo que se cuenta en este manual es válido para tu placa.
 
@@ -118,7 +118,7 @@ Eje x, y, z</td>
 
 #### Alimentación por USB-C (Recomendada para la mayoría de usos)
 
-Esta es la forma más sencilla, y común de usar la placa, mediante un cable USB-C conectado a un ordenador o a un cargador.
+Esta es la forma más sencilla y común de usar la placa, mediante un cable USB-C conectado a un ordenador o a un cargador.
 
 Características:
 

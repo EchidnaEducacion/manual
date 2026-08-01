@@ -6,9 +6,9 @@ En este gráfico podemos ver los **pasos** para **comenzar** a usar **EchidnaML*
 
 ![Puesta en marcha](../assets/images/Puesta_en_marcha.png "Puesta en marcha"){ width="1002" }
 
-**1- Conecta la placa Echidna al ordenador mediante el cable USB C**
+**1- Conecta la placa Echidna al ordenador mediante el cable USB-C**
 
-Antes de abrir el programa EchidnaML conecta la placa al ordenador mediante el cable USB C.
+Antes de abrir el programa EchidnaML conecta la placa al ordenador mediante el cable USB-C.
 
 Las placas Echidna tienen cargado de fábrica el programa StandardFirmata, necesario para la comunicación con el ordenador a través del puerto serie (USB).
 
@@ -18,7 +18,7 @@ En tu ordenador clica en el icono de EchidnaML para abrir el programa. Previamen
 
 **3- ¡Empieza a programar!: Hola, Mundo con EchidnaBlocks!**
 
-Al iniciar el EchidnaML, este se conecta automáticamente con la placa. Si el programa no detecta la placa, visita el apartado 6.2 de este manual donde explicamos cómo cargar el programa StandardFirmata.
+Al iniciar EchidnaML, este se conecta automáticamente con la placa. Si el programa no detecta la placa, visita el apartado 6.2 de este manual donde explicamos cómo cargar el programa StandardFirmata.
 
 Al combinar los nuevos bloques específicos de la placa Echidna con los bloques clásicos de Scratch, podemos programar dispositivos físicos de manera sencilla.
 

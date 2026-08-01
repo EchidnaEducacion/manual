@@ -42,8 +42,8 @@ Este ejemplo utiliza el Joystick (control de dos ejes) para controlar el movimie
 
 - Borre el fondo.
 - Se vaya al punto (0,0).
-- Fijamos el color y el grosor con el que se va a pintar.
-- Bajamos el lápiz.
+- Fije el color y el grosor con el que se va a pintar.
+- Baje el lápiz.
 
 **Lógica de programación de control del joystick:**
 

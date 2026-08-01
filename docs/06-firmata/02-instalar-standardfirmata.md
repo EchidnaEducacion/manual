@@ -16,7 +16,7 @@ El primer paso será tener instalado en nuestro ordenador el [IDE de Arduino](ht
 
 **Placa Arduino:** si tu placa es EchidnaBlack o EchidnaBlack2, debes escoger Arduino **Nano**.
 
-En Herramientas → Placa→ Arduino Nano.
+En Herramientas → Placa → Arduino Nano.
 
 **Puerto USB:** tenemos que seleccionar el puerto USB al que se conecta la placa.
 
@@ -26,13 +26,13 @@ En función del sistema operativo que tengas te aparecerá un nombre para el pue
 
 - GNU Linux: /dev/ttyUSB0
 - Windows: COM21
-- MACOS: /dev/cu.usbserial-1410 port (USB)
+- macOS: /dev/cu.usbserial-1410 (puerto USB)
 
 En el que el número asignado puede variar en función de los dispositivos que tengamos conectados.
 
 **5- Seleccionamos el programa que vamos a cargar, es decir el StandardFirmata.**
 
-Lo hacemos desde el menú Archivo → Ejemplos→ Firmata→ StandardFirmata. 
+Lo hacemos desde el menú Archivo → Ejemplos → Firmata → StandardFirmata. 
 
 Atención si no hemos seleccionado la placa en el paso anterior no nos aparecen los programas Firmata.
 

@@ -18,8 +18,8 @@ Es posible que Windows muestre una ventana con el mensaje «Windows protegió su
 
 Para continuar:
 
-1. Haz clic en "Más información".
-2. Pulsa "Ejecutar de todas formas".
+1. Haz clic en «Más información».
+2. Pulsa «Ejecutar de todas formas».
 3. Después podrás completar la instalación normalmente.
 
 **Instalación del controlador CH341:**

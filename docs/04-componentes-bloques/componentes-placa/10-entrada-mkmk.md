@@ -2,7 +2,7 @@
 
 ## COMPONENTE:
 
-¡RECUERDA! Para que funcione el modo MkMk debemos poner el selector del modo de funcionamiento hacia la derecha, y se nos encenderá el LED testigo en la parte inferior.
+**¡ATENCIÓN!** Para que funcione el modo MkMk debemos poner el selector del modo de funcionamiento hacia la derecha, y se nos encenderá el LED testigo en la parte inferior.
 
 Echidna dispone de 8 conexiones MkMk.
 
@@ -25,7 +25,7 @@ En el bloque podemos seleccionar la entrada MkMk que queramos utilizar.
 **Valores**:
 
 - Con el circuito abierto el sensor da valor **false** (0).
-- Cuando cerramos el circuito, si el valor leido en la entrada analógica es mayor de 350, el valor reportado por el bloque es **true** (1).
+- Cuando cerramos el circuito, si el valor leído en la entrada analógica es mayor de 350, el valor reportado por el bloque es **true** (1).
 - El **umbral** para cambiar de **false** a **true** está establecido en 350 dentro del rango de lecturas analógicas que puede registrar la entrada MkMk (0–1023).
 
 Si queremos cambiar el valor del umbral podemos usar el bloque leer entrada analógica tal como se muestra en el segundo ejemplo: Ajustar sensibilidad.

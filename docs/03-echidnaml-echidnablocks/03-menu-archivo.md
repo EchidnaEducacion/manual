@@ -15,15 +15,15 @@ Si quieres empezar un nuevo proyecto.
 
 #### Guardar en tu ordenador
 
-EchidnaBlocks es un programa de Escritorio, por lo que si quieres guardar tus proyectos debes descargarlos y almacenarlos en tu ordenador. Para ello debes pulsar en Archivo→ Guardar en tu ordenador y almacenarlo en la carpeta que elijas.
+EchidnaBlocks es un programa de Escritorio, por lo que si quieres guardar tus proyectos debes descargarlos y almacenarlos en tu ordenador. Para ello debes pulsar en Archivo → Guardar en tu ordenador y almacenarlo en la carpeta que elijas.
 
 #### Cargar desde tu ordenador
 
-Para **recuperar** un proyecto debes pulsar en Archivo→ Cargar desde tu ordenador y buscar el archivo en la carpeta donde lo guardaste.
+Para **recuperar** un proyecto, pulsa en Archivo → Cargar desde tu ordenador y buscar el archivo en la carpeta donde lo guardaste.
 
 Los proyectos se almacenan en **formato sb3**, que es el mismo tipo de ficheros que **Scratch**.
 
-EchidnaBlocks es **compatible** con los **proyectos** realizados en **Scratch**, por lo que puedes descargar cualquier proyecto realizado en Scratch y cargarlo en EchidnaBlocks dotándolos de interactividad a través de los sensores de la placa.
+EchidnaBlocks es **compatible** con los **proyectos** realizados en **Scratch**, por lo que puedes descargar cualquier proyecto realizado en Scratch y cargarlo en EchidnaBlocks dotándolo de interactividad a través de los sensores de la placa.
 
 #### Ejemplos
 

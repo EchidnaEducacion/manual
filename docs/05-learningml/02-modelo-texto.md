@@ -38,7 +38,7 @@ Una vez que hemos definido las clases e introducido los ejemplos de entrenamient
 
 ![Aprender textos](../assets/images/2-_Aprender_textos.png "Aprender textos"){ width="201" }
 
-En ese momento, el algoritmo de Machine Learning analiza los datos proporcionados para construir un **modelo** de **Inteligencia** **Artificial**. Este modelo resultante es capaz de clasificar y reconocer nuevos textos que no ha visto antes.
+En ese momento, el algoritmo de Machine Learning analiza los datos proporcionados para construir un **modelo** de **inteligencia** **artificial**. Este modelo resultante es capaz de clasificar y reconocer nuevos textos que no ha visto antes.
 
 Este proceso se denomina **aprendizaje a partir de datos** y constituye el fundamento esencial del Machine Learning.
 
@@ -50,7 +50,7 @@ Para esta fase de verificación, es crucial **utilizar** **textos** que sean **d
 
 ![Probar textos](../assets/images/3-probar_textos.png "Probar textos"){ width="401" }
 
-En este caso comprobamos que clasifica la frase “Es de día” con un 61% de probabilidad en la categoría Apaga. Lo cual es correcto.
+En este caso comprobamos que clasifica la frase “Es de día” con un 61% de probabilidad en la categoría Apaga, lo cual es correcto.
 
 ## 1- ¿Volver a entrenar?
 
@@ -58,7 +58,7 @@ Si los resultados de la prueba no son satisfactorios o si se desea incrementar l
 
 **Revisión**: Examina y corrige los datos introducidos en los ejemplos.
 
-**Ampliación**: Añada más ejemplos de entrenamiento.
+**Ampliación**: Añade más ejemplos de entrenamiento.
 
 La **calidad** del **modelo** está directamente relacionada con la **cantidad** y la **calidad** de los **datos** de **entrenamiento**. Cuantos más datos de calidad se utilicen, siempre y cuando estén correctamente etiquetados, mayor será la precisión y la calidad de las clasificaciones futuras del modelo
 
@@ -66,7 +66,7 @@ La **calidad** del **modelo** está directamente relacionada con la **cantidad**
 
 Una vez que las pruebas de entrenamiento hayan sido satisfactorias, abrimos **EchidnaBlocks**. 
 
-A continuación, la aplicación se programará combinando los bloques de Scratch, con los bloques de robótica y los de Machine Learning (learningml), utilizando el modelo que acabamos de generar.
+A continuación, la aplicación se programará combinando los bloques de Scratch, con los bloques de robótica y los de Machine Learning (LearningML), utilizando el modelo que acabamos de generar.
 
 Este **ejemplo** muestra cómo **usar** el **modelo** de Machine Learning que hemos creado para **clasificar** una **entrada** de **texto** y, con el resultado, tomar una **decisión** en la placa robótica: **encender** o **apagar** el **LED** **RGB**.
 
