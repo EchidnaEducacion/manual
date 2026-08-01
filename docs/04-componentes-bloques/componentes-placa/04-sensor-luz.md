@@ -8,7 +8,7 @@
 **LDR** es el acrónimo de “Light Dependent Resistor” (resistencia dependiente de la luz), es una **resistencia** cuyo **valor** depende de la **cantidad** de **luz** que incide sobre ella.
 </div>
 
-En la placa Echidnablack2 podemos encontrar la LDR en la esquina superior derecha.
+En la placa EchidnaBlack2 podemos encontrar la LDR en la esquina superior derecha.
 
 ## BLOQUE DE PROGRAMACIÓN:
 

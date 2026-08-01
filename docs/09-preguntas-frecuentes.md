@@ -30,7 +30,7 @@ Para que EchidnaBlack se pueda comunicar con nuestro PC es necesario que nuestro
 
 **2.1 Driver de comunicación:**
 
-Echidna Black utiliza el chip CH340, por lo que dependiendo del SO necesitarás instalar el controlador “[Driver CH341](https://www.wch-ic.com/downloads/ch341ser_exe.html)”
+EchidnaBlack utiliza el chip CH340, por lo que dependiendo del SO necesitarás instalar el controlador “[Driver CH341](https://www.wch-ic.com/downloads/ch341ser_exe.html)”
 
 - GNU Linux: En caso de que seas usuario Linux, no debería ser necesario instalar el driver. [Si necesitas el driver para GNU Linux](https://www.wch-ic.com/download/file?id=177).
 - macOS: [Aquí tienes acceso al driver para MAC](https://www.wch-ic.com/download/file?id=178).

@@ -10,7 +10,7 @@ Es un **dispositivo** de **entrada** con una palanca que se mueve en varias dire
 
 Consta internamente de dos potenciómetros, uno para el eje X (movimiento horizontal) y otro para el eje Y (movimiento vertical), que convierten la posición del stick en valores de resistencia.
 
-**Pulsador adicional:** este modelo incorpora además un pulsador (botón) que se activa al presionar el stick hacia abajo. En Echidnablack2, el pulsador del Joystick está conectado directamente con el pulsador "SR".
+**Pulsador adicional:** este modelo incorpora además un pulsador (botón) que se activa al presionar el stick hacia abajo. En EchidnaBlack2, el pulsador del Joystick está conectado directamente con el pulsador "SR".
 
 ## BLOQUE DE PROGRAMACIÓN:
 
