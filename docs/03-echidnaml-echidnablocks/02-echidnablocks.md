@@ -32,7 +32,7 @@ Son bloques destinados a leer sensores y entradas digitales, cuya lectura devuel
 
 Son bloques destinados a leer sensores, entradas analógicas, estos bloques devuelven el valor del sensor.
 
-Hay tres de ellos, luz temperatura y micrófono, que permiten activar la **casilla** de **verificación** permitiendo visualizar el valor registrado.
+Hay tres de ellos, luz, temperatura y micrófono, que permiten activar la **casilla** de **verificación** permitiendo visualizar el valor registrado.
 
 No te preocupes por lo que hace cada uno de los bloques ahora; lo veremos en el siguiente apartado a través de ejemplos.
 
@@ -44,7 +44,7 @@ No te preocupes por lo que hace cada uno de los bloques ahora; lo veremos en el 
 
 EchidnaBlocks incorpora bloques específicos de machine learning (ML) que permiten construir aplicaciones de inteligencia artificial (IA) capaces de reconocer imágenes, números y textos escritos en lenguaje natural.
 
-Estos bloques, que se encuentran en las sección LearningML, pueden combinarse con los bloques de control de las placas Echidna y con las funcionalidades estándar de Scratch.
+Estos bloques, que se encuentran en la sección LearningML, pueden combinarse con los bloques de control de las placas Echidna y con las funcionalidades estándar de Scratch.
 
 De esta forma, los estudiantes pueden unir el mundo de la IA con la robótica educativa para crear proyectos avanzados.
 
