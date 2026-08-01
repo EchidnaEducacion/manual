@@ -12,7 +12,7 @@ La placa EchidnaBlack2 dispone de dos modos de funcionamiento, el **Modo Sensore
 
 #### **Modo Sensores**
 
-Recoge la lectura de todos los sensores integrados (pulsadores SR y SL, Joystick, sensor de temperatura, micrófono, Acelerómetro XYZ) y de todas las conexiones I/O, incluidas las I2C.
+Recoge la lectura de todos los sensores integrados (pulsadores SR y SL, joystick, sensor de temperatura, micrófono, acelerómetro XYZ) y de todas las conexiones I/O, incluidas las I2C.
 
 #### **Modo MkMk**
 

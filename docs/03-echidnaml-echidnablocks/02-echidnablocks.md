@@ -26,7 +26,7 @@ Son bloques dedicados a programar los actuadores (LED, Zumbador, servo, etc.).
 
 **Trapezoidales**:
 
-Son bloques destinados a leer sensores, entradas digitales, cuya lectura devuelve un *true* (1) o *false* (0).
+Son bloques destinados a leer sensores y entradas digitales, cuya lectura devuelve un *true* (1) o *false* (0).
 
 **Redondeados**:
 

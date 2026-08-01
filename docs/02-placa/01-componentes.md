@@ -8,7 +8,7 @@ Para conectar la placa EchidnaBlack2 al ordenador es necesario un cable USB-C. E
 
 #### **Clasificación de los componentes de la placa según su función**
 
-Los componentes de la placa pueden clasificar en cuatro categorías principales según la función que desempeñan dentro del sistema:
+Los componentes de la placa pueden clasificarse en cuatro categorías principales según la función que desempeñan dentro del sistema:
 
 **![Esquema microcontrolador](../assets/images/Esquema_microcontrolador.png "Esquema microcontrolador"){ width="1001" }**
 

@@ -11,7 +11,7 @@ Este entorno integra dos potentes herramientas que trabajan de forma conjunta:
 
 **Ventajas del Sistema Integrado:**
 
-- **Plug and play**: reconoce la placa y permite empezar a trabajar con ella directamente
+- **Plug and play**: reconoce la placa y permite empezar a trabajar con ella directamente.
 - **Todo en uno:** No es necesario cambiar de programa para pasar de la programación robótica a la creación de modelos de IA.
 - **Continuidad**: Permite usar los modelos generados en LearningML directamente dentro de los proyectos de la versión de Scratch en EchidnaBlocks.
 - **Seguridad**: Al ser una aplicación de escritorio, facilita el trabajo sin conexión y garantiza un entorno controlado para el aula.
@@ -36,4 +36,4 @@ EchidnaML permite que trabajemos sin conectar la placa. Sin la placa conectada p
 
 En el caso de que abramos el programa sin la placa conectada, podemos conectar la placa posteriormente. Para que el programa EchidnaML detecte la placa tenemos que pulsar en el icono de USB.
 
-Si reconectas la placa una vez abierto EchidnaML perderás todo el trabajo, por lo que debes guardarlo antes para poder recuperarlo luego.
+**¡ATENCIÓN!** Si reconectas la placa una vez abierto EchidnaML perderás todo el trabajo, por lo que debes guardarlo antes para poder recuperarlo luego.

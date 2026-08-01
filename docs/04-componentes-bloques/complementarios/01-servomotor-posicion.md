@@ -16,7 +16,7 @@ Para conectarlo usamos los **pines I/O** de entrada-salida**: D4, D7, D8, A2**.
 Presta atención al conectar los cables: Vcc, GND y señal, que están indicados por los colores rojo, negro y amarillo.
 </div>
 
-En caso de que vayas a conectar varios servomotores usa alimentación externa y coloca el selector de alimentación en la posición Vin. Ver apartado 2.4. Pines de entrada- salida.
+En caso de que vayas a conectar varios servomotores usa alimentación externa y coloca el selector de alimentación en la posición Vin. Ver apartado 2.4. Pines de entrada/salida.
 
 ## BLOQUE DE PROGRAMACIÓN:
 

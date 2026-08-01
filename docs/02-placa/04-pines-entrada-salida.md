@@ -1,4 +1,4 @@
-# 2.4 Pines de entrada- salida
+# 2.4 Pines de entrada/salida
 
 <div class="img-text-row" markdown="1">
 ![Pines entrada-salida](../assets/images/Pines_I-O.jpg "Pines entrada-salida"){ width="200" }

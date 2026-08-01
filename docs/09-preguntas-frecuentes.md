@@ -52,12 +52,12 @@ Lo más recomendable es conectar la placa EchidnaBlack2 al ordenador antes de ab
 
 Si ya has abierto el programa EchidnaML y quieres conectar la placa posteriormente:
 
-1.  Conecte la placa al ordenador mediante el cable USB.
-2.  Para iniciar la detección, debe hacer clic en el icono USB (o el icono de conexión) dentro de la interfaz.
+1.  Conecta la placa al ordenador mediante el cable USB.
+2.  Para iniciar la detección, haz clic en el icono USB (o el icono de conexión) dentro de la interfaz.
 
 **Advertencia: Guardar el Trabajo**
 
-Debe tener en cuenta que el proceso de detección y conexión reinicia el entorno de trabajo, provocando la pérdida de cualquier proyecto no guardado. Por esta razón, guarda siempre tu proyecto en el ordenador antes de iniciar el proceso de detección para evitar la pérdida de trabajo y poder recuperarlo.
+Debes tener en cuenta que el proceso de detección y conexión reinicia el entorno de trabajo, provocando la pérdida de cualquier proyecto no guardado. Por esta razón, guarda siempre tu proyecto en el ordenador antes de iniciar el proceso de detección para evitar la pérdida de trabajo y poder recuperarlo.
 
 ## 9.4 El joystick registra valores mínimos muy altos y/o máximos muy bajos
 

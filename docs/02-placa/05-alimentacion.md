@@ -4,9 +4,9 @@
 
 #### **Alimentación por USB-C**
 
-La **alimentación** a través de **USB**-C es la forma más **recomendable** para la **mayoría** de los **usos**.
+La **alimentación** a través de **USB-C** es la forma más **recomendable** para la **mayoría** de los **usos**.
 
-Esta es la forma más sencilla, y común de usar la placa, mediante un cable USB-C conectado a un ordenador. La placa recibe una tensión de 5 V y suficiente energía para las funciones básicas.
+Esta es la forma más sencilla y común de usar la placa, mediante un cable USB-C conectado a un ordenador. La placa recibe una tensión de 5 V y suficiente energía para las funciones básicas.
 
 #### **Alimentación por Jack**
 
