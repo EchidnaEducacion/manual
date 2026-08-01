@@ -1,4 +1,4 @@
-# 4.1.7 Sensor de temperatura: El erizo dice la temperatura
+# 4.1.7 Sensor de temperatura: El echidna dice la temperatura
 
 ## COMPONENTE:
 
@@ -23,9 +23,9 @@ El bloque utiliza la fórmula de conversión anterior para convertir la tensión
 
 Puedes activar la casilla de verificación para ver el valor registrado.
 
-## EJEMPLO: El erizo dice la temperatura
+## EJEMPLO: El echidna dice la temperatura
 
-En el ejemplo el erizo nos dice qué temperatura hace cuando pulsamos la letra "t" del teclado del ordenador.
+En el ejemplo el echidna nos dice qué temperatura hace cuando pulsamos la letra "t" del teclado del ordenador.
 
 ![Echidna dice temperatura](../../assets/images/Echidna_dice-temperatura.png "Echidna dice temperatura"){ width="400" }
 
