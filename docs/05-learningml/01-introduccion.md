@@ -26,13 +26,13 @@ Para acceder a LearningML lo podemos hacer a través del icono situado en la pan
 
 Al acceder a la pantalla de LearningML podemos:
 
-1.  Ver si la placa está conectada y el modelo
-2.  Ver puerto de conexión y reconectar si es necesario
+1.  Ver si la placa está conectada y su modelo.
+2.  Ver puerto de conexión y reconectar si es necesario.
 3.  Abrir EchidnaBlocks.
 4.  Cambiar el idioma.
-5.  Acceder a la ayuda y el Manual
+5.  Acceder a la ayuda y el Manual.
 6.  Elegir el tipo de modelo que queremos crear: texto, imagen o números.
-7.  Elegir Nombre del archivo
+7.  Elegir Nombre del archivo.
 8.  Salir del programa.
 
 Una vez seleccionado el tipo de modelo textos, imágenes ó números, iniciamos su construcción. A continuación, encontrará instrucciones para crear modelos de reconocimiento de **textos**, **imágenes** y **números**.
