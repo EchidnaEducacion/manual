@@ -98,8 +98,8 @@ Eje x, y, z</td>
 </tr>
 <tr class="even">
 <td style="width: 21.7077%"><strong>Pines MkMk</strong></td>
-<td style="width: 37.7667%">A0, A1, A3, A3, A6, A7, D2, D3</td>
-<td style="width: 40.5255%">A0, A1, A3, A3, A6, A7, D2, D3</td>
+<td style="width: 37.7667%">A0, A1, A2, A3, A6, A7, D2, D3</td>
+<td style="width: 40.5255%">A0, A1, A2, A3, A6, A7, D2, D3</td>
 </tr>
 <tr class="odd">
 <td style="width: 21.7077%"><strong>Pines I/O</strong></td>

@@ -15,14 +15,14 @@ Cada pin de entrada/salida cuenta con una conexión a 0 V (G), 5 V (+), y el pin
 
 #### **Selector de alimentación**
 
-Cerca de estos pines de entrada/salida se encuentra un selector de alimentación que permite elegir de dónde reciben energía estos pines moviendo un jumper entre dos posiciones:
+Junto a la zona de pines de entrada/salida se encuentra un selector que permite elegir el origen de la energía mediante la posición de un jumper:
 
 **Posición 5v**
 
-En la posición de salida 5V, la corriente proviene del regulador de tensión interno de la placa, proporcionando un voltaje estable para componentes que no requieran mucha potencia.
+La corriente proviene del regulador de tensión interno de la placa (o del puerto USB). Es la opción ideal para alimentar sensores y componentes estándar de bajo consumo.
 
-**Limitación de Corriente:** Esta salida está destinada únicamente a la alimentación de componentes que no requieran mucha potencia. No se recomienda su uso si los componentes externos superan un consumo total de 300 mA, ya que hacerlo podría sobrecargar el regulador interno de la placa, con el riesgo de dañarlo.
+**Limitación de Corriente:** El consumo total de los componentes externos conectados a la línea de 5V con un límite absoluto 500 mA, se recomienda no superar los 300 mA Exceder este límite puede provocar el apagado por protección o sobrecargar el regulador interno.
 
 **Posición Vin**
 
-En la posición Vin, la alimentación llega desde una fuente externa conectada al jack, lo que resulta más seguro cuando se utilizan actuadores que requieren mayor potencia.
+La alimentación se toma directamente de la fuente externa conectada a la toma de corriente (jack). Esta opción es la recomendable al conectar actuadores de mayor consumo, como servomotores o motores DC, para no saturar la línea de 5V de la placa.

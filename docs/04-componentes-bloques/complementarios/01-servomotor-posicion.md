@@ -45,7 +45,7 @@ SI el valor del joystick x es mayor de 600 y el ángulo menor de 180º:
     --> Sumamos uno al valor de la variable ángulo.
     --> Ajustamos la posición del servo.
 
-SI el valor del joystick x es menor de 600 y el ángulo mayor de 0º:
+SI el valor del joystick x es menor de 400 y el ángulo mayor de 0º:
     --> Restamos uno al valor de la variable ángulo.
     --> Ajustamos la posición del servo.
 ```

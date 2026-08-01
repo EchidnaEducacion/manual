@@ -10,7 +10,7 @@ En esta apartado, encontrará **enlaces** y **recursos adicionales** para quiene
 - [Manual en versión eXelearning y PDF](https://echidna.es/manual/)
 - [Imprimir](https://github.com/EchidnaShield/Recursos/blob/master/Dise%C3%B1os3D/Carcasas/Base_Black/Caixa_EchidnaBlack_Baixa.stl) la carcasa:
 - [REA](https://echidna.es/didactica/rea/): Recursos educativos abiertos realizados con eXelearning:
-- Diapositivas para uso en clase [Primaria](https://echidna.es/didactica/primaria/) y [Secundaria](https://echidna.es/didactica/primaria/)
+- [Actividades para su uso en Primaria y Secundaria](https://echidna.es/didactica/actividades/)
 
 **LearningML**: <https://web.learningml.org/>
 

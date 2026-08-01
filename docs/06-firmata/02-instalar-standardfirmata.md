@@ -51,5 +51,3 @@ Hemos explicado cómo usar el IDE de Arduino, pero también puedes usar otros pr
 - [Codebender](https://codebender.cc/)
 - [ArduinoDroid](https://play.google.com/store/apps/details?id=name.antonsmirnov.android.arduinodroid2&hl=es&gl=US)
 - [Programino](https://programino.com/download-programino-ide-for-arduino.html)
-
-Con
