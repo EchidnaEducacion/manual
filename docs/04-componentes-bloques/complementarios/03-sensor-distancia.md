@@ -17,7 +17,7 @@ Es un **sensor** de **distancia** que proporciona una tensión según la cantida
 <div class="img-text-row" markdown="1">
 ![Conexion Sensor IR distancia](../../assets/images/Conexion_Sensor_IR_distancia.png "Conexion Sensor IR distancia"){ width="320" }
 
-**Conexión:** Se conecta directamente a **5v, GND y A2.**
+**Conexión:** Se conecta directamente a **5V, GND y A2.**
 </div>
 
 ## BLOQUE DE PROGRAMACIÓN:

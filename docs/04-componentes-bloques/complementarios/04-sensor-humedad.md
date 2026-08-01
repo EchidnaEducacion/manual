@@ -12,7 +12,7 @@ Tiene dos componentes principales: los electrodos, que se introducen en la tierr
 ![Conexion sensor humedad](../../assets/images/Conexion_Sensor_humedad.png "Conexion sensor humedad"){ width="280" }
 </div>
 
-**Conexión:** Se conecta directamente a 5v, GND y A2.
+**Conexión:** Se conecta directamente a 5V, GND y A2.
 
 ## BLOQUE DE PROGRAMACIÓN:
 

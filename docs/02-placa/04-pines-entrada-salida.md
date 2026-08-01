@@ -17,7 +17,7 @@ Cada pin de entrada/salida cuenta con una conexión a 0 V (G), 5 V (+), y el pin
 
 Junto a la zona de pines de entrada/salida se encuentra un selector que permite elegir el origen de la energía mediante la posición de un jumper:
 
-**Posición 5v**
+**Posición 5V**
 
 La corriente proviene del regulador de tensión interno de la placa (o del puerto USB). Es la opción ideal para alimentar sensores y componentes estándar de bajo consumo.
 
