@@ -16,6 +16,8 @@ El acrónimo significa Light Emitting Diode (Diodo Emisor de Luz) y Red Green Bl
 
 **Capacidad Cromática:** dado que cada canal ofrece 256 niveles de intensidad, la combinación de los tres colores (Rojo, Verde y Azul) permite generar un total de 256×256×256 = 16.777.216, más de 16 millones de colores diferentes.
 
+![Lupa LED RGB](../../assets/images/Lupa_LEDRGB.png "Lupa LED RGB"){ width="340" }
+
 ## BLOQUE DE PROGRAMACIÓN:
 
 Para controlar la luminosidad y el color del LED RGB tenemos el siguiente **bloque**:

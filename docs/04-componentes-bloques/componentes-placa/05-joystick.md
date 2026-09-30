@@ -12,6 +12,8 @@ Consta internamente de dos potenciómetros, uno para el eje X (movimiento horizo
 
 **Pulsador adicional:** este modelo incorpora además un pulsador (botón) que se activa al presionar el stick hacia abajo. En EchidnaBlack2, el pulsador del Joystick está conectado directamente con el pulsador "SR".
 
+![Lupa Joystick](../../assets/images/Lupa_joystick.png "Lupa Joystick"){ width="340" }
+
 ## BLOQUE DE PROGRAMACIÓN:
 
 Para leer el valor del joystick podemos usar el siguiente bloque:

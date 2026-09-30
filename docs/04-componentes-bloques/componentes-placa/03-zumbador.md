@@ -12,6 +12,8 @@ Disponemos de dos salidas para reproducir audio, el **zumbador** y el **jack** a
 
 Además, contamos con un potenciómetro que permite ajustar el volumen del sonido.
 
+![Lupa Zumbador](../../assets/images/Lupa_zumbador.png "Lupa Zumbador"){ width="340" }
+
 ## BLOQUE DE PROGRAMACIÓN:
 
 Para controlar el **zumbador** podemos usar el siguiente **bloque**:

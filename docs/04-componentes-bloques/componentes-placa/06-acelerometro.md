@@ -12,6 +12,8 @@ Es un **sensor** **microelectromecánico** (MEMS) de aceleración que **mide** l
 
 **Permite detectar cambios bruscos o dinámicos de movimiento en el eje Z.: c**ualquier movimiento vertical repentino provoca una variación rápida en la aceleración medida a lo largo de este eje.
 
+![Lupa Acelerómetro](../../assets/images/Lupa_acelerometro.png "Lupa Acelerómetro"){ width="340" }
+
 ## BLOQUE DE PROGRAMACIÓN:
 
 Para leer el valor del acelerómetro podemos usar el siguiente **bloque**:

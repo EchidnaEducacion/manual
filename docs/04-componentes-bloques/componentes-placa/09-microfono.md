@@ -12,6 +12,8 @@ Es un transductor acústico-eléctrico. Utiliza el efecto piezoeléctrico para c
 
 **Variabilidad de la señal:** la señal eléctrica refleja directamente el sonido recibido, por lo que presenta una gran variabilidad. Se trata de una señal analógica compleja y que cambia constantemente, por lo que para poder trabajar adecuadamente con ella, se requiere un procesamiento posterior para su análisis (por ejemplo hallando la media aritmética), o, como alternativa, puede limitarse a detectar únicamente la intensidad del sonido.
 
+![Lupa Micrófono](../../assets/images/Lupa_microfono.png "Lupa Micrófono"){ width="340" }
+
 ## BLOQUE DE PROGRAMACIÓN:
 
 Para leer el valor del sensor podemos usar el siguiente **bloque**:

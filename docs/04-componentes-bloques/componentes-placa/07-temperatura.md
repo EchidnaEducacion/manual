@@ -13,6 +13,8 @@ El MCP9700T es un sensor que entrega un voltaje analógico proporcional a la tem
 
 **Fórmula de Conversión:** la temperatura en grados Celsius se calcula como: T(°C)=(V −0.5)×100.
 
+![Lupa Sensor de temperatura](../../assets/images/Lupa_SensorTemperatura.png "Lupa Sensor de temperatura"){ width="340" }
+
 ## BLOQUE DE PROGRAMACIÓN:
 
 Para leer la temperatura podemos usar el siguiente **bloque**.
