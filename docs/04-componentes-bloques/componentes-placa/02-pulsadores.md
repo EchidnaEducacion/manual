@@ -12,6 +12,8 @@ El **pulsador** es un **componente** **electromecánico** que permite **abrir** 
 
 En la placa tenemos **2 pulsadores**, **SL** (Switch Left) y **SR** (Switch Right), situados en la parte derecha.
 
+![Lupa Pulsadores](../../assets/images/Lupa_Pulsadores.png "Lupa Pulsadores"){ width="340" }
+
 ## BLOQUE DE PROGRAMACIÓN:
 
 Para **leer** el **estado** del **pulsador** podemos usar el siguiente **bloque de programación**:

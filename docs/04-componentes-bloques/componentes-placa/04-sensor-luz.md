@@ -10,6 +10,8 @@
 
 En la placa EchidnaBlack2 podemos encontrar la LDR en la esquina superior derecha.
 
+![Lupa LDR](../../assets/images/Lupa_LDR.png "Lupa LDR"){ width="340" }
+
 ## BLOQUE DE PROGRAMACIÓN:
 
 Para **leer** el valor del **sensor** podemos usar el siguiente **bloque**:
