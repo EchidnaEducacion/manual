@@ -74,12 +74,14 @@ Al presionar la tecla Espacio, el programa clasifica el fotograma de vídeo capt
 
 ```
 SI clasifica en clase "azul":
-    --> El servo D7 se mueve a 0° (abre el cubo azul).
+    --> El servo D7 se mueve a 180° (abre el cubo azul).
     --> El LED se ilumina en color azul (RGB 0, 0, 255).
+    --> Espera 2 segundos, cierra el cubo (servo D7 a 90°) y apaga el LED.
 
-SI clasifica en clase "amarilla":
-    --> El servo D8 se mueve a 0° (abre el cubo amarillo).
+SI clasifica en clase "amarillo":
+    --> El servo D8 se mueve a 180° (abre el cubo amarillo).
     --> El LED se ilumina en color amarillo (RGB 255, 255, 0).
+    --> Espera 2 segundos, cierra el cubo (servo D8 a 90°) y apaga el LED.
 ```
 
 Al finalizar, el personaje vuelve a decir: “Presiona espacio y te digo a qué cubo va”, indicando que está listo para una nueva clasificación.
