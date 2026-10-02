@@ -55,7 +55,11 @@ Si no clasifica como queremos, tendremos que añadir y revisar los datos de la f
 
 Una vez que las pruebas del modelo hayan sido satisfactorias, podemos acceder a **EchidnaBlocks**. Desde allí, ya podremos utilizar los **bloques** de **learningml** con el modelo que acabamos de generar y programar nuestra aplicación robótica.
 
-En este ejemplo, cuando **presionamos** el botón **SL**, el programa **clasifica** la **inclinación** de la **placa** a partir de los **valores** del **acelerómetro**.
+El programa tiene dos **scripts**. El primero **lee** continuamente el **acelerómetro** y guarda los valores de los ejes X e Y en las variables `acelX` y `acelY`. Además, guarda en `Confianza` y `Sentido` la confianza y la clase que da el modelo, para poder verlas en el escenario mientras inclinamos la placa.
+
+![Lectura del acelerómetro](../../assets/images/LMLModeloNumeros-ValoresAcel.png "Lectura del acelerómetro")
+
+En el segundo script, cuando **presionamos** el botón **SL**, el programa **clasifica** la **inclinación** de la **placa** a partir de los **valores** del **acelerómetro**.
 
 ![Programa modelo numeros EchidnaBlocks](../../assets/images/NumerosEchidnaBlocks.png "Programa modelo numeros EchidnaBlocks"){ width="655" }
 
