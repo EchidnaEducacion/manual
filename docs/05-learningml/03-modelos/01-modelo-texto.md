@@ -50,7 +50,7 @@ Para esta fase de verificación, es crucial **utilizar** **textos** que sean **d
 
 ![Probar textos](../../assets/images/3-probar_textos.png "Probar textos"){ width="401" }
 
-En este caso comprobamos que clasifica la frase “Es de día” con un 61% de probabilidad en la categoría Apaga, lo cual es correcto.
+En este caso comprobamos que clasifica la frase “Me voy a la cama”, que no está entre los ejemplos de entrenamiento, con un 65% de probabilidad en la categoría Apaga, lo cual es correcto.
 
 ## 1- ¿Volver a entrenar?
 
