@@ -27,6 +27,6 @@ EchidnaBlocks es **compatible** con los **proyectos** realizados en **Scratch**,
 
 #### Ejemplos
 
-En este submenú puedes encontrar todos los **ejemplos** que desarrollamos a continuación en el apartado 5 del **manual**.
+En este submenú puedes encontrar todos los **ejemplos** que desarrollamos a continuación en el apartado [4. Componentes y bloques de programación](../04-componentes-bloques/index.md) del **manual**.
 
 En Echidna creemos que una de las mejores formas de **aprender** es a partir de **ejemplos** por lo que os facilitamos estos programas para que podáis probarlos, estudiarlos y modificarlos, una de las esencias del software libre.
