@@ -8,7 +8,7 @@ En este caso vamos a crear un modelo que nos **clasifique** la **inclinación** 
 
 ## Abrir LearningML
 
-Una vez hemos abierto EchidnaML abrimos la aplicación: Modelos de Machine Learning.
+Para abrir LearningML pulsamos el botón **Ir a LearningML** de EchidnaBlocks.
 
 ## Elegir tipo de datos
 

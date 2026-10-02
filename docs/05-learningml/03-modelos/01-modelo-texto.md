@@ -2,13 +2,13 @@
 
 Vamos a ver los pasos para crear un **modelo** de **texto** en **LearningML** y como **usarlo** con **EchidnaBlocks**.
 
-En este caso crearemos un **asistente virtual** que controla la iluminación de una vivienda y el ventilador.
+En este caso crearemos un **asistente virtual** que controla la iluminación de una vivienda.
 
 ![Modelo textos](../../assets/images/MODELO_TEXTOS.png "Modelo textos"){ width="1000" }
 
 ## Abrir LearningML
 
-Una vez hemos abierto EchidnaML abrimos la aplicación: Modelos de Machine Learning.
+Para abrir LearningML pulsamos el botón **Ir a LearningML** de EchidnaBlocks.
 
 ## Elegir tipo de datos
 
@@ -22,9 +22,9 @@ Una vez elegido el tipo de datos (en este caso, texto), procedemos a la **creaci
 
 En nuestro caso, vamos a crear dos clases para controlar el LED: Enciende y Apaga.
 
-**Clase "Enciende":** Introduciremos órdenes y frases que indiquen al sistema la intención de encender la luz (p. ej., "luz on", "enciende el LED", "enciende").
+**Clase "Enciende":** Introduciremos órdenes y frases que indiquen al sistema la intención de encender la luz (p. ej., "Luz on", "No veo", "Es de noche", "Quiero leer", "Hay poca luz").
 
-**Clase "Apaga":** Introduciremos órdenes que indiquen la intención de apagar la luz (p. ej., "apagar", "luz off", "corta la luz").
+**Clase "Apaga":** Introduciremos órdenes y frases que indiquen la intención de apagar la luz (p. ej., "Luz off", "Apaga", "Hay mucha luz", "Voy a dormir", "Es de día").
 
 ![Clase enciende](../../assets/images/Enciende.png "Clase enciende"){ width="389" }
 

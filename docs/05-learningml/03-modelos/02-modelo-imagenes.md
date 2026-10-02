@@ -8,7 +8,7 @@ Vamos a crear un modelo que nos clasifique los envases y papeles en las categor�
 
 ## Abrir LearningML
 
-Una vez hemos abierto EchidnaML abrimos la aplicación: Modelos de Machine Learning.
+Para abrir LearningML pulsamos el botón **Ir a LearningML** de EchidnaBlocks.
 
 ## Elegir tipo de datos
 
