@@ -51,11 +51,17 @@ nav = [
   {"5. LearningML" = [
     "05-learningml/index.md",
     "05-learningml/01-introduccion.md",
-    "05-learningml/02-modelo-texto.md",
-    "05-learningml/03-modelo-imagenes.md",
-    "05-learningml/04-modelo-numeros.md",
-    "05-learningml/05-bloques-learningml.md",
-    "05-learningml/06-exportar-importar.md"
+    {"5.2 Entorno de programación" = [
+      "05-learningml/02-entorno/index.md",
+      "05-learningml/02-entorno/01-menu-archivo.md",
+      "05-learningml/02-entorno/02-bloques-learningml.md"
+    ]},
+    {"5.3 Creación de modelos" = [
+      "05-learningml/03-modelos/index.md",
+      "05-learningml/03-modelos/01-modelo-texto.md",
+      "05-learningml/03-modelos/02-modelo-imagenes.md",
+      "05-learningml/03-modelos/03-modelo-numeros.md"
+    ]}
   ]},
   {"6. Programa del microcontrolador" = [
     "06-firmata/index.md",

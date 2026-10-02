@@ -1,8 +1,8 @@
-# 5.6 Exportar e importar datos de entrenamiento
+# 5.2.1 Menú Archivo
 
 La versión de **LearningML** en EchidnaML es un programa de **escritorio**, por lo que si quieres **guardar** los **datos** de **entrenamiento** de los modelos debes **descargarlos** y **almacenarlos** en tu **ordenador**. Para ello debes pulsar en Archivo → Guardar en tu ordenador y almacenarlo en la carpeta que elijas.
 
-![Guardar LearningML](../assets/images/Guardar_LearningML.png "Guardar LearningML"){ width="998" }
+![Guardar LearningML](../../assets/images/Guardar_LearningML.png "Guardar LearningML"){ width="998" }
 
 Para recuperar el proyecto, pulsa en Archivo → Cargar desde tu ordenador y busca el archivo en la carpeta donde lo almacenaste.
 

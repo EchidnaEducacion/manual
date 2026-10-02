@@ -20,21 +20,6 @@ Para crear un modelo de machine learning tenemos que seguir los siguientes pasos
 
 Para acceder a LearningML lo podemos hacer a través del icono situado en la pantalla de EchidnaBlocks.
 
-#### ![Acceder a LearningML](../assets/images/EchidnaBlocks-_partes.png "Acceder a LearningML"){ width="401" }Entorno de LearningML
-
-![Entorno de LearningML](../assets/images/Entorno_LearningML.png "Entorno de LearningML"){ width="1000" }
-
-Al acceder a la pantalla de LearningML podemos:
-
-1.  Ver si la placa está conectada y su modelo.
-2.  Ver puerto de conexión y reconectar si es necesario.
-3.  Abrir EchidnaBlocks.
-4.  Cambiar el idioma.
-5.  Acceder a la ayuda y el Manual.
-6.  Elegir el tipo de modelo que queremos crear: texto, imagen o números.
-7.  Elegir Nombre del archivo.
-8.  Salir del programa.
-
-Una vez seleccionado el tipo de modelo textos, imágenes o números, iniciamos su construcción. A continuación, encontrará instrucciones para crear modelos de reconocimiento de **textos**, **imágenes** y **números**.
+![Acceder a LearningML](../assets/images/EchidnaBlocks-_partes.png "Acceder a LearningML"){ width="401" }
 
 Para ampliar la información sobre su uso, puede consultar la web del proyecto [web.learningml.org](https://web.learningml.org/).
