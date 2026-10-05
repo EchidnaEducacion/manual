@@ -124,3 +124,5 @@ name = "Cambiar a modo claro"
 [project.markdown_extensions.attr_list]
 [project.markdown_extensions.md_in_html]
 [project.markdown_extensions.fenced_code]
+[project.markdown_extensions.pymdownx.tabbed]
+alternate_style = true

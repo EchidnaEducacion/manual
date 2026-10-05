@@ -280,3 +280,13 @@ section.depth-1 {
 section.depth-0 > h1 {
   string-set: chapter-title content();
 }
+
+/* Solo en la web ({ .solo-web }): GIF de proceso, que en el PDF solo
+   mostraría el primer fotograma. */
+img.solo-web { display: none; }
+
+/* Pestañas (=== "..."): en el PDF no hay pestañas; se ocultan los
+   controles y se ve el contenido de cada una (el GIF ya va con .solo-web). */
+.tabbed-set > input,
+.tabbed-labels,
+.tabbed-control { display: none; }

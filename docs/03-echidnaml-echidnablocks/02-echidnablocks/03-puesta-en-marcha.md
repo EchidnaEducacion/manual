@@ -26,13 +26,21 @@ Al combinar los nuevos bloques específicos de la placa Echidna con los bloques 
 
 Como primer ejercicio de iniciación, vamos a crear el "**Hola, Mundo!**" de la robótica: un LED que parpadea de forma intermitente.
 
-**Lógica del Programa:**
+=== "Programa"
 
-Este programa utiliza un bucle continuo para ejecutar la siguiente secuencia lógica, creando un parpadeo constante en el LED Rojo:
+    ![Hola Mundo](../../assets/images/HolaMundo.png "Hola Mundo"){ width="350" }
 
-1.  Activación: Se enciende el LED Rojo.
-2.  Espera: Se detiene la ejecución del programa durante un segundo.
-3.  Desactivación: Se apaga el LED Rojo.
-4.  Espera: Se detiene la ejecución del programa durante un segundo antes de volver a empezar el ciclo.
+=== "Paso a paso"
 
-![Hola Mundo](../../assets/images/HolaMundo.png "Hola Mundo"){ width="350" }
+    ![Proceso de programación Hola Mundo](../../assets/images/HolaMundo_programacion.gif "Proceso de programación Hola Mundo"){ .solo-web }
+
+**Lógica del programa:**
+
+El programa empieza con el bloque **`al hacer clic en`** (bandera verde): todo lo que coloquemos debajo se ejecutará cuando pulsemos la bandera verde en EchidnaML.
+
+El bloque **`por siempre`** crea un ciclo infinito que ejecuta los pasos en orden, de arriba a abajo:
+
+1. **`encender LED rojo`**: Envía la señal para encender el LED.
+2. **`esperar 1 segundos`**: Mantiene el LED encendido durante un segundo.
+3. **`apagar LED rojo`**: Envía la señal para apagar el LED.
+4. **`esperar 1 segundos`**: Mantiene el LED apagado durante un segundo antes de volver al paso 1.

@@ -34,7 +34,7 @@ Son bloques destinados a leer sensores, entradas analógicas, estos bloques devu
 
 Hay tres de ellos, luz, temperatura y micrófono, que permiten activar la **casilla** de **verificación** permitiendo visualizar el valor registrado.
 
-No te preocupes por lo que hace cada uno de los bloques ahora; lo veremos en el siguiente apartado a través de ejemplos.
+No te preocupes por lo que hace cada uno de los bloques ahora; lo veremos en el apartado [4. Componentes y bloques de programación](../../04-componentes-bloques/index.md) a través de ejemplos.
 
 #### **Bloques de programación de LearningML**
 
