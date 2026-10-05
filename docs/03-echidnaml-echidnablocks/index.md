@@ -5,5 +5,4 @@
 En este apartado nos centraremos en EchidnaBlocks; más adelante veremos cómo trabajar con LearningML.
 
 [3.1 EchidnaML](01-echidnaml.md)  
-[3.2 EchidnaBlocks](02-echidnablocks/index.md)  
-[3.3 Puesta en marcha](04-puesta-en-marcha.md)
+[3.2 EchidnaBlocks](02-echidnablocks/index.md)

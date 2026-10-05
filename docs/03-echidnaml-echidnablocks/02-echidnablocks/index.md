@@ -53,4 +53,5 @@ Para usar los bloques de machine learning, primero debes crear un modelo de reco
 En este apartado veremos también:
 
 [3.2.1 Detección de la placa](01-deteccion-placa.md)  
-[3.2.2 Menú Archivo](02-menu-archivo.md)
+[3.2.2 Menú Archivo](02-menu-archivo.md)  
+[3.2.3 Puesta en marcha](03-puesta-en-marcha.md)

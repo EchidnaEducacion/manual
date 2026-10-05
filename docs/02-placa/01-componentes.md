@@ -4,7 +4,7 @@ La **placa** cuenta con los siguientes **componentes**:
 
 ![Componentes](../assets/images/Componentes.png "Componentes"){ width="1000" }
 
-Para conectar la placa EchidnaBlack2 al ordenador es necesario un cable USB-C. En el apartado “[3.3 Puesta en marcha](../03-echidnaml-echidnablocks/04-puesta-en-marcha.md)” lo veremos con detalle.
+Para conectar la placa EchidnaBlack2 al ordenador es necesario un cable USB-C. En el apartado “[3.2.3 Puesta en marcha](../03-echidnaml-echidnablocks/02-echidnablocks/03-puesta-en-marcha.md)” lo veremos con detalle.
 
 #### **Clasificación de los componentes de la placa según su función**
 
