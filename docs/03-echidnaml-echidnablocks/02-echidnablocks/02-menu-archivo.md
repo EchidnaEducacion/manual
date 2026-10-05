@@ -1,4 +1,4 @@
-# 3.2.1 Menú Archivo
+# 3.2.2 Menú Archivo
 
 En el **menú** **Archivo** encontramos:
 
@@ -7,7 +7,7 @@ En el **menú** **Archivo** encontramos:
 - Guardar en tu ordenador
 - Ejemplos
 
-#### ![Menu Archivo](../assets/images/menuejemplos.png "Menu Archivo"){ width="1000" }
+#### ![Menu Archivo](../../assets/images/menuejemplos.png "Menu Archivo"){ width="1000" }
 
 #### Nuevo
 
@@ -27,6 +27,6 @@ EchidnaBlocks es **compatible** con los **proyectos** realizados en **Scratch**,
 
 #### Ejemplos
 
-En este submenú puedes encontrar todos los **ejemplos** que desarrollamos a continuación en el apartado [4. Componentes y bloques de programación](../04-componentes-bloques/index.md) del **manual**.
+En este submenú puedes encontrar todos los **ejemplos** que desarrollamos a continuación en el apartado [4. Componentes y bloques de programación](../../04-componentes-bloques/index.md) del **manual**.
 
 En Echidna creemos que una de las mejores formas de **aprender** es a partir de **ejemplos** por lo que os facilitamos estos programas para que podáis probarlos, estudiarlos y modificarlos, una de las esencias del software libre.

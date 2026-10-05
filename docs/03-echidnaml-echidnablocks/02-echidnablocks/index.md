@@ -4,17 +4,17 @@
 
 #### Entorno de programación
 
-![EchdinaBlocks esquema pantalla](../assets/images/EchidnaBlocks-_partes.png "EchdinaBlocks esquema pantalla"){ width="1001" }
+![EchdinaBlocks esquema pantalla](../../assets/images/EchidnaBlocks-_partes.png "EchdinaBlocks esquema pantalla"){ width="1001" }
 
 #### **Comunicación placa-programa**
 
 **EchidnaBlocks** se **comunica** con el **microcontrolador** a través del **puerto** **serie**, mediante el cable USB. La placa envía información sobre el estado de los sensores y el programa que realizamos en EchidnaBlocks lo procesa y devuelve información sobre el estado de los actuadores de la placa.
 
-![StandardFirmata](../assets/images/StandarFirmata-EchidnaBlocks.png "StandardFirmata"){ width="799" }
+![StandardFirmata](../../assets/images/StandarFirmata-EchidnaBlocks.png "StandardFirmata"){ width="799" }
 
 #### **Bloques de programación de la placa**
 
-![Bloques de programación de echidna](../assets/images/Bloques_Echidna.png "Bloques de programación de echidna"){ width="376" }
+![Bloques de programación de echidna](../../assets/images/Bloques_Echidna.png "Bloques de programación de echidna"){ width="376" }
 
 **EchidnaBlocks** ha añadido los siguientes **bloques** de **programación** a Scratch que permiten **controlar** el funcionamiento de la **placa**. Estos bloques permiten tanto leer la información de los sensores como enviar señales para controlar los actuadores de forma sencilla.
 
@@ -38,7 +38,7 @@ No te preocupes por lo que hace cada uno de los bloques ahora; lo veremos en el 
 
 #### **Bloques de programación de LearningML**
 
-![Bloques LearningML](../assets/images/Bloques_LearningML2.png "Bloques LearningML"){ width="244" }
+![Bloques LearningML](../../assets/images/Bloques_LearningML2.png "Bloques LearningML"){ width="244" }
 
 **EchidnaML** integra **LearningML**, una **plataforma** **educativa** diseñada para la enseñanza de los **fundamentos** del **machine learning** (aprendizaje automático). Esto nos permite incorporar Inteligencia Artificial a nuestros proyectos de robótica.
 
@@ -49,3 +49,8 @@ Estos bloques, que se encuentran en la sección LearningML, pueden combinarse co
 De esta forma, los estudiantes pueden unir el mundo de la IA con la robótica educativa para crear proyectos avanzados.
 
 Para usar los bloques de machine learning, primero debes crear un modelo de reconocimiento de imágenes o textos. Pero eso lo contaremos en el apartado 5 de este manual que está dedicado a LearningML.
+
+En este apartado veremos también:
+
+[3.2.1 Detección de la placa](01-deteccion-placa.md)  
+[3.2.2 Menú Archivo](02-menu-archivo.md)

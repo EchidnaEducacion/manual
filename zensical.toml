@@ -21,8 +21,11 @@ nav = [
   {"3. EchidnaML: EchidnaBlocks" = [
     "03-echidnaml-echidnablocks/index.md",
     "03-echidnaml-echidnablocks/01-echidnaml.md",
-    "03-echidnaml-echidnablocks/02-echidnablocks.md",
-    "03-echidnaml-echidnablocks/03-menu-archivo.md",
+    {"3.2 EchidnaBlocks" = [
+      "03-echidnaml-echidnablocks/02-echidnablocks/index.md",
+      "03-echidnaml-echidnablocks/02-echidnablocks/01-deteccion-placa.md",
+      "03-echidnaml-echidnablocks/02-echidnablocks/02-menu-archivo.md"
+    ]},
     "03-echidnaml-echidnablocks/04-puesta-en-marcha.md"
   ]},
   {"4. Componentes y bloques" = [
