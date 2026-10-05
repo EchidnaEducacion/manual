@@ -2,7 +2,7 @@
 
 El **programa** **detecta** **automáticamente** la **placa** y la versión de la misma que estamos utilizando: EchidnaBlack o EchidnaBlack2. Para ello debemos conectar la placa antes de abrir EchidnaML.
 
-![EchidnaML](../../assets/images/EchidnaML.png "EchidnaML"){ width="949" }
+![Puesta en marcha](../../assets/images/Puesta_en_marcha.png "Puesta en marcha"){ width="1002" }
 
 El programa detecta automáticamente la placa y nos muestra el mensaje:
 
