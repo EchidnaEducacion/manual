@@ -4,7 +4,7 @@ Vamos a ver cómo instalar StandardFirmata usando el **IDE de Arduino**, para lo
 
 **1- Instalar IDE Arduino:**
 
-El primer paso será tener instalado en nuestro ordenador el [IDE de Arduino](https://www.arduino.cc/en/software/). Está disponible para Linux, MacOs y Windows y te lo puedes descargar desde la propia página de Arduino, donde también tienes una guía para instalarlo.
+El primer paso será tener instalado en nuestro ordenador el [IDE de Arduino](https://www.arduino.cc/en/software/){ target="_blank" rel="noopener" }. Está disponible para Linux, MacOs y Windows y te lo puedes descargar desde la propia página de Arduino, donde también tienes una guía para instalarlo.
 
 **2- Conectamos la placa EchidnaBlack** a nuestro ordenador a través del puerto USB.
 
@@ -46,8 +46,8 @@ Una vez cargado tu Echidna ya está lista para ser programada con EchidnaML. Aun
 
 Hemos explicado cómo usar el IDE de Arduino, pero también puedes usar otros programas como:
 
-- [PlatformIO](https://platformio.org/install)
-- [Eclipse Arduino IDE](https://www.eclipse.org/community/eclipse_newsletter/2017/april/article4.php)
-- [Codebender](https://codebender.cc/)
-- [ArduinoDroid](https://play.google.com/store/apps/details?id=name.antonsmirnov.android.arduinodroid2&hl=es&gl=US)
-- [Programino](https://programino.com/download-programino-ide-for-arduino.html)
+- [PlatformIO](https://platformio.org/install){ target="_blank" rel="noopener" }
+- [Eclipse Arduino IDE](https://www.eclipse.org/community/eclipse_newsletter/2017/april/article4.php){ target="_blank" rel="noopener" }
+- [Codebender](https://codebender.cc/){ target="_blank" rel="noopener" }
+- [ArduinoDroid](https://play.google.com/store/apps/details?id=name.antonsmirnov.android.arduinodroid2&hl=es&gl=US){ target="_blank" rel="noopener" }
+- [Programino](https://programino.com/download-programino-ide-for-arduino.html){ target="_blank" rel="noopener" }

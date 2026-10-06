@@ -12,4 +12,4 @@ El **sistema** se compone de una **placa** con diversos componentes integrados y
 
 Esta **guía** ofrece una **introducción** al trabajo con la placa **EchidnaBlack2** y su entorno de programación **EchidnaML**. No se requieren conocimientos de programación previos; sin embargo, se recomienda tener experiencia con el entorno visual de Scratch, ya que facilita la comprensión de la programación por bloques y el conocimiento del entorno.
 
-Para **ampliar** y complementar la **información** ofrecida en esta guía, puede consultar recursos adicionales y material didáctico en la **web** oficial del **proyecto**: [www.echidna.es](https://echidna.es/).
+Para **ampliar** y complementar la **información** ofrecida en esta guía, puede consultar recursos adicionales y material didáctico en la **web** oficial del **proyecto**: [www.echidna.es](https://echidna.es/){ target="_blank" rel="noopener" }.

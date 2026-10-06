@@ -4,7 +4,7 @@
 
 **Descarga:**
 
-- [EchidnaML 1.6.0.msi](https://github.com/EchidnaEducacion/echidnaml-releases/releases/download/v1.6.0/EchidnaML.1.6.0.msi)
+- [EchidnaML 1.6.0.msi](https://github.com/EchidnaEducacion/echidnaml-releases/releases/download/v1.6.0/EchidnaML.1.6.0.msi){ target="_blank" rel="noopener" }
 
 ## Instalación
 
@@ -24,4 +24,4 @@ Para continuar:
 
 **Instalación del controlador CH341:**
 
-En Windows es necesario instalar el driver del controlador [CH341](http://www.wch-ic.com/downloads/CH341SER_EXE.html), que gestiona el puerto serie de la EchidnaBlack2.
+En Windows es necesario instalar el driver del controlador [CH341](http://www.wch-ic.com/downloads/CH341SER_EXE.html){ target="_blank" rel="noopener" }, que gestiona el puerto serie de la EchidnaBlack2.

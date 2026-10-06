@@ -6,7 +6,7 @@ Actualmente se ofrece la versión para ordenadores con **Apple Silicon** (M1, M2
 
 **Descarga:**
 
-- [EchidnaML-1.6.0-arm64.dmg](https://github.com/EchidnaEducacion/echidnaml-releases/releases/download/v1.6.0/EchidnaML-1.6.0-arm64.dmg)
+- [EchidnaML-1.6.0-arm64.dmg](https://github.com/EchidnaEducacion/echidnaml-releases/releases/download/v1.6.0/EchidnaML-1.6.0-arm64.dmg){ target="_blank" rel="noopener" }
 
 ## Instalación
 

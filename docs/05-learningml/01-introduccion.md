@@ -22,4 +22,4 @@ Para acceder a LearningML lo podemos hacer a través del icono situado en la pan
 
 ![Acceder a LearningML](../assets/images/EchidnaBlocks-_partes.png "Acceder a LearningML"){ width="401" }
 
-Para ampliar la información sobre su uso, puede consultar la web del proyecto [web.learningml.org](https://web.learningml.org/).
+Para ampliar la información sobre su uso, puede consultar la web del proyecto [web.learningml.org](https://web.learningml.org/){ target="_blank" rel="noopener" }.

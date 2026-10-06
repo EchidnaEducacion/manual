@@ -18,4 +18,4 @@ Este entorno integra dos potentes herramientas que trabajan de forma conjunta:
 
 #### Descargar el programa
 
-Para empezar a trabajar con EchidnaML, es necesario [descargar el programa](https://echidna.es/a-programar/echidnaml/) desde la página web de Echidna Educación.
+Para empezar a trabajar con EchidnaML, es necesario [descargar el programa](https://echidna.es/a-programar/echidnaml/){ target="_blank" rel="noopener" } desde la página web de Echidna Educación.

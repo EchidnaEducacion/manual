@@ -44,6 +44,12 @@ dirigida a docentes y alumnado de secundaria que usan la placa EchidnaBlack.
 - **Avisos**: se destacan con `**Advertencia: ...**` o `¡ATENCIÓN!` seguidos
   de una frase directa sobre el riesgo (p. ej. quemar un componente, perder
   un proyecto no guardado).
+- **Enlaces**: los externos al manual (incluidas las guías de inicio, que
+  son otros sitios) se abren en otra pestaña:
+  `[texto](https://...){ target="_blank" rel="noopener" }`; las URL que se
+  muestran tal cual se escriben `[https://...](https://...){ ... }`, no
+  `<https://...>`. Los internos (rutas relativas a otros `.md` del manual)
+  no llevan atributos y se abren en la misma pestaña.
 - **Sin emojis**: no se usan en ningún sitio del manual (se quitaron los que
   había en marcadores de sección y avisos porque WeasyPrint no los renderiza
   bien en el PDF). No los reintroduzcas.

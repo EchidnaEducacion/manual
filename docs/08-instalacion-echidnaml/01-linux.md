@@ -4,9 +4,9 @@
 
 **Descargas disponibles:**
 
-- [echidnaml_1.6.0_amd64.deb](https://github.com/EchidnaEducacion/echidnaml-releases/releases/download/v1.6.0/echidnaml_1.6.0_amd64.deb)
-- [echidnaml_1.6.0-ubuntu-24.04_amd64.deb](https://github.com/EchidnaEducacion/echidnaml-releases/releases/download/v1.6.0/echidnaml_1.6.0-ubuntu-24.04_amd64.deb)
-- [EchidnaML-1.6.0.AppImage](https://github.com/EchidnaEducacion/echidnaml-releases/releases/download/v1.6.0/EchidnaML-1.6.0.AppImage)
+- [echidnaml_1.6.0_amd64.deb](https://github.com/EchidnaEducacion/echidnaml-releases/releases/download/v1.6.0/echidnaml_1.6.0_amd64.deb){ target="_blank" rel="noopener" }
+- [echidnaml_1.6.0-ubuntu-24.04_amd64.deb](https://github.com/EchidnaEducacion/echidnaml-releases/releases/download/v1.6.0/echidnaml_1.6.0-ubuntu-24.04_amd64.deb){ target="_blank" rel="noopener" }
+- [EchidnaML-1.6.0.AppImage](https://github.com/EchidnaEducacion/echidnaml-releases/releases/download/v1.6.0/EchidnaML-1.6.0.AppImage){ target="_blank" rel="noopener" }
 
 **¿Qué archivo debo descargar?**
 
