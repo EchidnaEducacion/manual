@@ -4,7 +4,7 @@
 
 **Descarga:**
 
-- [EchidnaML 1.6.0.msi](https://github.com/EchidnaEducacion/echidnaml-releases/releases/download/v1.6.0/EchidnaML.1.6.0.msi){ target="_blank" rel="noopener" }
+- [EchidnaML 1.6.2.msi](https://github.com/EchidnaEducacion/echidnaml-releases/releases/download/v1.6.2/EchidnaML.1.6.2.msi){ target="_blank" rel="noopener" }
 
 ## Instalación
 

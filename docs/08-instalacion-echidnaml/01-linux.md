@@ -4,15 +4,15 @@
 
 **Descargas disponibles:**
 
-- [echidnaml_1.6.0_amd64.deb](https://github.com/EchidnaEducacion/echidnaml-releases/releases/download/v1.6.0/echidnaml_1.6.0_amd64.deb){ target="_blank" rel="noopener" }
-- [echidnaml_1.6.0-ubuntu-24.04_amd64.deb](https://github.com/EchidnaEducacion/echidnaml-releases/releases/download/v1.6.0/echidnaml_1.6.0-ubuntu-24.04_amd64.deb){ target="_blank" rel="noopener" }
-- [EchidnaML-1.6.0.AppImage](https://github.com/EchidnaEducacion/echidnaml-releases/releases/download/v1.6.0/EchidnaML-1.6.0.AppImage){ target="_blank" rel="noopener" }
+- [echidnaml_1.6.2_amd64.deb](https://github.com/EchidnaEducacion/echidnaml-releases/releases/download/v1.6.2/echidnaml_1.6.2_amd64.deb){ target="_blank" rel="noopener" }
+- [echidnaml_1.6.2-ubuntu-24.04_amd64.deb](https://github.com/EchidnaEducacion/echidnaml-releases/releases/download/v1.6.2/echidnaml_1.6.2-ubuntu-24.04_amd64.deb){ target="_blank" rel="noopener" }
+- [EchidnaML-1.6.2.AppImage](https://github.com/EchidnaEducacion/echidnaml-releases/releases/download/v1.6.2/EchidnaML-1.6.2.AppImage){ target="_blank" rel="noopener" }
 
 **¿Qué archivo debo descargar?**
 
-- Si utilizas Ubuntu (20.04, 22.04), MAX o Linux Mint, usa `echidnaml_1.6.0_amd64.deb`.
-- Si tu sistema operativo es Ubuntu 24.04, usa `echidnaml_1.6.0-ubuntu-24.04_amd64.deb`.
-- Si utilizas otra distribución o prefieres una versión portátil, la mejor opción es `EchidnaML-1.6.0.AppImage`.
+- Si utilizas Ubuntu (20.04, 22.04), MAX o Linux Mint, usa `echidnaml_1.6.2_amd64.deb`.
+- Si tu sistema operativo es Ubuntu 24.04, usa `echidnaml_1.6.2-ubuntu-24.04_amd64.deb`.
+- Si utilizas otra distribución o prefieres una versión portátil, la mejor opción es `EchidnaML-1.6.2.AppImage`.
 
 ## Instrucciones de instalación
 
@@ -29,7 +29,7 @@
 Abre una terminal de comandos y colócate en el directorio donde esté el archivo .deb. La instalación se hace así:
 
 ```
-sudo apt install ./echidnaml_1.6.0_amd64.deb
+sudo apt install ./echidnaml_1.6.2_amd64.deb
 ```
 
 ### B- Ejecución de la versión AppImage
@@ -51,5 +51,5 @@ Puedes activar el permiso de ejecución de dos maneras:
 Abre una terminal de comandos y colócate en el directorio donde esté el archivo AppImage. Ejecuta la siguiente instrucción:
 
 ```
-sudo chmod +x EchidnaML-1.6.0.AppImage
+sudo chmod +x EchidnaML-1.6.2.AppImage
 ```
