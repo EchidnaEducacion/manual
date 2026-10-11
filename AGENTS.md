@@ -14,6 +14,20 @@ No es un proyecto de software: es contenido editorial. La tarea habitual no
 es "programar", sino escribir, corregir o reorganizar documentación técnica
 dirigida a docentes y alumnado de secundaria que usan la placa EchidnaBlack.
 
+## Al empezar: las issues abiertas
+
+Las correcciones y tareas pendientes del manual están en las **issues** del
+repositorio. Al empezar a trabajar:
+
+- Comprueba el remoto (`git fetch` y `git status -sb`).
+- Lista las issues abiertas (`gh issue list --state open`) y resúmeselas al
+  usuario, para que elija en cuál se trabaja.
+- Antes de corregir, lee la issue entera con sus comentarios
+  (`gh issue view <número> --comments`): algunas piden comprobar algo con la
+  placa antes de cambiar el texto.
+- Al terminar una, referencia la issue en el commit (`Corrige #24`) para que
+  se cierre al subirlo.
+
 ## Antes de escribir o editar contenido
 
 - Lee al menos dos o tres páginas de `docs/` cercanas al tema que vas a tocar
