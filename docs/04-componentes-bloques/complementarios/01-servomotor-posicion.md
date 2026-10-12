@@ -32,7 +32,7 @@ En el **bloque** podemos seleccionar el **pin** al que conectamos nuestro servom
 
 ## EJEMPLO: Control de posición de servo con joystick
 
-Este ejemplo muestra cómo **controlar** la **posición** **angular** de un **servomotor** de posición utilizando el **eje x** del **joystick** como entrada. La variable *ángulo* almacena la posición deseada y es la que determina la posición del motor.
+Este ejemplo muestra cómo **controlar** la **posición** **angular** de un **servomotor** de posición utilizando el **eje x** del **joystick** como entrada. El servomotor está conectado al pin **D4**. La variable *ángulo* almacena la posición deseada y es la que determina la posición del motor.
 
 ![Ejemplo control servomotor posicion joystick](../../assets/images/Ejemplo_servo-joystick.png "Ejemplo control servomotor posicion joystick"){ width="600" }
 
@@ -41,13 +41,13 @@ Este ejemplo muestra cómo **controlar** la **posición** **angular** de un **se
 El programa ajusta el valor de la variable ángulo mediante dos condiciones:
 
 ```
-SI el valor del joystick x es mayor de 600 y el ángulo menor de 180º:
-    --> Sumamos uno al valor de la variable ángulo.
+SI el valor del joystick x es mayor de 600 y el ángulo mayor de 0º:
+    --> Restamos uno al valor de la variable ángulo.
     --> Ajustamos la posición del servo.
 
-SI el valor del joystick x es menor de 400 y el ángulo mayor de 0º:
-    --> Restamos uno al valor de la variable ángulo.
+SI el valor del joystick x es menor de 400 y el ángulo menor de 180º:
+    --> Sumamos uno al valor de la variable ángulo.
     --> Ajustamos la posición del servo.
 ```
 
-Introducimos un tiempo de espera de 0,1 s que evita que el servo esté continuamente reposicionándose, lo cual podría llevar a un funcionamiento inestable.
+Introducimos un tiempo de espera de 0,01 s que evita que el servo esté continuamente reposicionándose, lo cual podría llevar a un funcionamiento inestable.
