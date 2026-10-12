@@ -25,8 +25,9 @@ repositorio. Al empezar a trabajar:
 - Antes de corregir, lee la issue entera con sus comentarios
   (`gh issue view <número> --comments`): algunas piden comprobar algo con la
   placa antes de cambiar el texto.
-- Al terminar una, referencia la issue en el commit (`Corrige #24`) para que
-  se cierre al subirlo.
+- Al terminar una, referencia la issue en el commit con la palabra clave en inglés
+  (`Corrige el eje Z del acelerómetro (fixes #24)`): GitHub no reconoce
+  «Corrige #24» y la issue no se cerraría al subirlo.
 
 ## Antes de escribir o editar contenido
 
