@@ -46,7 +46,7 @@ Podemos activar la casilla de verificación de la variable para ver el valor reg
 
 **2º Selección de umbrales:**
 
-El siguiente paso será seleccionar tres umbrales diferentes poniendo un obstáculo frente al sensor a las tres distancias que queramos definir. En este caso usamos estos tres valores:
+El siguiente paso será seleccionar tres umbrales diferentes poniendo un obstáculo frente al sensor a las tres distancias que queramos definir y anotando la lectura en cada caso. Recuerda que cuanto más alta es la lectura, más cerca está el objeto. En este caso usamos estos tres valores de la lectura:
 
 - **Distancia Pequeña**: 200
 - **Distancia Muy Pequeña**: 400
@@ -67,7 +67,7 @@ Medimos el valor del sensor y lo almacenamos en la variable lecturaIR. Tal como 
 **Zona Segura:**
 
 ```
-SI la distancia es menor de 200:
+SI la variable lecturaIR es menor de 200 (el objeto está lejos):
     --> El zumbador permanece apagado.
 ```
 
@@ -75,7 +75,7 @@ SI la distancia es menor de 200:
 
 ```
 SI NO:
-    SI la variable lecturaIR es menor de 400 (200 ≤ distancia < 400):
+    SI la variable lecturaIR es menor de 400 (200 ≤ lecturaIR < 400):
         --> Los pitidos se encienden y apagan con pausas de 0,2 segundos.
 ```
 
@@ -83,7 +83,7 @@ SI NO:
 
 ```
 SI NO:
-    SI la variable lecturaIR es menor de 600 (400 ≤ distancia < 600):
+    SI la variable lecturaIR es menor de 600 (400 ≤ lecturaIR < 600):
         --> El zumbador se enciende y apaga cada 0,1 segundos, produciendo un ritmo más rápido.
 ```
 
