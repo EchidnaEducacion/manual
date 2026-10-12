@@ -1,4 +1,4 @@
-# MANUAL ECHIDNABLACK Y ECHIDNAML {: .visually-hidden }
+# MANUAL ECHIDNABLACK2 Y ECHIDNAML {: .visually-hidden }
 
 ![Portada del manual](assets/images/Portada_Web_Echidna.jpg "Portada del manual"){ width="380" }
 

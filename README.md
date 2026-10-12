@@ -1,4 +1,4 @@
-# Manual EchidnaBlack y EchidnaML — proyecto Zensical
+# Manual EchidnaBlack2 y EchidnaML — proyecto Zensical
 
 Conversión a Markdown del manual publicado en <https://rea.echidna.es/manual/>.
 El contenido se distribuye en páginas independientes, conserva las imágenes y
