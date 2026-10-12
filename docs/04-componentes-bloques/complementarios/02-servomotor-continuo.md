@@ -34,7 +34,7 @@ En el **bloque** podemos **seleccionar** el **pin** al que conectamos nuestro se
 
 ## EJEMPLO: Control de sentido de giro de servomotor continuo con pulsadores
 
-Este **ejemplo** ilustra cómo **controlar** el **sentido de giro** de un servomotor continuo (360 grados) utilizando **dos pulsadores** como entradas.
+Este **ejemplo** ilustra cómo **controlar** el **sentido de giro** de un servomotor continuo (360 grados) utilizando **dos pulsadores** como entradas. El servomotor está conectado al pin **D4**.
 
 Si pulsamos el **botón** **SR** el motor gira en sentido **horario**. Si pulsamos el botón **SL** el motor gira en sentido **antihorario**. Si **no** **presionamos** ninguno de los dos pulsadores, el motor se **para**.
 
