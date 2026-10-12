@@ -15,7 +15,7 @@
 **Actuadores incorporados:**
 
 - LEDes 5mm Rojo, naranja y Verde
-- LED RGB 65535 colores
+- LED RGB 16.777.216 colores
   - Rojo (619 - 624nm)
   - Verde (520 - 540nm)
   - Azul (460 - 480nm)
